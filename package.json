@@ -1,0 +1,26 @@
+{
+  "name": "anaroz",
+  "version": "0.0.0",
+  "scripts": {
+    "dev": "vite --host",
+    "build": "vite build",
+    "serve": "vite preview"
+  },
+  
+  "dependencies": {
+    "aos": "^2.3.4",
+    "vue": "^3.2.16",
+    "vue3-carousel": "^0.1.30"
+  },
+
+  "devDependencies": {
+    "@tailwindcss/jit": "^0.1.10",
+    "@vitejs/plugin-vue": "^1.9.3",
+    "autoprefixer": "^10.4.0",
+    "postcss": "^8.3.11",
+    "sass": "^1.43.4",
+    "tailwindcss": "^2.2.19",
+    "vite": "^2.6.4",
+    "vite-plugin-cross-origin-isolation": "^0.1.1"
+  }
+}
