@@ -1,5 +1,5 @@
 const colors = require('tailwindcss/colors')
-const { color } = require('./public/infos.json')
+const { color, body } = require('./public/data/infos.json')
 
 module.exports = {
    mode: 'jit',   
@@ -9,13 +9,14 @@ module.exports = {
       extend: {
          colors: {
             'main-color': color,
+            'color-body': body,
             gray: colors.coolGray
          }
       },
 
       fontFamily: {
-         'sans': ['"Open Sans"', 'sans-serif'],
-         'body': ['"Open Sans"', '"Font Awesome"']
+         'sans': ['"arial"', '"sans-serif"'],
+         'body': ['"arial"', '"sans-serif"', '"Font Awesome"']
       }
    },
 
@@ -23,7 +24,6 @@ module.exports = {
       './index.html',
       './src/**/*.vue',
       './src/**/*.vue',
-      './node_modules/vue3-carousel/dist/**/*.js',
-      './node_modules/aos/src/sass/*.scss'
+      './node_modules/vue3-carousel/dist/**/*.js'
    ]
 }

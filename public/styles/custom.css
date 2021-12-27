@@ -1,0 +1,13 @@
+.bg-body-light{
+    background-color: #f7f9fb;
+}
+.dark .dark\:bg-body-dark{
+    background-color: #18191a;
+}
+.dark .dark\:bg-exp-dark,
+.dark .dark\:bg-title-dark,
+.dark .dark\:bg-navbar-dark,
+.dark .dark\:bg-footer-dark,
+.dark .dark\:bg-product-dark{
+    background-color: #242526;
+}

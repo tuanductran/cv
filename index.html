@@ -1,38 +1,46 @@
 <!DOCTYPE html>
-<html lang="en" class="overflow-x-hidden">
+<html lang="vi" class="dark overflow-x-hidden">
 	<head>
 		<meta charset="UTF-8"/>
 		<meta http-equiv="X-UA-Compatible" content="IE=edge"/>
 		<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
 		<link rel="icon" href="favicon.png"> 
-		<title>Me - Tuan Duc Design</title>
+		<title>CV - Trần Tuấn Đức</title>
 		<!-- SEO Settings -->
-		<meta name="description" content="your 200-character description here"/>
-		<meta name="robots" content="noindex,nofollow"/>
+		<meta name="description" content="Xem CV của Trần Tuấn Đức, cũng như các dự án và sản phẩm mà Trần Tuấn Đức đã tham gia và đóng góp"/>
+		<meta name="robots" content="index,follow"/>
 		<!-- Open graph / Facebook -->
 		<meta property="og:type" content="website"/>
-		<meta property="og:url" content="https://me.tuanducdesign.com"/>
-		<meta property="og:title" content="Me - Tuan Duc Design"/>
-		<meta property="og:description" content="your 200-character description here"/>
+		<meta property="og:url" content="https://cv.tuanducdesign.com"/>
+		<meta property="og:title" content="CV - Trần Tuấn Đức"/>
+		<meta property="og:description" content="Xem CV của Trần Tuấn Đức, cũng như các dự án và sản phẩm mà Trần Tuấn Đức đã tham gia và đóng góp"/>
 		<meta property="og:image" content="assets/anir-web-developer-280x150.png"/>
 		<!-- Twitter -->
 		<meta name="twitter:card" content="summary"/>
-		<meta name="twitter:creator" content="@your-username"/>
-		<meta name="twitter:url" content="https://me.tuanducdesign.com"/>
-		<meta name="twitter:title" content="Me - Tuan Duc Design"/>
-		<meta name="twitter:description" content="your 200-character description here"/>
+		<meta name="twitter:creator" content="@tuanducdesign"/>
+		<meta name="twitter:url" content="https://cv.tuanducdesign.com"/>
+		<meta name="twitter:title" content="CV - Trần Tuấn Đức"/>
+		<meta name="twitter:description" content="Xem CV của Trần Tuấn Đức, cũng như các dự án và sản phẩm mà Trần Tuấn Đức đã tham gia và đóng góp"/>
 		<meta name="twitter:image" content="assets/anir-web-developer-280x150.png"/>
-		<link rel="preconnect" href="https://fonts.googleapis.com"/>
-		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
+		<!-- DNS Prefetch & Preconnect and Preload -->
+		<link rel="dns-prefetch" href="//cdnjs.cloudflare.com"/>
+		<link rel="preconnect" href="https://cdnjs.cloudflare.com"/>
+		<link rel="preload" as="style" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"/>
+		<link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700;800&display=swap"/>
+		<link rel="preload" as="font/woff2" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/webfonts/fa-brands-400.woff2"/>
+		<link rel="preload" as="font/woff2" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/webfonts/fa-regular-400.woff2"/>
+		<link rel="preload" as="font/woff2" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/webfonts/fa-solid-900.woff2"/>
 		<!-- Styles -->
 		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"/>
-		<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700;800&display=swap"/>
-		<link rel="canonical" href="https://me.tuanducdesign.com"/>
-		<link rel="preload" href="/src/app.js" as="script" />
+		<link rel="stylesheet" href="./public/styles/custom.css"/>
+		<link rel="canonical" href="https://cv.tuanducdesign.com"/>
+		<!-- Global site tag (gtag.js) - Google Analytics -->
+		<script async src="https://www.googletagmanager.com/gtag/js?id=UA-175649416-2"></script>
+		<script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag('js',new Date());gtag('config','UA-175649416-2');</script>
 	</head>
-
-	<body class="bg-gray-100 text-gray-700 dark:bg-gray-900 dark:text-gray-200 w-[100vw]">
-		<div id="app"></div>
+	<body class="bg-body-light text-color-body dark:bg-body-dark dark:text-white w-[100vw]">
+		<noscript>You need to enable JavaScript to run this app.</noscript>
+		<div id="root"></div>
 		<script type="module" src="/src/app.js"></script>
 	</body>
 </html>

@@ -3,9 +3,8 @@ import { createApp } from 'vue'
 import App from './App.vue'
 
 import SectionContent from './components/SectionContent/index.vue'
-import CirclePattern from './components/CirclePattern/index.vue'
 
-import infos from '/public/infos.json'
+import infos from '/public/data/infos.json'
 
 const app = createApp(App)
 
@@ -14,7 +13,6 @@ app.provide('infos', infos)
 
 // Global components
 app.component('section-content', SectionContent)
-app.component('circle-pattern', CirclePattern)
 
 // Mount the app
-app.mount('#app')
+app.mount('#root')

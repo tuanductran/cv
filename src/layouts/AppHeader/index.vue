@@ -5,11 +5,7 @@
    const isDark = ref(true)
 
    // extract some keys from the infos.json
-   const { navbar: { links, logo }, sections: { intro }} = inject('infos')
-   
-   const handleLogo = computed(() => {
-      return `./assets/${ !isDark.value ? logo.dark : logo.light }`
-   })
+   const { navbar: { links }, sections: { intro }} = inject('infos')
 
    function toggleMode () {
       isDark.value = !isDark.value
@@ -18,56 +14,35 @@
 </script>
 
 <template>
-   <nav class="fixed z-20 top-0 left-0 right-0 blured-background py-3 lg:py-4 shadow-sm">
+   <nav class="fixed z-20 top-0 left-0 right-0 bg-white dark:bg-navbar-dark py-3 lg:py-4 shadow-sm">
       <div class="flex items-center container mx-auto px-5 md:px-9 lg:px-16 xl:px-36 2xl:px-52">
-      	<!-- Logo -->
-         <a href="#intro">
-      		<img class="w-3/4" :src="handleLogo" :alt="`${ intro.fullname } logo`">
-      	</a>
-         <!-- End Logo -->
-
+         <!-- Dark/Light mode toggle button -->
+         <button @click="toggleMode" class="mr-auto md:hidden">
+            <i class="far fa-moon"></i>
+         </button>
+         <!-- End toogle button -->
          <!-- Three bars menu (only apears on mobile) -->
          <button @click="isCollapsed =! isCollapsed" class="ml-auto md:hidden">
             <i v-if="isCollapsed" class="fa fa-bars"></i>
             <i v-else class="fa fa-times"></i>
          </button>
          <!-- End three bars menu -->
-
          <!-- Navbar menu -->
-      	<ul
-            class="
-               bg-white dark:bg-gray-800 transition-transform absolute md:relative top-0 left-0 h-screen
-               md:h-auto w-3/4 md:w-auto p-5 md:p-0 md:flex md:bg-transparent md:dark:bg-transparent md:transform-none items-center ml-auto
-            "
-
-            :class="{ 'transform -translate-x-full': isCollapsed }"
-         >
+      	<ul class="bg-white dark:bg-navbar-dark transition-transform absolute md:relative top-0 left-0 h-screen md:h-auto w-3/4 md:w-auto p-5 md:p-0 md:flex md:bg-transparent md:dark:bg-transparent md:transform-none items-center mr-auto" :class="{ 'transform -translate-x-full': isCollapsed }">
             <!-- Menu links -->
-      		<li
-      			class="flex items-center ml-4 lg:ml-9 mb-3 md:mb-0"
-      			v-for="label, anchor in links"
-      			:key="anchor"
-      		>
-      			<a
-                  class="font-bold text-md md:text-xs lg:text-md" :href="`${ anchor }`">
+      		<li class="flex items-center ml-4 lg:ml-9 mb-3 md:mb-0" v-for="label, anchor in links" :key="anchor">
+      			<a class="font-bold text-md md:text-xs lg:text-md" :href="`${ anchor }`">
       				<span class="ml-2">{{ label }}</span>
       			</a>
       		</li>
             <!-- End menu links -->
-
-            <!-- Dark/Light mode toggle button -->
-            <li @click="toggleMode" class="ml-4 lg:ml-9 cursor-pointer">
-               <i class="far fa-moon"></i>
-            </li>
-            <!-- End toogle button -->
       	</ul>
          <!-- End Navbar menu -->
+         <!-- Dark/Light mode toggle button -->
+         <button @click="toggleMode" class="ml-auto hidden lg:flex">
+            <i class="far fa-moon"></i>
+         </button>
+         <!-- End toogle button -->
       </div>
    </nav>
 </template>
-
-<style>
-   .blured-background {
-      @apply backdrop-filter backdrop-blur-sm bg-white dark:bg-gray-800 bg-opacity-70 dark:bg-opacity-50;
-   }
-</style>

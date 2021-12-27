@@ -31,7 +31,7 @@
 
 <template>
    <section id="testimonials" class="wrapper">
-      <section-content title="Testimonials" order="5">
+      <section-content title="Testimonials">
          <carousel
             :settings="settings"
             :breakpoints="breakpoints"
@@ -63,10 +63,10 @@
                      <!-- End Testimonials person jobtitle -->
 
                      <!-- Testimonials person comment -->
-                     <p class="mt-4 text-sm xl:text-lg leading-relaxed text-gray-500 dark:text-gray-400">
-                        <i class="text-gray-300 dark:text-gray-700 mr-1 fa fa-quote-left"></i>
+                     <p class="mt-4 text-sm xl:text-lg leading-relaxed text-color-body dark:text-white">
+                        <i class="text-gray-300 dark:text-white mr-1 fa fa-quote-left"></i>
                         {{ text }}
-                        <i class="text-gray-300 dark:text-gray-700 ml-1 fa fa-quote-right"></i>
+                        <i class="text-gray-300 dark:text-white ml-1 fa fa-quote-right"></i>
                      </p>
                      <!-- End Testimonials person comment -->
                   </div>

@@ -1,17 +1,17 @@
 <script setup>
 	const props = defineProps({
-		skill: String
+		interest: String
 	})
 </script>
 
 <template>
    <li data-aos="fade-right">
       <h3 class="capitalize flex">
-         <!-- Skill name -->
+         <!-- interest name -->
          <span class="text-sm font-bold">
-            {{ skill }}
+            {{ interest }}
          </span>
-         <!-- End Skill name -->
+         <!-- End interest name -->
       </h3>
    </li>
 </template>

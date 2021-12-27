@@ -9,7 +9,7 @@
 
 <template>
    <section id="experiences">
-      <section-content title="Experiences" order="3">
+      <section-content title="Kinh nghiệm làm việc">
          <div>
             <div
                class="relative pb-5 last:pb-0 md:w-1/2 even:ml-auto"
@@ -19,7 +19,7 @@
                <!-- Experience details -->
                <div 
                   :data-aos="`fade-${ isEven(k) ? 'left' : 'right' }`"
-                  class="rounded-lg bg-white dark:bg-gray-800 dark:bg-opacity-70 p-6 2xl:p-6 mr-4 xl:mr-10"
+                  class="rounded-lg bg-white dark:bg-exp-dark p-6 2xl:p-6 mr-4 xl:mr-10"
                   :class="{ 'md:ml-4 xl:ml-10 md:mr-0': isEven(k) }"
                >
                   <!-- Experience period -->
@@ -28,25 +28,21 @@
                   
                   <!-- Experience title & company -->
                   <h2 class="font-bold text-xl 2xl:text-2xl mb-4">
-                     {{ jobtitle }} at @{{ company }}
+                     {{ jobtitle }} tại {{ company }}
                   </h2>
                   <!-- End Experience title & company -->
 
                   <!-- Experience tasks -->
                   <p
-                     class="mb-3 last:mb-0 text-sm xl:text-base text-gray-500 dark:text-gray-400"
+                     class="mb-3 last:mb-0 text-sm xl:text-base text-color-body dark:text-white"
                      v-for="task, k in tasks" :key="`task-${ k }`"
                   >
-                     <i class="fa fa-angle-double-right text-main-color mr-2"></i> {{ task }}
+                     {{ task }}
                   </p>
                   <!-- End Experience tasks -->
                </div>
-
                <!-- Card circle -->
-               <div
-                  class="flex justify-center w-[2px] md:mr-[-2px] h-full absolute bg-gray-300 dark:bg-gray-800 right-0 top-0"
-                  :class="{ 'md:left-0': isEven(k) }"
-               >
+               <div class="flex justify-center w-[2px] md:mr-[-2px] h-full absolute bg-gray-300 dark:bg-exp-dark right-0 top-0" :class="{ 'md:left-0': isEven(k) }">
                   <!-- Outer circle -->
                   <div class="absolute top-1/2 -mt-4 center-element w-4 xl:w-6 h-4 xl:h-6 rounded-full border border-main-color">
                      <!-- Inner circle -->

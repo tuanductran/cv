@@ -1,8 +1,9 @@
 <script setup>
    import { inject } from '@vue/runtime-core'
    import Skill from './Skill/index.vue'
+   import Interest from './Interest/index.vue'
 
-   /* 
+   /*
       extract the about section from the "sections" key in the json file
       containing the data
    */
@@ -10,43 +11,90 @@
 </script>
 
 <template>
-   <section id="about">         
-      <section-content title="Về tôi" order="1">
-         <div class="grid grid-cols-1 lg:grid-cols-2 gap-10">
+   <section id="cv">
+         <div class="grid grid-cols-1 lg:grid-cols-2 gap-10 py-10 md:py-14 lg:py-16 mt-12">
             <!-- Personal information -->
             <div>
                <h2 class="text-main-color font-bold mb-5">
-                  Tiểu sử của tôi
+                  Mục tiêu nghề nghiệp
                </h2>
                <!-- Bigraphy -->
-               <p data-aos="fade-left" class="leading-relaxed mb-4 last:mb-0 text-gray-500 dark:text-gray-400"  v-for="bio, k in about.bio" :key="`bio-${ k }`">
+               <p class="leading-relaxed mb-4 last:mb-0 text-color-body dark:text-white"  v-for="bio, k in about.bio" :key="`bio-${ k }`">
                   {{ bio }}
                </p>
+               <p class="leading-relaxed mb-4 last:mb-0 text-color-body dark:text-white"  v-for="biosub, k in about.biosub" :key="`biosub-${ k }`">
+                  {{ biosub }}
+               </p>
                <!-- End Bigraphy -->
-            </div>
-            <!-- Skills -->
-            <div class="relative">
-               <!-- <circle-pattern
-                  size="w-24 h-24"
-                  position="-left-12 -top-12"
-               /> -->
                <h2 class="text-main-color font-bold mb-5">
-                  Kinh nghiệm
+                  Thông tin cá nhân
+               </h2>
+               <!-- Bigraphy -->
+               <p class="leading-relaxed mb-4 last:mb-0 text-color-body dark:text-white"  v-for="personal_information, k in about.personal_information" :key="`personal_information-${ k }`">
+                  {{ personal_information }}
+               </p>
+               <p class="leading-relaxed mb-4 last:mb-0 text-color-body dark:text-white"  v-for="personal_informationsub, k in about.personal_informationsub" :key="`personal_informationsub-${ k }`">
+                  {{ personal_informationsub }}
+               </p>
+               <!-- End Bigraphy -->
+               <h2 class="text-main-color font-bold mb-5">
+                  Sở thích
+               </h2>
+               <!-- interest -->
+               <ul class="mt-5 grid md:grid-cols-2 gap-8">
+                  <template 
+                     v-for="interest, k in about.interest"
+                     :key="`interest-${ k }`"
+                  >
+                     <!-- Single interest -->
+                     <interest :interest="interest" />
+                     <!-- End interest -->
+                  </template>
+               </ul>
+               <!-- End interest -->
+            </div>
+
+            <div class="relative">
+               <!-- Contact info -->
+               <h2 class="text-main-color font-bold mb-5">
+                  Thông tin liên hệ
+               </h2>
+               <p class="leading-relaxed mb-4 last:mb-0 text-color-body dark:text-white" v-for="contactinfo_birthday, k in about.contactinfo_birthday" :key="`contactinfo_birthday-${ k }`">
+                  {{ contactinfo_birthday }}
+               </p>
+               <p class="leading-relaxed mb-4 last:mb-0 text-color-body dark:text-white" v-for="contactinfo_phone, k in about.contactinfo_phone" :key="`contactinfo_phone-${ k }`">
+                  {{ contactinfo_phone }}
+               </p>
+               <p class="leading-relaxed mb-4 last:mb-0 text-color-body dark:text-white" v-for="contactinfo_email, k in about.contactinfo_email" :key="`contactinfo_email-${ k }`">
+                  {{ contactinfo_email }}
+               </p>
+               <p class="leading-relaxed mb-4 last:mb-0 text-color-body dark:text-white" v-for="contactinfo_address, k in about.contactinfo_address" :key="`contactinfo_address-${ k }`">
+                  {{ contactinfo_address }}
+               </p>
+               <!-- Certificate -->
+               <h2 class="text-main-color font-bold mb-5">
+                  Chứng chỉ certificate
+               </h2>
+               <p class="leading-relaxed mb-4 last:mb-0 text-color-body dark:text-white" v-for="certificate, k in about.certificate" :key="`certificate-${ k }`">
+                  {{ certificate }}
+               </p>
+               <!-- Skills -->
+               <h2 class="text-main-color font-bold mb-5">
+                  Kỹ năng
                </h2>
                <!-- Skills list -->
                <ul class="mt-5 grid md:grid-cols-2 gap-8">
                   <template 
-                     v-for="skill, level, k in about.skills"
+                     v-for="skill, k in about.skills"
                      :key="`skill-${ k }`"
                   >
                      <!-- Single skill -->
-                     <skill :skill="skill" :level="level"/>
+                     <skill :skill="skill" />
                      <!-- End Single skill -->
                   </template>
                </ul>
                <!-- End skills list -->
             </div>
          </div>
-      </section-content>
    </section>
 </template>

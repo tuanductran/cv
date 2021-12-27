@@ -1,0 +1,219 @@
+
+{
+   "color": "#fe2c55",
+   "body": "#4c5267",
+
+   "navbar": {
+      "logo": {
+         "light": "robert-anderson-logo-light.png",
+         "dark": "robert-anderson-logo-dark.png"
+      },
+      
+      "links": {
+         "https://tuanducdesign.com": "Trang chủ",
+         "#cv": "CV",
+         "#experiences": "Kinh nghiệm",
+         "#projects": "Sản phẩm"
+      }
+   },
+   
+   "sections": {
+      "intro": {
+         "avatar": "tuanductran.jpg",
+         "resume": "https://sum.vn/pqDnQ",
+         "fullname": "Trần Tuấn Đức",
+
+         "links": {
+            "github": "https://github.com/tuanducdesign/",
+            "codepen": "https://codepen.com/tuanducdesign/"
+         }
+      },
+
+      "about": {
+         "bio": [
+            "- Ngắn hạn: Có một công việc ổn định, trở thành nhân viên xuất sắc, tích luỹ thêm nhiều kinh nghiệm, rèn luyện kỹ năng xử lý công việc hiệu quả, chính xác, nhanh chóng."
+         ],
+         "biosub": [
+            "- Dài hạn: Có cơ hội được làm nhân viên cấp cao và trở thành lập trình viên full stack."
+         ],
+         "personal_information": [
+            "- Hoạt bát, nhiệt tình, thật thà và cẩn thận."
+         ],
+         "personal_informationsub": [
+            "- Thích tìm tòi, tìm hiểu, học hỏi, chinh phục những thứ, công việc mà mình chưa biết đến."
+         ],
+
+         "interest": {
+            "nghenhac": "Nghe nhạc",
+            "vietblog": "Viết blog",
+            "chaybo": "Chạy bộ",
+            "vietlach": "Viết lách",
+            "docsach": "Đọc sách",
+            "vietsangtao": "Viết sáng tạo"
+         },
+
+         "summarize_yourself": [
+            "- Đam mê ngành IT từ lúc còn là học sinh.",
+            "- Là một người điềm tĩnh, thích ứng nhanh với môi trường mới, không ngại khó khăn, hứng thú trong việc tìm ra hướng giải quyết cho vấn đề."
+         ],
+
+         "contactinfo_birthday": [
+            "27/01/2000"
+         ],
+
+         "contactinfo_phone": [
+            "0388842026"
+         ],
+
+         "contactinfo_email": [
+            "miumiu.official.56@gmail.com"
+         ],
+
+         "contactinfo_address": [
+            "Cầu Am, Phố Cầu Am, Yết Kiêu, Hà Đông, Hà Nội"
+         ],
+         
+         "certificate": [
+            "Tiếng Anh [ A1 ]"
+         ],
+
+         "skills": {
+            "html_css": "HTML & CSS",
+            "linux": "Linux",
+            "wordpress": "WordPress",
+            "bootstrap": "Bootstrap",
+            "git": "Git",
+            "nodejs": "NodeJS",
+            "github": "GitHub",
+            "nginx": "Nginx",
+            "javascript": "JavaScript",
+            "scss": "SCSS",
+            "adobephotoshop": "Adobe Photoshop",
+            "apache": "Apache",
+            "php": "PHP",
+            "phpmyadmin": "PHPMyAdmin",
+            "laravel": "Laravel",
+            "mysql": "Mysql",
+            "vuejs": "VueJS",
+            "nuxtjs": "NuxtJS",
+            "nextjs": "NextJS",
+            "reactjs": "ReactJS",
+            "rubyonrails": "Ruby on rails",
+            "gitlab": "GitLab"
+         }
+      },
+         
+      "services": [{
+         "icon": "lightbulb",
+         "title": "Creative Design",
+         "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae repellat."
+      }, {
+         "icon": "gem",
+         "title": "User Interface",
+         "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae repellat."
+      }, {
+         "icon": "thumbs-up",
+         "title": "User Experience",
+         "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae repellat."
+      }, {
+         "icon": "code",
+         "title": "Web developemnt",
+         "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae repellat."
+      }, {
+         "icon": "medal",
+         "title": "Seo & Sem",
+         "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae repellat."
+      }, {
+         "icon": "mobile",
+         "title": "App developemnt",
+         "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae repellat."
+      }],
+
+      "experiences": [{
+         "periode": "08/2021 - 10/2021",
+         "jobtitle": "Thực tập Front End",
+         "company": "Tập đoàn UKG",
+         "tasks": [
+            "Mô tả về Tập đoàn UKG:",
+            "Với mạng lưới hàng ngàn điểm bán, sản phẩm của tập đoàn UKG đã có mặt tại các hệ thống siêu thị, trung tâm thương mại, các cửa hàng trên 63 tỉnh thành Việt Nam.",
+            "Công việc đã làm:",
+            "- Chuyển Figma sang Bootstrap.",
+            "- Xây dựng giao diện Mobile cho project.",
+            "- Sử dụng Git và Gitlab."
+         ]
+      }, {
+         "periode": "09/2019 - 02/2020",
+         "jobtitle": "Thực tập",
+         "company": "FPT Polytechnic",
+         "tasks": [
+            "- Xây dựng một website bán hàng cơ bản với PHP và Mysql.",
+            "- Hỗ trợ nhóm sinh viên trường FPT Polytechnic sửa các lỗi liên quan đến bảo mật trên mã nguồn Laravel.",
+            "- Xây dựng thêm một số chức năng cho web bán hàng."
+         ]
+      }, {
+         "periode": "2018 - đến nay",
+         "jobtitle": "IT Support / Front End Developer",
+         "company": "Lạc Hồng Viên",
+         "tasks": [
+            "Mô tả về Lạc Hồng Viên:",
+            "Dự án Lạc Hồng Viên được Công ty cổ phần Xây Dựng và Thương Mại Toàn Cầu khởi công vào năm 2009.",
+            "Công việc đã làm:",
+            "- Hỗ trợ công ty cài đặt mã nguồn WordPress lên Server Linux.",
+            "- Hỗ trợ công ty sửa lỗi khi sử dụng Framework Laravel.",
+            "- Hỗ trợ công ty sửa các lỗi liên quan đến máy chủ Apache."
+         ]
+      }],
+
+      "projects": [{
+         "thumbnail": "blog.png",
+         "title": "Blog",
+         "description": [
+            "Công nghệ sử dụng trên sản phẩm:",
+            "- JavaScript Framework ReactJS.",
+            "- Web Framework GatsbyJS, sử dụng NodeJS để deploy và xây dựng sản phẩm."
+         ],
+         "builtWidth": ["react", "gatsbyjs"],
+         "links": {
+            "external-link-alt": "https://tuanducdesign.com/"
+         }
+      }, {
+         "thumbnail": "service.png",
+         "title": "Service",
+         "description": [
+            "Công nghệ sử dụng trên sản phẩm:",
+            "- JavaScript Framework ReactJS.",
+            "- Web Framework GatsbyJS, sử dụng NodeJS để deploy và xây dựng sản phẩm."
+         ],
+         "builtWidth": ["react", "gatsbyjs"],
+         "links": {
+            "external-link-alt": "https://service.tuanducdesign.com/"
+         }
+      }],
+
+      "testimonials": [{
+         "fullname": "Jane Doe",
+         "avatar": "jane-doe.jpg",
+         "jobtitle": "Front-end developer",
+         "text": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae repellat quam quae, minima sed itaque!, Lorem ipsum dolor sit amet consectetur"
+      }, {
+         "fullname": "Mark Philip",
+         "avatar": "mark-philip.jpg",
+         "jobtitle": "Back-end developer",
+         "text": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae repellat quam quae, minima sed itaque!, Lorem ipsum dolor sit amet consectetur"
+      }, {
+         "fullname": "Joe Paulian",
+         "avatar": "joe-paulian.jpg",
+         "jobtitle": "Seo manager",
+         "text": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae repellat quam quae, minima sed itaque!, Lorem ipsum dolor sit amet consectetur"
+      }],
+
+      "contact": {
+         "email": "miumiu.official.56@gmail.com",
+
+         "social": {
+            "facebook-f": "https://facebook.com/tuanducdesign",
+            "instagram": "https://instagram.com/mi.profile.56"
+         }
+      }
+   }
+}

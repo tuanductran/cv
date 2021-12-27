@@ -5,12 +5,9 @@
 
 <template>
    <section id="services" class="relative">
-      <!-- Ehe pattern -->
-      <circle-pattern size="w-20 h-20" position="-left-10 -bottom-10"/>
-      <!-- End Ehe pattern -->
          
       <!-- Section content -->
-      <section-content title="Services" order="2">
+      <section-content title="Dịch vụ">
          <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 z-20">
             <div
                class="flex bg-white dark:bg-gray-800 dark:bg-opacity-70 rounded-lg 2xl:rounded-xl p-5"
@@ -35,7 +32,7 @@
                   <!-- End Service title -->
                   
                   <!-- Service description -->
-                  <p class="text-sm leading-relaxed text-gray-500 dark:text-gray-400 dark:text-opacity-80">
+                  <p class="text-sm leading-relaxed text-color-body dark:text-white dark:text-opacity-80">
                      {{ description }}
                   </p>
                   <!-- End Service description -->

@@ -11,11 +11,16 @@
          {{ project.title }}
       </h2>
       <!-- End Project title -->
+      <p>
+         <a class="text-xs lg:text-base text-main-color rounded-full" v-for="link in project.links" :href="link" target="_blank">
+            {{ link }}
+         </a>
+      </p>
       
       <!-- Project descript -->
-      <div class="rounded-lg mb-3 md:bg-white dark:md:bg-gray-800 dark:md:bg-opacity-60 md:p-5 dark:shadow-2xl">
-         <p class="leading-relaxed text-left text-gray-500 dark:text-gray-400 text-sm xl:text-base">
-            {{ project.description }}
+      <div class="rounded-lg mb-3 bg-white dark:bg-product-dark md:p-5 mt-5">
+         <p class="leading-relaxed text-left text-color-body dark:text-white text-sm xl:text-base"  v-for="description, k in project.description" :key="`description-${ k }`">
+            {{ description }}
          </p>
       </div>
       <!-- End Project descript -->
