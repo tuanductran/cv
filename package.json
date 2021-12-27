@@ -8,7 +8,6 @@
   },
   "dependencies": {
     "aos": "^2.3.4",
-    "vite-plugin-compress": "^2.1.0",
     "vue": "^3.2.16",
     "vue3-carousel": "^0.1.30"
   },
@@ -20,7 +19,6 @@
     "sass": "^1.43.4",
     "tailwindcss": "^2.2.19",
     "vite": "^2.6.4",
-    "vite-plugin-compression": "^0.3.6",
     "vite-plugin-cross-origin-isolation": "^0.1.1"
   }
 }
