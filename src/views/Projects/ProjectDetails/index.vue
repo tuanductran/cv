@@ -18,7 +18,7 @@
       </p>
       
       <!-- Project descript -->
-      <div class="rounded-lg mb-3 bg-white dark:bg-product-dark md:p-5 mt-5">
+      <div class="rounded-lg mb-3 md:bg-white dark:md:bg-product-dark md:p-5 mt-5 dark:md:shadow-2xl">
          <p class="leading-relaxed text-left text-color-body dark:text-white text-sm xl:text-base"  v-for="description, k in project.description" :key="`description-${ k }`">
             {{ description }}
          </p>

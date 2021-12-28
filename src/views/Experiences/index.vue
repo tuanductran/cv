@@ -42,7 +42,7 @@
                   <!-- End Experience tasks -->
                </div>
                <!-- Card circle -->
-               <div class="flex justify-center w-[2px] md:mr-[-2px] h-full absolute bg-gray-300 dark:bg-exp-dark right-0 top-0" :class="{ 'md:left-0': isEven(k) }">
+               <div class="justify-center w-[2px] md:mr-[-2px] h-full absolute bg-gray-300 dark:bg-exp-dark right-0 top-0 hidden lg:flex" :class="{ 'md:left-0': isEven(k) }">
                   <!-- Outer circle -->
                   <div class="absolute top-1/2 -mt-4 center-element w-4 xl:w-6 h-4 xl:h-6 rounded-full border border-main-color">
                      <!-- Inner circle -->
