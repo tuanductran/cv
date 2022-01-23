@@ -9,7 +9,7 @@
 
    function toggleMode () {
       isDark.value = !isDark.value
-      document.documentElement.classList.toggle('dark')
+      document.documentElement.classList.toggle('light')
    }
 </script>
 
