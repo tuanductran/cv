@@ -134,9 +134,6 @@
          "jobtitle": "Thực tập Front End",
          "company": "Tập đoàn UKG",
          "tasks": [
-            "Mô tả về Tập đoàn UKG:",
-            "Với mạng lưới hàng ngàn điểm bán, sản phẩm của tập đoàn UKG đã có mặt tại các hệ thống siêu thị, trung tâm thương mại, các cửa hàng trên 63 tỉnh thành Việt Nam.",
-            "Công việc đã làm:",
             "- Chuyển Figma sang Bootstrap.",
             "- Xây dựng giao diện Mobile cho project.",
             "- Sử dụng Git và Gitlab."
@@ -155,9 +152,6 @@
          "jobtitle": "IT Support / Front End Developer",
          "company": "Lạc Hồng Viên",
          "tasks": [
-            "Mô tả về Lạc Hồng Viên:",
-            "Dự án Lạc Hồng Viên được Công ty cổ phần Xây Dựng và Thương Mại Toàn Cầu khởi công vào năm 2009.",
-            "Công việc đã làm:",
             "- Hỗ trợ công ty cài đặt mã nguồn WordPress lên Server Linux.",
             "- Hỗ trợ công ty sửa lỗi khi sử dụng Framework Laravel.",
             "- Hỗ trợ công ty sửa các lỗi liên quan đến máy chủ Apache."
