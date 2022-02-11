@@ -69,7 +69,7 @@
                   <a :href="`mailto:${ contactinfo_email }`">{{ contactinfo_email }}</a>
                </p>
                <p class="leading-relaxed mb-4 last:mb-0 text-color-body dark:text-white" v-for="contactinfo_address, k in about.contactinfo_address" :key="`contactinfo_address-${ k }`">
-                  {{ contactinfo_address }}https://www.google.com.vn/search?q=Cầu Am, Phố Cầu Am, Yết Kiêu, Hà Đông, Hà Nội
+                  <a :href="`https://www.google.com.vn/search?q=${ contactinfo_address }`">{{ contactinfo_address }}</a>
                </p>
                <!-- Certificate -->
                <h2 class="text-main-color font-bold mb-5">
