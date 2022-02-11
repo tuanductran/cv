@@ -63,13 +63,13 @@
                   {{ contactinfo_birthday }}
                </p>
                <p class="leading-relaxed mb-4 last:mb-0 text-color-body dark:text-white" v-for="contactinfo_phone, k in about.contactinfo_phone" :key="`contactinfo_phone-${ k }`">
-                  {{ contactinfo_phone }}
+                  <a :href="`tel:${ contactinfo_phone }`">{{ contactinfo_phone }}</a>
                </p>
                <p class="leading-relaxed mb-4 last:mb-0 text-color-body dark:text-white" v-for="contactinfo_email, k in about.contactinfo_email" :key="`contactinfo_email-${ k }`">
-                  {{ contactinfo_email }}
+                  <a :href="`mailto:${ contactinfo_email }`">{{ contactinfo_email }}</a>
                </p>
                <p class="leading-relaxed mb-4 last:mb-0 text-color-body dark:text-white" v-for="contactinfo_address, k in about.contactinfo_address" :key="`contactinfo_address-${ k }`">
-                  {{ contactinfo_address }}
+                  {{ contactinfo_address }}https://www.google.com.vn/search?q=Cầu Am, Phố Cầu Am, Yết Kiêu, Hà Đông, Hà Nội
                </p>
                <!-- Certificate -->
                <h2 class="text-main-color font-bold mb-5">

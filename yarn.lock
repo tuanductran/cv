@@ -623,6 +623,11 @@ function-bind@^1.1.1:
   resolved "https://registry.yarnpkg.com/function-bind/-/function-bind-1.1.1.tgz#a56899d3ea3c9bab874bb9773b7c5ede92f4895d"
   integrity sha512-yIovAzMX49sF8Yl58fSCWJ5svSLuaibPxXQJFLmBObTuCr0Mf1KiPopGM9NiFjiYBCbfaa2Fh6breQ6ANVTI0A==
 
+ga-lite@^2.1.4:
+  version "2.1.4"
+  resolved "https://registry.yarnpkg.com/ga-lite/-/ga-lite-2.1.4.tgz#f0c1fd3234bc44d8b15db640a93b34dbce84d43a"
+  integrity sha512-OJqPbutD8SfgF8SebyLh0uHdpQH32d5TuviXao5yPjyO2sGW3Gm+ooDmOhvXITgPepwwKxzv7ZMVKk2/hg/+lg==
+
 glob-base@^0.3.0:
   version "0.3.0"
   resolved "https://registry.yarnpkg.com/glob-base/-/glob-base-0.3.0.tgz#dbb164f6221b1c0b1ccf82aea328b497df0ea3c4"

@@ -17,8 +17,7 @@
                :key="`xp-${ k }`"
             >
                <!-- Experience details -->
-               <div 
-                  :data-aos="`fade-${ isEven(k) ? 'left' : 'right' }`"
+               <div
                   class="rounded-lg bg-white dark:bg-exp-dark p-6 2xl:p-6 mr-4 xl:mr-10"
                   :class="{ 'md:ml-4 xl:ml-10 md:mr-0': isEven(k) }"
                >

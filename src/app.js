@@ -1,5 +1,8 @@
 import { createApp } from 'vue'
+import galite from 'ga-lite';
 
+galite('create', 'UA-175649416-2', 'auto')
+galite('send', 'pageview')
 import App from './App.vue'
 
 import SectionContent from './components/SectionContent/index.vue'
