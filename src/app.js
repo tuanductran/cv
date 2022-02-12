@@ -6,7 +6,7 @@ import SectionContent from './components/SectionContent/index.vue'
 import infos from '../src/assets/data/infos.json'
 const app = createApp(App)
 import 'lazysizes';
-import 'jquery';
+import $ from 'jquery';
 // injeet the data in the app
 app.provide('infos', infos)
 
