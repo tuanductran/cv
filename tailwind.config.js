@@ -1,5 +1,5 @@
 const colors = require('tailwindcss/colors')
-const { color, body } = require('./public/data/infos.json')
+const { color, body } = require('./src/assets/data/infos.json')
 
 module.exports = {
    mode: 'jit',   
@@ -10,7 +10,7 @@ module.exports = {
          colors: {
             'main-color': color,
             'color-body': body,
-            gray: colors.coolGray
+            gray: colors.gray
          }
       },
 

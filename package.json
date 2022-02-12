@@ -7,13 +7,14 @@
     "serve": "vite preview"
   },
   "dependencies": {
-    "lost": "^8.3.1",
-    "postcss-pxtorem": "^6.0.0",
-    "vue": "^3.2.30",
-    "vue3-carousel": "^0.1.30"
+    "@tailwindcss/jit": "^0.1.18",
+    "font-awesome": "^4.7.0",
+    "jquery": "^3.6.0",
+    "lazysizes": "^5.3.2",
+    "vite-plugin-radar": "^0.4.2",
+    "vue": "^3.2.30"
   },
   "devDependencies": {
-    "@tailwindcss/jit": "^0.1.10",
     "@vitejs/plugin-vue": "^1.9.3",
     "autoprefixer": "^10.4.2",
     "postcss": "^8.3.11",

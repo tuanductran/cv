@@ -5,7 +5,7 @@
 </script>
 
 <template>
-   <li data-aos="fade-right">
+   <li>
       <h3 class="capitalize flex">
          <!-- Skill name -->
          <span class="text-sm font-bold">

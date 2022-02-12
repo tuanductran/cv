@@ -4,6 +4,8 @@
    import AppFooter from './layouts/AppFooter/index.vue'
 
    import 'tailwindcss/tailwind.css'
+   import 'font-awesome/css/font-awesome.css'
+   import '../src/assets/styles/custom.css'
 </script>
 
 <template>

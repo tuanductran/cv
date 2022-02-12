@@ -100,7 +100,29 @@
             "reactjs": "ReactJS",
             "rubyonrails": "Ruby on rails",
             "gitlab": "GitLab"
-         }
+         },
+
+         "expskills": [
+            {
+               "80%": "HTML & CSS"
+            },
+            {
+               "80%": "Linux"
+            },
+            {
+               "80%": "WordPress"
+            },
+            {
+               "80%": "Bootstrap"
+            }
+         ]
+      },
+
+      "coverletter": {
+            "content1": ["Em chào các anh, các chị tại công ty, em được biết công ty mình đang cần tuyển vị trí thực tập sinh Front End. Em mong muốn được thử sức mình trong môi trường làm việc hết sức năng động của công ty. Với trình độ và kinh nghiệm hiện có, em tự tin có thể đảm nhiệm tốt vai trò này tại công ty ."],
+            "content2": ["Như đã đề cập trong CV của mình, em đã có nhiều kinh nghiệm làm việc với VueJS. Ngoài ra, em còn có kinh nghiệm về hệ điều hành Linux trong suốt thời gian làm việc với hệ điều hành Linux, em đã học hỏi và tìm hiểu khá nhiều về hệ thống của Linux, Bảo mật, cấu hình các projects lên máy chủ Nginx và Apache. Em hoàn toàn tự tin với vốn kiến thức về lĩnh vực tối ưu và bảo mật Server Linux của mình."],
+            "content3": ["Thêm vào đó, em tin rằng đó là những nền tảng quý báu để em có thể hiểu rõ và đáp ứng tốt nhu cầu của công ty."],
+            "content4": ["Cám ơn các anh, các chị đã dành thời gian quý báu của mình để xem xét thư xin việc này. Em rất mong các anh, các chị tại công ty có thể sắp xếp một cuộc phỏng vấn để em có thể trình bày rõ hơn về bản thân mình cũng như tìm hiểu thêm các yêu cầu chi tiết cho vị trí thực tập sinh Front End này."]
       },
          
       "services": [{
@@ -129,7 +151,17 @@
          "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae repellat."
       }],
 
-      "experiences": [{
+      "experiences": [
+      {
+         "periode": "11/2021 - 01/2022",
+         "jobtitle": "Thực tập Front End/Back End",
+         "company": "Công Ty Cổ Phần Famtech Việt Nam",
+         "tasks": [
+            "- Chuyển Figma sang project.",
+            "- Sử dụng Git và Gitlab."
+         ]
+      },
+      {
          "periode": "08/2021 - 10/2021",
          "jobtitle": "Thực tập Front End",
          "company": "Tập đoàn UKG",
@@ -147,16 +179,8 @@
             "- Hỗ trợ nhóm sinh viên trường FPT Polytechnic sửa các lỗi liên quan đến bảo mật trên mã nguồn Laravel.",
             "- Xây dựng thêm một số chức năng cho web bán hàng."
          ]
-      }, {
-         "periode": "2018 - 2021",
-         "jobtitle": "IT Support / Front End Developer",
-         "company": "Lạc Hồng Viên",
-         "tasks": [
-            "- Hỗ trợ công ty cài đặt mã nguồn WordPress lên Server Linux.",
-            "- Hỗ trợ công ty sửa lỗi khi sử dụng Framework Laravel.",
-            "- Hỗ trợ công ty sửa các lỗi liên quan đến máy chủ Apache."
-         ]
-      }],
+      }
+   ],
 
       "projects": [{
          "thumbnail": "blog.png",

@@ -18,7 +18,7 @@
       <div class="flex items-center container mx-auto px-5 md:px-9 lg:px-16 xl:px-36 2xl:px-52">
          <!-- Dark/Light mode toggle button -->
          <button @click="toggleMode" class="mr-auto md:hidden">
-            <i class="far fa-moon"></i>
+            <i class="fa fa-moon-o"></i>
          </button>
          <!-- End toogle button -->
          <!-- Three bars menu (only apears on mobile) -->
@@ -40,7 +40,7 @@
          <!-- End Navbar menu -->
          <!-- Dark/Light mode toggle button -->
          <button @click="toggleMode" class="ml-auto hidden lg:flex">
-            <i class="far fa-moon"></i>
+            <i class="fa fa-moon-o"></i>
          </button>
          <!-- End toogle button -->
       </div>

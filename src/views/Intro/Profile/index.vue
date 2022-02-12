@@ -23,7 +23,7 @@
          </span>
          <!-- End welcome -->
          <a class="text-sm border border-main-color w-max block mx-auto mt-16 xl:mt-10 py-2 px-3 text-main-color rounded-full" role="button" :href="`${ intro.resume }`" target="_blank">
-            <i class="fas fa-eye mr-2"></i>
+            <i class="fa fa-eye mr-2"></i>
             <span>Xem CV</span>
          </a>
       </div>

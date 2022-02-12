@@ -11,7 +11,7 @@
          <!-- Email icon -->
          <li class="group w-9 h-9 text-sm border border-main-color rounded-full center-element mr-3 transition-all hover:bg-main-color">
             <a aria-label="Send Mail" :href="`mailto:${ contact.email }`" class="text-main-color group-hover:text-white dark:group-hover:text-gray-800">
-               <i class="far fa-envelope"></i>
+               <i class="fa fa-envelope"></i>
             </a>
          </li>
          <!-- End Email icon -->
@@ -19,7 +19,7 @@
          <li class="group w-9 h-9 text-sm border border-main-color rounded-full center-element mr-3 last:mr-0 transition-all hover:bg-main-color" v-for="link, icon in contact.social" :key="icon"
          >
             <a class="text-main-color group-hover:text-white dark:group-hover:text-gray-800" :href="link" :aria-label="`${ icon } logo`" >
-               <i :class="`fab fa-${ icon }`"></i>
+               <i :class="`fa fa-${ icon }`"></i>
             </a>
          </li>
          <!-- End Social media icons -->
