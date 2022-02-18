@@ -5,8 +5,6 @@ import SectionContent from './components/SectionContent/index.vue'
 
 import infos from '../src/assets/data/infos.json'
 const app = createApp(App)
-import 'lazysizes';
-import $ from 'jquery';
 // injeet the data in the app
 app.provide('infos', infos)
 
@@ -47,21 +45,3 @@ document.addEventListener("DOMContentLoaded", function(event) {
 				}
 		}
 })
-
-$("img").each(function() {
-    $(this).attr("src", $(this).attr("src").replace("http://", "https://"));
-    $(this).addClass("lazyload");
-    $(this).attr("data-src", $(this).attr("src"));
-    $(this).removeAttr("src");
-});
-$("source").each(function() {
-    $(this).attr("srcset", $(this).attr("srcset").replace("http://", "https://"));
-    $(this).addClass("lazyload");
-    $(this).attr("data-srcset", $(this).attr("srcset"));
-    $(this).removeAttr("srcset");
-});
-$("iframe").each(function() {
-    $(this).addClass("lazyload");
-    $(this).attr("data-src", $(this).attr("src"));
-    $(this).removeAttr("src");
-});
