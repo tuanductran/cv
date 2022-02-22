@@ -1,14 +1,9 @@
-
 {
    "color": "#fe2c55",
    "body": "#4c5267",
 
    "navbar": {
-      "logo": {
-         "light": "robert-anderson-logo-light.png",
-         "dark": "robert-anderson-logo-dark.png"
-      },
-      
+
       "links": {
          "https://tuanducdesign.com": "Trang chủ",
          "#cv": "CV",
@@ -16,7 +11,7 @@
          "#projects": "Sản phẩm"
       }
    },
-   
+
    "sections": {
       "intro": {
          "avatar": "tuanductran.jpg",
@@ -31,15 +26,11 @@
 
       "about": {
          "bio": [
-            "- Ngắn hạn: Có một công việc ổn định, trở thành nhân viên xuất sắc, tích luỹ thêm nhiều kinh nghiệm, rèn luyện kỹ năng xử lý công việc hiệu quả, chính xác, nhanh chóng."
-         ],
-         "biosub": [
+            "- Ngắn hạn: Có một công việc ổn định, trở thành nhân viên xuất sắc, tích luỹ thêm nhiều kinh nghiệm, rèn luyện kỹ năng xử lý công việc hiệu quả, chính xác, nhanh chóng.",
             "- Dài hạn: Có cơ hội được làm nhân viên cấp cao và trở thành lập trình viên full stack."
          ],
          "personal_information": [
-            "- Hoạt bát, nhiệt tình, thật thà và cẩn thận."
-         ],
-         "personal_informationsub": [
+            "- Hoạt bát, nhiệt tình, thật thà và cẩn thận.",
             "- Thích tìm tòi, tìm hiểu, học hỏi, chinh phục những thứ, công việc mà mình chưa biết đến."
          ],
 
@@ -72,7 +63,7 @@
          "contactinfo_address": [
             "Cầu Am, Phố Cầu Am, Yết Kiêu, Hà Đông, Hà Nội"
          ],
-         
+
          "certificate": [
             "Tiếng Anh [ A1 ]"
          ],
@@ -100,87 +91,48 @@
             "reactjs": "ReactJS",
             "rubyonrails": "Ruby on rails",
             "gitlab": "GitLab"
-         },
-
-         "expskills": [
-            {
-               "80%": "HTML & CSS"
-            },
-            {
-               "80%": "Linux"
-            },
-            {
-               "80%": "WordPress"
-            },
-            {
-               "80%": "Bootstrap"
-            }
-         ]
+         }
       },
 
       "coverletter": {
-            "content1": ["Em chào các anh, các chị tại công ty, em được biết công ty mình đang cần tuyển vị trí thực tập sinh Front End. Em mong muốn được thử sức mình trong môi trường làm việc hết sức năng động của công ty. Với trình độ và kinh nghiệm hiện có, em tự tin có thể đảm nhiệm tốt vai trò này tại công ty ."],
-            "content2": ["Như đã đề cập trong CV của mình, em đã có nhiều kinh nghiệm làm việc với VueJS. Ngoài ra, em còn có kinh nghiệm về hệ điều hành Linux trong suốt thời gian làm việc với hệ điều hành Linux, em đã học hỏi và tìm hiểu khá nhiều về hệ thống của Linux, Bảo mật, cấu hình các projects lên máy chủ Nginx và Apache. Em hoàn toàn tự tin với vốn kiến thức về lĩnh vực tối ưu và bảo mật Server Linux của mình."],
-            "content3": ["Thêm vào đó, em tin rằng đó là những nền tảng quý báu để em có thể hiểu rõ và đáp ứng tốt nhu cầu của công ty."],
-            "content4": ["Cám ơn các anh, các chị đã dành thời gian quý báu của mình để xem xét thư xin việc này. Em rất mong các anh, các chị tại công ty có thể sắp xếp một cuộc phỏng vấn để em có thể trình bày rõ hơn về bản thân mình cũng như tìm hiểu thêm các yêu cầu chi tiết cho vị trí thực tập sinh Front End này."]
+         "content": [
+            "Em chào các anh, các chị tại công ty, em được biết công ty mình đang cần tuyển vị trí thực tập sinh Front End. Em mong muốn được thử sức mình trong môi trường làm việc hết sức năng động của công ty. Với trình độ và kinh nghiệm hiện có, em tự tin có thể đảm nhiệm tốt vai trò này tại công ty.",
+            "Như đã đề cập trong CV của mình, em đã có nhiều kinh nghiệm làm việc với VueJS. Ngoài ra, em còn có kinh nghiệm về hệ điều hành Linux trong suốt thời gian làm việc với hệ điều hành Linux, em đã học hỏi và tìm hiểu khá nhiều về hệ thống của Linux, Bảo mật, cấu hình các projects lên máy chủ Nginx và Apache. Em hoàn toàn tự tin với vốn kiến thức về lĩnh vực tối ưu và bảo mật Server Linux của mình.",
+            "Thêm vào đó, em tin rằng đó là những nền tảng quý báu để em có thể hiểu rõ và đáp ứng tốt nhu cầu của công ty.",
+            "Cám ơn các anh, các chị đã dành thời gian quý báu của mình để xem xét thư xin việc này. Em rất mong các anh, các chị tại công ty có thể sắp xếp một cuộc phỏng vấn để em có thể trình bày rõ hơn về bản thân mình cũng như tìm hiểu thêm các yêu cầu chi tiết cho vị trí thực tập sinh Front End này."
+         ]
       },
-         
-      "services": [{
-         "icon": "lightbulb",
-         "title": "Creative Design",
-         "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae repellat."
-      }, {
-         "icon": "gem",
-         "title": "User Interface",
-         "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae repellat."
-      }, {
-         "icon": "thumbs-up",
-         "title": "User Experience",
-         "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae repellat."
-      }, {
-         "icon": "code",
-         "title": "Web developemnt",
-         "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae repellat."
-      }, {
-         "icon": "medal",
-         "title": "Seo & Sem",
-         "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae repellat."
-      }, {
-         "icon": "mobile",
-         "title": "App developemnt",
-         "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae repellat."
-      }],
 
-      "experiences": [
-      {
-         "periode": "11/2021 - 01/2022",
-         "jobtitle": "Thực tập Front End/Back End",
-         "company": "Công Ty Cổ Phần Famtech Việt Nam",
-         "tasks": [
-            "- Chuyển Figma sang project.",
-            "- Sử dụng Git và Gitlab."
-         ]
-      },
-      {
-         "periode": "08/2021 - 10/2021",
-         "jobtitle": "Thực tập Front End",
-         "company": "Tập đoàn UKG",
-         "tasks": [
-            "- Chuyển Figma sang Bootstrap.",
-            "- Xây dựng giao diện Mobile cho project.",
-            "- Sử dụng Git và Gitlab."
-         ]
-      }, {
-         "periode": "09/2019 - 02/2020",
-         "jobtitle": "Thực tập",
-         "company": "FPT Polytechnic",
-         "tasks": [
-            "- Xây dựng một website bán hàng cơ bản với PHP và Mysql.",
-            "- Hỗ trợ nhóm sinh viên trường FPT Polytechnic sửa các lỗi liên quan đến bảo mật trên mã nguồn Laravel.",
-            "- Xây dựng thêm một số chức năng cho web bán hàng."
-         ]
-      }
-   ],
+      "experiences": [{
+            "periode": "11/2021 - 01/2022",
+            "jobtitle": "Thực tập Front End/Back End",
+            "company": "Công Ty Cổ Phần Famtech Việt Nam",
+            "tasks": [
+               "- Chuyển Figma sang project.",
+               "- Sử dụng Git và Gitlab."
+            ]
+         },
+         {
+            "periode": "08/2021 - 10/2021",
+            "jobtitle": "Thực tập Front End",
+            "company": "Tập đoàn UKG",
+            "tasks": [
+               "- Chuyển Figma sang Bootstrap.",
+               "- Xây dựng giao diện Mobile cho project.",
+               "- Sử dụng Git và Gitlab."
+            ]
+         },
+         {
+            "periode": "09/2019 - 02/2020",
+            "jobtitle": "Thực tập",
+            "company": "FPT Polytechnic",
+            "tasks": [
+               "- Xây dựng một website bán hàng cơ bản với PHP và Mysql.",
+               "- Hỗ trợ nhóm sinh viên trường FPT Polytechnic sửa các lỗi liên quan đến bảo mật trên mã nguồn Laravel.",
+               "- Xây dựng thêm một số chức năng cho web bán hàng."
+            ]
+         }
+      ],
 
       "projects": [{
          "thumbnail": "blog.png",
@@ -206,23 +158,6 @@
          "links": {
             "external-link-alt": "https://service.tuanducdesign.com/"
          }
-      }],
-
-      "testimonials": [{
-         "fullname": "Jane Doe",
-         "avatar": "jane-doe.jpg",
-         "jobtitle": "Front-end developer",
-         "text": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae repellat quam quae, minima sed itaque!, Lorem ipsum dolor sit amet consectetur"
-      }, {
-         "fullname": "Mark Philip",
-         "avatar": "mark-philip.jpg",
-         "jobtitle": "Back-end developer",
-         "text": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae repellat quam quae, minima sed itaque!, Lorem ipsum dolor sit amet consectetur"
-      }, {
-         "fullname": "Joe Paulian",
-         "avatar": "joe-paulian.jpg",
-         "jobtitle": "Seo manager",
-         "text": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae repellat quam quae, minima sed itaque!, Lorem ipsum dolor sit amet consectetur"
       }],
 
       "contact": {

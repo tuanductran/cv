@@ -22,9 +22,6 @@
                <p class="leading-relaxed mb-4 last:mb-0 text-color-body dark:text-white"  v-for="bio, k in about.bio" :key="`bio-${ k }`">
                   {{ bio }}
                </p>
-               <p class="leading-relaxed mb-4 last:mb-0 text-color-body dark:text-white"  v-for="biosub, k in about.biosub" :key="`biosub-${ k }`">
-                  {{ biosub }}
-               </p>
                <!-- End Bigraphy -->
                <h2 class="text-main-color font-bold mb-5">
                   Thông tin cá nhân
@@ -32,9 +29,6 @@
                <!-- Bigraphy -->
                <p class="leading-relaxed mb-4 last:mb-0 text-color-body dark:text-white"  v-for="personal_information, k in about.personal_information" :key="`personal_information-${ k }`">
                   {{ personal_information }}
-               </p>
-               <p class="leading-relaxed mb-4 last:mb-0 text-color-body dark:text-white"  v-for="personal_informationsub, k in about.personal_informationsub" :key="`personal_informationsub-${ k }`">
-                  {{ personal_informationsub }}
                </p>
                <!-- End Bigraphy -->
                <h2 class="text-main-color font-bold mb-5">

@@ -4,14 +4,16 @@
 .dark .dark\:bg-body-dark{
     background-color: #18191a;
 }
-.vnodesign-progress-bar{
-    background-color: #fe2c55;
-}
 .dark .dark\:bg-exp-dark,
 .dark .dark\:bg-title-dark,
 .dark .dark\:bg-navbar-dark,
 .dark .dark\:bg-footer-dark,
-.dark .dark\:bg-product-dark,
-.dark .dark\:vnodesign-progress-bar-dark{
+.dark .dark\:bg-product-dark{
     background-color: #242526;
+}
+a{
+    transition: all 0.5s;
+}
+a:hover {
+    color: #fe2c55;
 }

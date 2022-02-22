@@ -16,21 +16,8 @@
                <h2 class="text-main-color font-bold mb-5">
                   Thư xin việc
                </h2>
-               <!-- Content 1 -->
-               <p class="leading-relaxed mb-4 last:mb-0 text-color-body dark:text-white"  v-for="content1, k in coverletter.content1" :key="`content1-${ k }`">
-                  {{ content1 }}
-               </p>
-               <!-- Content 2 -->
-               <p class="leading-relaxed mb-4 last:mb-0 text-color-body dark:text-white"  v-for="content2, k in coverletter.content2" :key="`content2-${ k }`">
-                  {{ content2 }}
-               </p>
-               <!-- Content 3 -->
-               <p class="leading-relaxed mb-4 last:mb-0 text-color-body dark:text-white"  v-for="content3, k in coverletter.content3" :key="`content3-${ k }`">
-                  {{ content3 }}
-               </p>
-               <!-- Content 4 -->
-               <p class="leading-relaxed mb-4 last:mb-0 text-color-body dark:text-white"  v-for="content4, k in coverletter.content4" :key="`content4-${ k }`">
-                  {{ content4 }}
+               <p class="leading-relaxed mb-4 last:mb-0 text-color-body dark:text-white"  v-for="content, k in coverletter.content" :key="`content-${ k }`">
+                  {{ content }}
                </p>
             </div>
          </div>
