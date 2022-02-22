@@ -4,11 +4,12 @@
   "scripts": {
     "dev": "vite --host",
     "build": "vite build",
-    "serve": "vite preview"
+    "serve": "vite preview --host"
   },
   "dependencies": {
     "@tailwindcss/jit": "^0.1.18",
     "font-awesome": "^4.7.0",
+    "vite-plugin-compress": "^2.1.0",
     "vite-plugin-radar": "^0.4.2",
     "vue": "^3.2.30",
     "vue3-carousel": "^0.1.36"
