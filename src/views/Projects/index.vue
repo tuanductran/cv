@@ -5,9 +5,6 @@
    import ProjectDetails from './ProjectDetails/index.vue'
 
    const { sections: { intro, projects }} = inject('infos')
-   const projectLinks = computed(() => {
-      return Object.keys(intro.links)[0]
-   })
 </script>
 
 <template>
@@ -23,10 +20,6 @@
                </figure>
             </article>
          </div>
-         <a class="text-sm border border-main-color w-max block mx-auto mt-16 xl:mt-10 py-2 px-3 text-main-color rounded-full" role="button" :href="intro.links[projectLinks]" target="_blank">
-            <i :class="`fa fa-${ projectLinks } mr-2`"></i>
-            <span>Xem thêm trên GitHub</span>
-         </a>
       </section-content>
    </section>
 </template>

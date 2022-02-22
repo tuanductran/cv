@@ -12,8 +12,11 @@
     background-color: #242526;
 }
 a{
-    transition: all 0.5s;
+    transition: all 0.2s;
 }
 a:hover {
     color: #fe2c55;
+}
+nav.fixed {
+    border-bottom: 1px solid rgba(255,255,255,0.2);
 }

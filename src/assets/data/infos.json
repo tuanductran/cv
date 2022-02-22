@@ -15,7 +15,6 @@
    "sections": {
       "intro": {
          "avatar": "tuanductran.jpg",
-         "resume": "https://sum.vn/pqDnQ",
          "fullname": "Trần Tuấn Đức",
 
          "links": {
@@ -142,7 +141,7 @@
             "- JavaScript Framework ReactJS.",
             "- Web Framework GatsbyJS, sử dụng NodeJS để deploy và xây dựng sản phẩm."
          ],
-         "builtWidth": ["react", "gatsbyjs"],
+         "builtWidth": ["ReactJS", "GatsbyJS"],
          "links": {
             "external-link-alt": "https://tuanducdesign.com/"
          }
@@ -154,7 +153,7 @@
             "- JavaScript Framework ReactJS.",
             "- Web Framework GatsbyJS, sử dụng NodeJS để deploy và xây dựng sản phẩm."
          ],
-         "builtWidth": ["react", "gatsbyjs"],
+         "builtWidth": ["ReactJS", "GatsbyJS"],
          "links": {
             "external-link-alt": "https://service.tuanducdesign.com/"
          }

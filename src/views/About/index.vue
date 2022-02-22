@@ -35,7 +35,7 @@
                   Sở thích
                </h2>
                <!-- interest -->
-               <ul class="mt-5 grid md:grid-cols-2 gap-8">
+               <ul class="mt-5 grid grid-cols-2 gap-8">
                   <template 
                      v-for="interest, k in about.interest"
                      :key="`interest-${ k }`"

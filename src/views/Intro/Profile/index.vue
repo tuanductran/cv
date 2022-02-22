@@ -13,19 +13,15 @@
          </div>
          <!-- End avatar -->
          <!-- Fullname -->
-         <h1 data-aos="fade-up" data-aos-delay="50" class="text-3xl lg:text-4xl xl:text-5xl font-bold">
+         <h1 class="text-3xl lg:text-4xl xl:text-5xl font-bold">
             {{ intro.fullname }}
          </h1>
          <!-- End fullname -->
          <!-- Welcome -->
-         <span data-aos="fade-up" class="text-main-color font-semibold text-lg">
+         <span class="text-main-color font-semibold text-lg">
             Full-time Developer
          </span>
          <!-- End welcome -->
-         <a class="text-sm border border-main-color w-max block mx-auto mt-16 xl:mt-10 py-2 px-3 text-main-color rounded-full" role="button" :href="`${ intro.resume }`" target="_blank">
-            <i class="fa fa-eye mr-2"></i>
-            <span>Xem CV</span>
-         </a>
       </div>
    </div>
 </template>
