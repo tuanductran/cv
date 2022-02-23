@@ -17,6 +17,15 @@ a{
 a:hover {
     color: #fe2c55;
 }
-nav.fixed {
-    border-bottom: 1px solid rgba(255,255,255,0.2);
+.fixed {
+    border-bottom: 1px solid #ebecf0;
+}
+.dark .dark\:fixed {
+    border-color: rgba(255,255,255,0.2);
+}
+.vnodesign-border {
+    border: 1px solid #ebecf0;
+}
+.dark .dark\:vnodesign-border {
+    border-color: rgba(255,255,255,0.2);
 }

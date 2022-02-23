@@ -14,7 +14,7 @@
 </script>
 
 <template>
-   <nav class="fixed z-20 top-0 left-0 right-0 bg-white dark:bg-navbar-dark py-3 lg:py-4 shadow-sm">
+   <nav class="fixed dark:fixed z-20 top-0 left-0 right-0 bg-white dark:bg-navbar-dark py-3 lg:py-4 shadow-sm">
       <div class="flex items-center container mx-auto px-5 md:px-9 lg:px-16 xl:px-36 2xl:px-52">
          <!-- Dark/Light mode toggle button -->
          <button @click="toggleMode" class="mr-auto md:hidden">
