@@ -36,7 +36,7 @@
                   Sở thích
                </h2>
                <!-- interest -->
-               <ul class="mt-5 grid grid-cols-2 gap-8">
+               <ul class="mt-5 grid grid-cols-3 gap-8">
                   <template 
                      v-for="interest, k in about.interest"
                      :key="`interest-${ k }`"
@@ -54,17 +54,19 @@
                <h2 class="text-main-color font-bold mb-5">
                   Thông tin liên hệ
                </h2>
-               <!-- contacts list -->
-               <ul class="mt-5 grid grid-cols-2 gap-8">
-                  <template 
-                     v-for="contacts, k in about.contacts"
-                     :key="`contacts-${ k }`"
-                  >
-                     <!-- Single contacts -->
-                     <contacts :contacts="contacts" />
-                     <!-- End Single contacts -->
-                  </template>
-               </ul>
+               <!-- contacts info -->
+               <p class="leading-relaxed mb-4 last:mb-0 text-color-body dark:text-white" v-for="contactinfo_birthday, k in about.contactinfo_birthday" :key="`contactinfo_birthday-${ k }`">
+                  {{ contactinfo_birthday }}
+               </p>
+               <p class="leading-relaxed mb-4 last:mb-0 text-color-body dark:text-white" v-for="contactinfo_phone, k in about.contactinfo_phone" :key="`contactinfo_phone-${ k }`">
+                  <a :href="`tel:${ contactinfo_phone }`">{{ contactinfo_phone }}</a>
+               </p>
+               <p class="leading-relaxed mb-4 last:mb-0 text-color-body dark:text-white" v-for="contactinfo_email, k in about.contactinfo_email" :key="`contactinfo_email-${ k }`">
+                  <a :href="`mailto:${ contactinfo_email }`">{{ contactinfo_email }}</a>
+               </p>
+               <p class="leading-relaxed mb-4 last:mb-0 text-color-body dark:text-white" v-for="contactinfo_address, k in about.contactinfo_address" :key="`contactinfo_address-${ k }`">
+                  <a :href="`https://www.google.com.vn/search?q=${ contactinfo_address }`" target="_blank">{{ contactinfo_address }}</a>
+               </p>
                <!-- End skills list -->
                <!-- Certificate -->
                <h2 class="text-main-color font-bold mb-5">

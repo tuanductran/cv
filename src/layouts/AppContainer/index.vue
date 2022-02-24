@@ -3,6 +3,7 @@
    import About from '../../views/About/index.vue'
    import Experiences from '../../views/Experiences/index.vue'
    import Projects from '../../views/Projects/index.vue'
+   import Coverletter from '../../views/Coverletter/index.vue'
 </script>
 
 <template>
@@ -15,5 +16,7 @@
       <experiences />
       <!-- Projects -->
       <projects />
+      <!-- Coverletter -->
+      <coverletter />
    </main>
 </template>
