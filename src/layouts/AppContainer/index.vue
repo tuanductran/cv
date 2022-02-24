@@ -17,6 +17,6 @@
       <!-- Projects -->
       <projects />
       <!-- Coverletter -->
-      <coverletter />
+      <CoverLetter />
    </main>
 </template>
