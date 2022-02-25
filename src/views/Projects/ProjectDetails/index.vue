@@ -17,7 +17,7 @@
          </a>
       </p>
       <!-- Project descript -->
-      <div class="rounded-lg mb-3 bg-white dark:bg-product-dark p-5 mt-5">
+      <div class="rounded-lg mb-3 bg-white dark:bg-product-dark p-5 mt-5 vnodesign-border dark:vnodesign-border">
          <p class="leading-relaxed text-left text-color-body dark:text-white text-sm xl:text-base"  v-for="description, k in project.description" :key="`description-${ k }`">
             {{ description }}
          </p>

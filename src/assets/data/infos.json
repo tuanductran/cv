@@ -84,13 +84,12 @@
             "php": "PHP",
             "phpmyadmin": "PHPMyAdmin",
             "laravel": "Laravel",
-            "mysql": "Mysql",
+            "mysql": "MySQL",
             "vuejs": "VueJS",
             "nuxtjs": "NuxtJS",
-            "nextjs": "NextJS",
             "reactjs": "ReactJS",
-            "rubyonrails": "Ruby on rails",
-            "gitlab": "GitLab"
+            "gitlab": "GitLab",
+            "figma": "Figma"
          }
       },
 

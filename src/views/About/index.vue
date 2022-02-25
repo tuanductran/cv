@@ -80,7 +80,7 @@
                   Kỹ năng
                </h2>
                <!-- Skills list -->
-               <ul class="mt-5 grid grid-cols-2 gap-8">
+               <ul class="mt-5 grid grid-cols-3 gap-8">
                   <template 
                      v-for="skill, k in about.skills"
                      :key="`skill-${ k }`"

@@ -8,7 +8,8 @@
 .dark .dark\:bg-title-dark,
 .dark .dark\:bg-navbar-dark,
 .dark .dark\:bg-footer-dark,
-.dark .dark\:bg-product-dark{
+.dark .dark\:bg-product-dark,
+.dark .dark\:bg-coverletter-dark{
     background-color: #242526;
 }
 a{
@@ -26,6 +27,13 @@ a:hover {
 .vnodesign-border {
     border: 1px solid #ebecf0;
 }
-.dark .dark\:vnodesign-border {
+footer {
+    border-top: 1px solid #ebecf0;
+}
+.dark .dark\:vnodesign-border,
+.dark footer {
     border-color: rgba(255,255,255,0.2);
+}
+.dark img {
+    filter: brightness(70%);
 }

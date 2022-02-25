@@ -10,16 +10,15 @@
 
 <template>
    <section id="coverletter">
-         <div class="gap-10 py-10 md:py-14 lg:py-16 mt-12">
+      <section-content title="Thư xin việc">
+         <div>
             <!-- Cover Letter information -->
-            <div>
-               <h2 class="text-main-color font-bold mb-5">
-                  Thư xin việc
-               </h2>
+            <div class="p-5 bg-white vnodesign-border dark:bg-coverletter-dark dark:vnodesign-border rounded-lg place-items-center">
                <p class="leading-relaxed mb-4 last:mb-0 text-color-body dark:text-white"  v-for="content, k in coverletter.content" :key="`content-${ k }`">
                   {{ content }}
                </p>
             </div>
          </div>
+      </section-content>
    </section>
 </template>
