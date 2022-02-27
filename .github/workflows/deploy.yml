@@ -24,6 +24,7 @@ jobs:
       uses: appleboy/ssh-action@master
       with:
         host: ${{ secrets.HOST }}
-        username: ${{ secrets.USERNAME }}
-        password:  ${{ secrets.PASSWORD }}
-        script: cd ${{ secrets.PROJECT_PATH }} && git pull && yarn install && yarn build
+        USERNAME: ${{ secrets.USERNAME }}
+        PORT: ${{ secrets.PORT }}
+        KEY: ${{ secrets.SSHKEY }}
+        script: ls
