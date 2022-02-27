@@ -12,7 +12,7 @@
       </h2>
       <!-- End Project title -->
       <p>
-         <a class="text-xs lg:text-base text-main-color rounded-full" v-for="link in project.links" :href="link" target="_blank">
+         <a class="text-xs lg:text-base text-main-color rounded-full" v-for="link, k in project.links" :href="link" :key="k" target="_blank" onClick="ga('event', 'ProjectLink', 'view', 'project_link');">
             {{ link }}
          </a>
       </p>

@@ -1,39 +1,55 @@
-.bg-body-light{
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
+@import 'font-awesome/css/font-awesome.css';
+
+.bg-body-light {
     background-color: #f7f9fb;
 }
-.dark .dark\:bg-body-dark{
+
+.dark .dark\:bg-body-dark {
     background-color: #18191a;
 }
+
 .dark .dark\:bg-exp-dark,
 .dark .dark\:bg-title-dark,
 .dark .dark\:bg-navbar-dark,
 .dark .dark\:bg-footer-dark,
 .dark .dark\:bg-product-dark,
-.dark .dark\:bg-coverletter-dark{
+.dark .dark\:bg-coverletter-dark {
     background-color: #242526;
 }
-a{
+
+a,
+.dark {
     transition: all 0.2s;
 }
+
 a:hover {
     color: #fe2c55;
 }
+
 .fixed {
     border-bottom: 1px solid #ebecf0;
 }
+
 .dark .dark\:fixed {
-    border-color: rgba(255,255,255,0.2);
+    border-color: rgba(255, 255, 255, 0.2);
 }
+
 .vnodesign-border {
     border: 1px solid #ebecf0;
 }
+
 footer {
     border-top: 1px solid #ebecf0;
 }
+
 .dark .dark\:vnodesign-border,
 .dark footer {
-    border-color: rgba(255,255,255,0.2);
+    border-color: rgba(255, 255, 255, 0.2);
 }
+
 .dark img {
     filter: brightness(70%);
 }
