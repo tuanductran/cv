@@ -13,10 +13,6 @@
 footer {
 	.fa-heart {
 		color: red;
-		margin: 0 0.3rem;
-	}
-	.dot {
-		margin: 0 0.375rem;
 	}
 }
 </style>
