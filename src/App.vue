@@ -11,6 +11,7 @@
 </template>
 
 <style lang="scss">
+   @import 'assets/styles/styles.css';
    html {
       scroll-behavior: smooth;
 
