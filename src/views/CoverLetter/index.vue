@@ -9,7 +9,7 @@
 </script>
 
 <template>
-   <section id="coverletter">
+   <section id="coverletter" class="mb-12">
       <section-content title="Thư xin việc">
          <div>
             <!-- Cover Letter information -->
