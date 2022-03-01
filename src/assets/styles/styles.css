@@ -33,7 +33,12 @@ a:hover {
     border-bottom: 1px solid #ebecf0;
 }
 
-.dark .dark\:fixed {
+.vnodesign-border-navbar {
+    border-left: 1px solid #ebecf0;
+}
+
+.dark .dark\:fixed,
+.dark .dark\:vnodesign-border-navbar {
     border-color: rgba(255, 255, 255, 0.2);
 }
 
