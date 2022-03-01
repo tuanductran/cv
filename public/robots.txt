@@ -1,5 +1,3 @@
 User-agent: *
 Allow: /
-
-User-agent: Googlebot-Image
-Disallow: /assets/skills/*.svg$
+Disallow: /caches/*
