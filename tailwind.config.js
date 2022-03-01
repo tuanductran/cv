@@ -15,7 +15,7 @@ module.exports = {
       },
 
       fontFamily: {
-         'sans': ['"arial"', '"sans-serif"'],
+         'sans': ['"arial"', '"sans-serif"', '"Helvetica Neue"'],
          'body': ['"arial"', '"sans-serif"', '"Font Awesome"']
       }
    },
