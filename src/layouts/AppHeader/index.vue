@@ -11,6 +11,10 @@
       isDark.value = !isDark.value
       document.documentElement.classList.toggle('dark')
    }
+   function toggleCollapse () {
+      isCollapsed.value = !isCollapsed.value
+      document.documentElement.classList.toggle('vn-collapsed')
+   }
 </script>
 
 <template>
@@ -23,13 +27,13 @@
          </button>
          <!-- End toogle button -->
          <!-- Three bars menu (only apears on mobile) -->
-         <button @click="isCollapsed =! isCollapsed" class="ml-auto md:hidden">
+         <button @click="toggleCollapse" class="ml-auto md:hidden">
             <i v-if="isCollapsed" class="fa fa-bars"></i>
             <i v-else class="fa fa-times"></i>
          </button>
          <!-- End three bars menu -->
          <!-- Navbar menu -->
-      	<ul class="bg-white dark:bg-navbar-dark transition-transform absolute md:relative top-0 left-0 h-screen md:h-auto w-3/4 md:w-auto p-5 md:p-0 md:flex md:bg-transparent md:dark:bg-transparent md:transform-none items-center mr-auto" :class="{ 'transform -translate-x-full': isCollapsed }">
+      	<ul class="bg-white dark:bg-navbar-dark transition-transform absolute md:relative top-0 left-0 h-screen md:h-auto w-3/4 md:w-auto p-5 md:p-0 md:flex md:bg-transparent md:dark:bg-transparent md:transform-none items-center mr-auto vnodesign-border-navbar dark:vnodesign-border-navbar" :class="{ 'transform -translate-x-full': isCollapsed }">
             <!-- Menu links -->
       		<li class="flex items-center ml-4 lg:ml-9 mb-3 md:mb-0" v-for="label, anchor in links" :key="anchor">
       			<a class="font-bold text-md md:text-xs lg:text-md" :href="`${ anchor }`" onClick="ga('event', 'MenuLink', 'view', 'menu_link');">

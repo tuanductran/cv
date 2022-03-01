@@ -33,12 +33,12 @@ a:hover {
     border-bottom: 1px solid #ebecf0;
 }
 
-.vnodesign-border-navbar {
-    border-left: 1px solid #ebecf0;
+.vn-collapsed .vnodesign-border-navbar {
+    border-right: 1px solid #ebecf0;
 }
 
 .dark .dark\:fixed,
-.dark .dark\:vnodesign-border-navbar {
+.dark.vn-collapsed .dark\:vnodesign-border-navbar {
     border-color: rgba(255, 255, 255, 0.2);
 }
 
