@@ -15,8 +15,8 @@ module.exports = {
       },
 
       fontFamily: {
-         'sans': ['"arial"', '"sans-serif"', '"Helvetica Neue"'],
-         'body': ['"arial"', '"sans-serif"', '"Font Awesome"']
+         'sans': ['"system-ui"', '"-apple-system"', '"BlinkMacSystemFont"', '".SFNSText-Regular"', '"sans-serif"', '"ui-monospace"', '"Menlo"', '"Consolas"', '"Monaco"', '"monospace"'],
+         'body': ['"system-ui"', '"-apple-system"', '"BlinkMacSystemFont"', '".SFNSText-Regular"', '"sans-serif"', '"ui-monospace"', '"Menlo"', '"Consolas"', '"Monaco"', '"monospace"', '"Font Awesome"']
       }
    },
 
