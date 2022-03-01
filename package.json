@@ -21,6 +21,7 @@
     "postcss": "^8.3.11",
     "sass": "^1.43.4",
     "tailwindcss": "^2.0.3",
-    "vite": "^2.6.4"
+    "vite": "^2.6.4",
+    "vite-plugin-singlefile": "^0.6.3"
   }
 }

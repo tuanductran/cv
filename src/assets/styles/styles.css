@@ -21,7 +21,9 @@
 }
 
 a,
-.dark {
+body,
+img,
+button {
     transition: all 0.2s;
 }
 
