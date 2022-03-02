@@ -27,7 +27,7 @@
                   
                   <!-- Experience title & company -->
                   <h2 class="font-bold text-xl 2xl:text-2xl mb-4">
-                     {{ jobtitle }} tại <b class="text-main-color">{{ company }}</b>
+                     {{ jobtitle }} tại {{ company }}
                   </h2>
                   <!-- End Experience title & company -->
 
