@@ -13,7 +13,7 @@
       <!-- End Project title -->
       <p>
          <a class="text-xs lg:text-base text-main-color rounded-full" v-for="link, k in project.links" :href="link" :key="k" target="_blank" onClick="ga('event', 'ProjectLink', 'view', 'project_link');">
-            {{ link }}
+            <strong>{{ link }}</strong>
          </a>
       </p>
       <!-- Project descript -->
@@ -30,7 +30,7 @@
             class="text-xs lg:text-base text-main-color rounded-full mr-7 last:mr-0"
             v-for="tech, k in project.builtWidth"
             :key="k"
-         >{{ tech }}</li>
+         ><strong>{{ tech }}</strong></li>
       </ul>
       <!-- End Project technologies -->
    </figcaption>
