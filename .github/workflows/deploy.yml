@@ -27,4 +27,4 @@ jobs:
         USERNAME: ${{ secrets.USERNAME }}
         PORT: ${{ secrets.PORT }}
         KEY: ${{ secrets.SSHKEY }}
-        script: ls
+        script: ls && cd /www/wwwroot/cv.tuanducdesign.com/ && yarn install && yarn build
