@@ -36,7 +36,7 @@
       	<ul class="bg-white dark:bg-navbar-dark transition-transform absolute md:relative top-0 left-0 h-screen md:h-auto w-3/4 md:w-auto p-5 md:p-0 md:flex md:bg-transparent md:dark:bg-transparent md:transform-none items-center mr-auto vnodesign-border-navbar dark:vnodesign-border-navbar" :class="{ 'transform -translate-x-full': isCollapsed }">
             <!-- Menu links -->
       		<li class="flex items-center ml-4 lg:ml-9 mb-3 md:mb-0" v-for="label, anchor in links" :key="anchor">
-      			<a class="font-bold text-md md:text-xs lg:text-md" :href="`${ anchor }`" onClick="ga('event', 'MenuLink', 'view', 'menu_link');">
+      			<a class="font-bold text-md md:text-xs lg:text-md transition-colors duration-1000" :href="`${ anchor }`" onClick="ga('event', 'MenuLink', 'view', 'menu_link');">
       				<span class="ml-2">{{ label }}</span>
       			</a>
       		</li>

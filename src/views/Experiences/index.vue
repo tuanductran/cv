@@ -22,18 +22,18 @@
                   :class="{ 'md:ml-4 xl:ml-10 md:mr-0': isEven(k) }"
                >
                   <!-- Experience period -->
-                  <small class="text-main-color font-semibold xl:text-lg">{{ periode }}</small>
+                  <small class="text-main-color font-semibold xl:text-lg transition-colors duration-1000">{{ periode }}</small>
                   <!-- End Experience period -->
                   
                   <!-- Experience title & company -->
-                  <h2 class="font-bold text-xl 2xl:text-2xl mb-4">
+                  <h2 class="font-bold text-xl 2xl:text-2xl mb-4 transition-colors duration-1000">
                      {{ jobtitle }} tại {{ company }}
                   </h2>
                   <!-- End Experience title & company -->
 
                   <!-- Experience tasks -->
                   <p
-                     class="mb-3 last:mb-0 text-sm xl:text-base text-color-body dark:text-white"
+                     class="mb-3 last:mb-0 text-sm xl:text-base text-color-body dark:text-white transition-colors duration-1000"
                      v-for="task, k in tasks" :key="`task-${ k }`"
                   >
                      {{ task }}

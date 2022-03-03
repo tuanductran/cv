@@ -8,7 +8,7 @@
    <li>
       <h3 class="flex">
          <!-- contacts name -->
-         <span class="text-sm font-bold">
+         <span class="text-sm font-bold transition-colors duration-1000">
             {{ contacts }}
          </span>
          <!-- End contacts name -->

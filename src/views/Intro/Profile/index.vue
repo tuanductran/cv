@@ -13,12 +13,12 @@
          </div>
          <!-- End avatar -->
          <!-- Fullname -->
-         <h1 class="text-3xl lg:text-4xl xl:text-5xl font-bold">
+         <h1 class="text-3xl lg:text-4xl xl:text-5xl font-bold transition-colors duration-1000">
             {{ intro.fullname }}
          </h1>
          <!-- End fullname -->
          <!-- Welcome -->
-         <span class="text-main-color font-semibold text-lg">
+         <span class="text-main-color font-semibold text-lg transition-colors duration-1000">
             Full-time Developer
          </span>
          <!-- End welcome -->

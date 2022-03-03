@@ -10,7 +10,7 @@
       <div class="block w-1/2 h-px bg-gray-300 dark:bg-title-dark"></div>
       <!-- End Left bar -->
       <!-- Section title -->
-      <h1 class="whitespace-nowrap mx-3 uppercase font-bold text-xl md:text-2xl xl:text-3xl">
+      <h1 class="whitespace-nowrap mx-3 uppercase font-bold text-xl md:text-2xl xl:text-3xl transition-colors duration-1000">
          {{ title }}
       </h1>
       <!-- End Section title -->

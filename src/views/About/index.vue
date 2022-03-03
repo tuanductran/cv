@@ -16,23 +16,23 @@
          <div class="grid grid-cols-1 lg:grid-cols-2 gap-10 py-10 md:py-14 lg:py-16 mt-12">
             <!-- Personal information -->
             <div>
-               <h2 class="text-main-color font-bold mb-5">
+               <h2 class="text-main-color font-bold mb-5 transition-colors duration-1000">
                   Mục tiêu nghề nghiệp
                </h2>
                <!-- Bigraphy -->
-               <p class="leading-relaxed mb-4 last:mb-0 text-color-body dark:text-white"  v-for="bio, k in about.bio" :key="`bio-${ k }`">
+               <p class="leading-relaxed mb-4 last:mb-0 text-color-body dark:text-white transition-colors duration-1000"  v-for="bio, k in about.bio" :key="`bio-${ k }`">
                   {{ bio }}
                </p>
                <!-- End Bigraphy -->
-               <h2 class="text-main-color font-bold mb-5">
+               <h2 class="text-main-color font-bold mb-5 transition-colors duration-1000">
                   Thông tin cá nhân
                </h2>
                <!-- Bigraphy -->
-               <p class="leading-relaxed mb-4 last:mb-0 text-color-body dark:text-white"  v-for="personal_information, k in about.personal_information" :key="`personal_information-${ k }`">
+               <p class="leading-relaxed mb-4 last:mb-0 text-color-body dark:text-white transition-colors duration-1000"  v-for="personal_information, k in about.personal_information" :key="`personal_information-${ k }`">
                   {{ personal_information }}
                </p>
                <!-- End Bigraphy -->
-               <h2 class="text-main-color font-bold mb-5">
+               <h2 class="text-main-color font-bold mb-5 transition-colors duration-1000">
                   Sở thích
                </h2>
                <!-- interest -->
@@ -51,20 +51,20 @@
 
             <div class="relative">
                <!-- Contact info -->
-               <h2 class="text-main-color font-bold mb-5">
+               <h2 class="text-main-color font-bold mb-5 transition-colors duration-1000">
                   Thông tin liên hệ
                </h2>
                <!-- contacts info -->
-               <p class="leading-relaxed mb-4 last:mb-0 text-color-body dark:text-white" v-for="contactinfo_birthday, k in about.contactinfo_birthday" :key="`contactinfo_birthday-${ k }`">
+               <p class="leading-relaxed mb-4 last:mb-0 text-color-body dark:text-white transition-colors duration-1000" v-for="contactinfo_birthday, k in about.contactinfo_birthday" :key="`contactinfo_birthday-${ k }`">
                   {{ contactinfo_birthday }}
                </p>
-               <p class="leading-relaxed mb-4 last:mb-0 text-color-body dark:text-white" v-for="contactinfo_phone, k in about.contactinfo_phone" :key="`contactinfo_phone-${ k }`">
+               <p class="leading-relaxed mb-4 last:mb-0 text-color-body dark:text-white transition-colors duration-1000" v-for="contactinfo_phone, k in about.contactinfo_phone" :key="`contactinfo_phone-${ k }`">
                   <a :href="`tel:${ contactinfo_phone }`">{{ contactinfo_phone }}</a>
                </p>
-               <p class="leading-relaxed mb-4 last:mb-0 text-color-body dark:text-white" v-for="contactinfo_email, k in about.contactinfo_email" :key="`contactinfo_email-${ k }`">
+               <p class="leading-relaxed mb-4 last:mb-0 text-color-body dark:text-white transition-colors duration-1000" v-for="contactinfo_email, k in about.contactinfo_email" :key="`contactinfo_email-${ k }`">
                   <a :href="`mailto:${ contactinfo_email }`">{{ contactinfo_email }}</a>
                </p>
-               <p class="leading-relaxed mb-4 last:mb-0 text-color-body dark:text-white" v-for="contactinfo_address, k in about.contactinfo_address" :key="`contactinfo_address-${ k }`">
+               <p class="leading-relaxed mb-4 last:mb-0 text-color-body dark:text-white transition-colors duration-1000" v-for="contactinfo_address, k in about.contactinfo_address" :key="`contactinfo_address-${ k }`">
                   <a :href="`https://www.google.com.vn/search?q=${ contactinfo_address }`" target="_blank">{{ contactinfo_address }}</a>
                </p>
                <!-- End skills list -->
@@ -72,11 +72,11 @@
                <h2 class="text-main-color font-bold mb-5">
                   Chứng chỉ
                </h2>
-               <p class="leading-relaxed mb-4 last:mb-0 text-color-body dark:text-white" v-for="certificate, k in about.certificate" :key="`certificate-${ k }`">
+               <p class="leading-relaxed mb-4 last:mb-0 text-color-body dark:text-white transition-colors duration-1000" v-for="certificate, k in about.certificate" :key="`certificate-${ k }`">
                   {{ certificate }}
                </p>
                <!-- Skills -->
-               <h2 class="text-main-color font-bold mb-5">
+               <h2 class="text-main-color font-bold mb-5 transition-colors duration-1000">
                   Kỹ năng
                </h2>
                <!-- Skills list -->
