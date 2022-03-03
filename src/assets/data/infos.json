@@ -159,6 +159,30 @@
          }
       }],
 
+      "clients": [{
+         "thumbnail": "lachongvien.png",
+         "title": "Lạc Hồng Viên",
+         "description": [
+            "Công nghệ sử dụng trên sản phẩm:",
+            "- Framework Laravel."
+         ],
+         "builtWidth": ["PHP", "Laravel"],
+         "links": {
+            "external-link-alt": "https://lachongvien.vn/"
+         }
+      }, {
+         "thumbnail": "dothotot.png",
+         "title": "Đồ Thờ Tốt",
+         "description": [
+            "Công nghệ sử dụng trên sản phẩm:",
+            "- WordPress CMS."
+         ],
+         "builtWidth": ["PHP", "WordPress"],
+         "links": {
+            "external-link-alt": "https://dothotot.vn/"
+         }
+      }],
+
       "contact": {
          "email": "miumiu.official.56@gmail.com",
 
