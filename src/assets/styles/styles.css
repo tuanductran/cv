@@ -20,9 +20,7 @@
     background-color: #242526;
 }
 
-a,
-body,
-img {
+* {
     transition: all 0.2s;
 }
 
