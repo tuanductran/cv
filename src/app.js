@@ -1,34 +1,11 @@
 import { createApp } from 'vue'
 import App from './App.vue'
 import SectionContent from './components/SectionContent/index.vue'
+import infos from '../src/assets/data/infos.json'
 
-// create app
 const app = createApp(App)
-
-// create promise and get infomation from file infos.json from server
-const getInfos = () => new Promise((resolve, reject) => {
-    const xhr = new XMLHttpRequest()
-    xhr.open('GET', 'https://frontend.tuanducdesign.com/api/v2/cv/infos.json')
-    xhr.onload = () => {
-        if (xhr.status === 200) {
-            resolve(JSON.parse(xhr.response))
-        } else {
-            reject(new Error(xhr.statusText))
-        }
-    }
-    xhr.onerror = () => {
-        reject(new Error('Network Error'))
-    }
-    xhr.send()
-})
-// get data from file infos.json
-getInfos().then(infos => {
-    app.provide('infos', infos)
-}
-).catch(error => {
-    console.log(error)
-}
-)
+// injeet the data in the app
+app.provide('infos', infos)
 
 // Global components
 app.component('section-content', SectionContent)
@@ -36,12 +13,15 @@ app.component('section-content', SectionContent)
 // Mount the app
 app.mount('#root')
 
-// localStorage check prefers-color-scheme and set the theme light or dark
-if (localStorage.getItem('prefers-color-scheme') === 'dark') {
+// dark mode
+if (localStorage.theme === 'dark' || (!('theme' in localStorage) && window.matchMedia('(prefers-color-scheme: dark)').matches)) {
     document.documentElement.classList.add('dark')
 } else {
     document.documentElement.classList.remove('dark')
 }
+localStorage.theme = 'light'
+localStorage.theme = 'dark'
+localStorage.removeItem('theme')
 // perform animated scrolling by getting top-position of target-element and set it as scroll target
 const scrollTo = (element) => {
     const targetPosition = element.offsetTop

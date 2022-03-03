@@ -16,7 +16,7 @@
          <div class="grid grid-cols-1 lg:grid-cols-2 gap-10 py-10 md:py-14 lg:py-16 mt-12">
             <!-- Personal information -->
             <div>
-               <h2 class="text-main-color font-bold mb-5 ">
+               <h2 class="text-main-color font-bold mb-5">
                   Mục tiêu nghề nghiệp
                </h2>
                <!-- Bigraphy -->
