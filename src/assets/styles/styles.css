@@ -60,3 +60,6 @@ h6 {
     text-rendering: optimizeLegibility;
     line-height: 1.16667;
 }
+.vn-navbar__link.active {
+    color: #fe2c55;
+}

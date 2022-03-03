@@ -14,7 +14,7 @@
          <div>
             <!-- Cover Letter information -->
             <div class="p-5 bg-white vnodesign-border dark:bg-coverletter-dark dark:vnodesign-border rounded-lg place-items-center">
-               <p class="leading-relaxed mb-4 last:mb-0 text-color-body dark:text-white transition-colors duration-1000"  v-for="content, k in coverletter.content" :key="`content-${ k }`">
+               <p class="leading-relaxed mb-4 last:mb-0 text-color-body dark:text-white"  v-for="content, k in coverletter.content" :key="`content-${ k }`">
                   {{ content }}
                </p>
             </div>

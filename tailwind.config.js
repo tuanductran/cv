@@ -1,5 +1,5 @@
 const colors = require('tailwindcss/colors')
-const { color, body } = require('./src/assets/data/infos.json')
+const { color, body } = require('./src/assets/data/styles.json')
 
 module.exports = {
    mode: 'jit',

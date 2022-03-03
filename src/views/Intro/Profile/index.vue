@@ -1,10 +1,13 @@
 <script setup>
-   import { inject } from '@vue/runtime-core'
-   const { sections: { intro }} = inject('infos')
+   import { inject, computed } from '@vue/runtime-core'
+   const { sections: { intro, projects }} = inject('infos')
+   const projectLinks = computed(() => {
+      return Object.keys(intro.links)[0]
+   })
 </script>
 
 <template>
-   <div class="order-2 md:order-1 mt-10 md:mt-0">
+   <div class="order-1">
       <!-- Personal infos -->
       <div class="relative">
          <!-- Avatar -->
@@ -13,15 +16,21 @@
          </div>
          <!-- End avatar -->
          <!-- Fullname -->
-         <h1 class="text-3xl lg:text-4xl xl:text-5xl font-bold transition-colors duration-1000">
+         <h1 class="text-3xl lg:text-4xl xl:text-5xl font-bold mt-3 mb-3">
             {{ intro.fullname }}
          </h1>
          <!-- End fullname -->
-         <!-- Welcome -->
-         <span class="text-main-color font-semibold text-lg transition-colors duration-1000">
-            Full-time Developer
+         <!-- Role -->
+         <span class="text-main-color font-semibold text-lg">
+            {{ intro.role }}
          </span>
-         <!-- End welcome -->
+         <!-- End Role -->
+         <!-- Github -->
+         <a class="text-sm border border-main-color w-max block mx-auto mt-3 py-2 px-3 text-main-color rounded-full" role="button" :href="intro.links[projectLinks]" title="Xem thêm trên Github" target="_blank" onClick="ga('event', 'ProjectsLink', 'view', 'projects_link');">
+            <i :class="`fa fa-${ projectLinks } mr-2`"></i>
+            <span>Xem thêm trên Github</span>
+         </a>
+         <!-- End Github -->
       </div>
    </div>
 </template>

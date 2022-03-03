@@ -8,7 +8,7 @@
    <li>
       <h3 class="capitalize flex">
          <!-- interest name -->
-         <span class="text-sm font-bold transition-colors duration-1000">
+         <span class="text-sm font-bold">
             {{ interest }}
          </span>
          <!-- End interest name -->

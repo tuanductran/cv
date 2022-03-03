@@ -1,5 +1,5 @@
 <script setup>
-   import { inject, computed } from "@vue/runtime-core"
+   import { inject } from "@vue/runtime-core"
    
    import ProjectThumbnail from './ProjectThumbnail/index.vue'
    import ProjectDetails from './ProjectDetails/index.vue'

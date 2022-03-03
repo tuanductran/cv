@@ -26,32 +26,6 @@
 	<meta name="twitter:image" content="assets/tuanductran.jpg" />
 	<link rel="canonical" href="https://cv.tuanducdesign.com" />
 	<script type="module" src="/src/app.js" defer></script>
-	<script>
-		if (localStorage.theme === 'dark' || (!('theme' in localStorage) && window.matchMedia('(prefers-color-scheme: dark)').matches)) {
-			document.documentElement.classList.add('dark')
-		} else {
-			document.documentElement.classList.remove('dark')
-		}
-		localStorage.theme = 'light'
-		localStorage.theme = 'dark'
-		localStorage.removeItem('theme')
-		document.addEventListener("DOMContentLoaded", function (event) {
-			const hash = window.decodeURI(location.hash.replace('#', ''));
-			if (hash !== '') {
-				const element = document.getElementById(hash);
-				if (element) {
-					const scrollTop = window.pageYOffset || document.documentElement.scrollTop || document.body
-						.scrollTop;
-					const clientTop = document.documentElement.clientTop || document.body.clientTop || 0;
-					const offset = element.getBoundingClientRect().top + scrollTop - clientTop;
-					// Wait for the browser to finish rendering before scrolling.
-					setTimeout((function () {
-						window.scrollTo(0, offset - 0)
-					}), 0)
-				}
-			}
-		})
-	</script>
 </head>
 <body class="bg-body-light text-color-body dark:bg-body-dark dark:text-white w-[100vw]">
 	<noscript>You need to enable JavaScript to run this app.</noscript>
