@@ -69,12 +69,12 @@
                </p>
                <!-- End skills list -->
                <!-- Certificate -->
-               <h2 class="text-main-color font-bold mb-5">
+               <!-- <h2 class="text-main-color font-bold mb-5">
                   Chứng chỉ
                </h2>
                <p class="leading-relaxed mb-4 last:mb-0 text-color-body dark:text-white" v-for="certificate, k in about.certificate" :key="`certificate-${ k }`">
                   {{ certificate }}
-               </p>
+               </p> -->
                <!-- Skills -->
                <h2 class="text-main-color font-bold mb-5">
                   Kỹ năng
