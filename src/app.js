@@ -47,3 +47,14 @@ const handleScroll = () => {
     }
 }
 window.addEventListener('scroll', handleScroll)
+// Create element script
+const gajs = document.createElement('script')
+gajs.src = 'https://www.googletagmanager.com/gtag/js?id=UA-175649416-2'
+gajs.async = true
+// append elements
+document.head.appendChild(gajs)
+// event google analytics
+window.dataLayer = window.dataLayer || [];
+function gtag(){dataLayer.push(arguments);}
+gtag('js', new Date());
+gtag('config', 'UA-175649416-2');
