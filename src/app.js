@@ -1,7 +1,27 @@
 import { createApp } from 'vue'
 import App from './App.vue'
 import SectionContent from './components/SectionContent/index.vue'
-import infos from '../src/assets/data/infos.json'
+// xhr promise infos
+const xhrPromise = (url) => {
+    return new Promise((resolve, reject) => {
+        const xhr = new XMLHttpRequest()
+        xhr.open('GET', url)
+        xhr.onload = () => {
+            if (xhr.status === 200) {
+                resolve(xhr.response)
+            } else {
+                reject(Error(xhr.statusText))
+            }
+        }
+        xhr.onerror = () => {
+            reject(Error('Network Error'))
+        }
+        xhr.send()
+    })
+}
+// variables infos xhrPromise
+const infos = xhrPromise('https://frontend.tuanducdesign.com/api/v2/cv/infos.json')
+// import infos from '../src/assets/data/infos.json'
 
 const app = createApp(App)
 // injeet the data in the app
