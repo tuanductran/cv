@@ -12,14 +12,7 @@ export default defineConfig({
 			analytics: {
 			  id: 'UA-175649416-2',
 			  config: {
-				cookie_domain: 'auto',
-				cookie_expires: 63072000,
-				cookie_prefix: 'none',
-				cookie_update: true,
-				cookie_flags: '',
-				send_page_view: true,
-				allow_google_signals: true,
-				allow_ad_personalization_signals: true,
+				send_page_view: false
 			  },
 			},
 		  }),
@@ -29,8 +22,8 @@ export default defineConfig({
 			target: "esnext",
 			assetsInlineLimit: 100000000,
 			chunkSizeWarningLimit: 100000000,
-			cssCodeSplit: false,
-			brotliSize: false,
+			cssCodeSplit: true,
+			brotliSize: true,
 			rollupOptions: {
 				inlineDynamicImports: true,
 				output: {
