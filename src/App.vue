@@ -5,9 +5,7 @@
 </script>
 
 <template>
-   <app-header />
    <app-container />
-   <app-footer />
 </template>
 
 <style lang="scss">
