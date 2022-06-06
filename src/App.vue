@@ -6,6 +6,7 @@
 
 <template>
    <app-container />
+   <app-footer />
 </template>
 
 <style lang="scss">
