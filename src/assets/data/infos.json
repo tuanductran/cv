@@ -1,5 +1,5 @@
 {
-    "color": "#fe2c55",
+    "color": "#FC2954",
     "body": "#4c5267",
  
     "navbar": {
@@ -10,8 +10,7 @@
           "#experiences": "Kinh nghiệm",
           "#projects": "Sản phẩm",
           "#clients": "Khách hàng",
-          "#coverletter": "Thư xin việc",
-          "https://frontend.tuanducdesign.com/assets/cv/CV_Tran_Tuan_Duc_Front_end.pdf": "Tải CV"
+          "#coverletter": "Thư xin việc"
        }
     },
  
