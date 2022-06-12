@@ -18,7 +18,7 @@ jobs:
         KEY: ${{ secrets.SSHKEY }}
       with:
         source: "."
-        target: "/www/wwwroot/cv.tuanducdesign.com"
+        target: ${{ secrets.PROJECT_PATH }}
 
     - name: Executing remote command
       uses: appleboy/ssh-action@master
@@ -27,4 +27,4 @@ jobs:
         USERNAME: ${{ secrets.USERNAME }}
         PORT: ${{ secrets.PORT }}
         KEY: ${{ secrets.SSHKEY }}
-        script: ls && cd /www/wwwroot/cv.tuanducdesign.com/ && yarn install && yarn build
+        script: ls && cd ${{ secrets.PROJECT_PATH }} && yarn install && yarn build
