@@ -2,16 +2,10 @@
    import { inject, ref, computed } from "@vue/runtime-core"
 
    const isCollapsed = ref(true)
-   //const isDark = ref(true)
 
    // extract some keys from the infos.json
    const { navbar: { links }, sections: { intro }} = inject('infos')
 
-
-   //function toggleMode () {
-   //   isDark.value = !isDark.value
-   //   document.documentElement.classList.toggle('dark')
-   //}
    function toggleCollapse () {
       isCollapsed.value = !isCollapsed.value
       document.documentElement.classList.toggle('vn-collapsed')
