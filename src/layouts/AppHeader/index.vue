@@ -17,8 +17,8 @@
       <div class="flex items-center container mx-auto px-5 md:px-9 lg:px-16 xl:px-36 2xl:px-52">
          <!-- Logo -->
          <a href="/">
-      	    <img class="w-full rounded-full" :alt="`${ intro.fullname } photo`" :src="`./assets/${ intro.avatar }`" loading="lazy" deasync="true">
-      	 </a>
+      	    {{ intro.fullname }}
+         </a>
          <!-- End Logo -->
          <!-- Three bars menu (only apears on mobile) -->
          <button @click="toggleCollapse" class="ml-auto md:hidden">
