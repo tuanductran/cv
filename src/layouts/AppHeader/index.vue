@@ -2,16 +2,16 @@
    import { inject, ref, computed } from "@vue/runtime-core"
 
    const isCollapsed = ref(true)
-   const isDark = ref(true)
+   //const isDark = ref(true)
 
    // extract some keys from the infos.json
    const { navbar: { links }, sections: { intro }} = inject('infos')
 
 
-   function toggleMode () {
-      isDark.value = !isDark.value
-      document.documentElement.classList.toggle('dark')
-   }
+   //function toggleMode () {
+   //   isDark.value = !isDark.value
+   //   document.documentElement.classList.toggle('dark')
+   //}
    function toggleCollapse () {
       isCollapsed.value = !isCollapsed.value
       document.documentElement.classList.toggle('vn-collapsed')
@@ -21,12 +21,6 @@
 <template>
    <nav class="fixed dark:fixed z-20 top-0 left-0 right-0 bg-white dark:bg-navbar-dark py-3 lg:py-4 shadow-sm">
       <div class="flex items-center container mx-auto px-5 md:px-9 lg:px-16 xl:px-36 2xl:px-52">
-         <!-- Dark/Light mode toggle button -->
-         <button @click="toggleMode" class="mr-auto md:hidden">
-            <i v-if="isDark" class="fa fa-sun-o"></i>
-            <i v-else class="fa fa-moon-o"></i>
-         </button>
-         <!-- End toogle button -->
          <!-- Three bars menu (only apears on mobile) -->
          <button @click="toggleCollapse" class="ml-auto md:hidden">
             <i v-if="isCollapsed" class="fa fa-bars"></i>
@@ -44,12 +38,6 @@
             <!-- End menu links -->
       	</ul>
          <!-- End Navbar menu -->
-         <!-- Dark/Light mode toggle button -->
-         <button @click="toggleMode" class="ml-auto hidden lg:flex">
-            <i v-if="isDark" class="fa fa-sun-o"></i>
-            <i v-else class="fa fa-moon-o"></i>
-         </button>
-         <!-- End toogle button -->
       </div>
    </nav>
 </template>
