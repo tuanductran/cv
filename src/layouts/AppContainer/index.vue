@@ -8,7 +8,7 @@
 </script>
 
 <template>
-   <main class="container mx-auto px-5 md:px-9 lg:px-16 xl:px-36 2xl:px-52">
+   <main class="container mx-auto px-5 md:px-9 lg:px-16 xl:px-36 2xl:px-52 mb-20">
       <!-- Intro -->
       <intro />
       <!-- About -->
