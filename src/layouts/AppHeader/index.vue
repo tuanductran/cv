@@ -48,4 +48,9 @@
          <!-- End toogle button -->
       </div>
    </nav>
+ <style>
+    .blured-background {
+       @apply backdrop-filter backdrop-blur-sm bg-white dark:bg-gray-800 bg-opacity-70 dark:bg-opacity-50;
+    }
+ </style>
 </template>
