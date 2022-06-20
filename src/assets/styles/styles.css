@@ -21,14 +21,29 @@
 }
 
 a:hover {
-    color: #FC2954;
+    color: #fe2c55;
+}
+
+.fixed {
+    border-bottom: 1px solid #ebecf0;
+}
+
+.vn-collapsed .vnodesign-border-navbar {
+    border-right: 1px solid #ebecf0;
 }
 
 .vnodesign-border {
     border: 1px solid #ebecf0;
 }
 
-.dark .dark\:vnodesign-border {
+footer {
+    border-top: 1px solid #ebecf0;
+}
+
+.dark .dark\:fixed,
+.dark.vn-collapsed .dark\:vnodesign-border-navbar,
+.dark .dark\:vnodesign-border,
+.dark footer {
     border-color: rgba(255, 255, 255, 0.2);
 }
 
