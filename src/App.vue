@@ -1,11 +1,12 @@
 <script setup>
    import AppContainer from './layouts/AppContainer/index.vue'
    // import AppHeader from './layouts/AppHeader/index.vue'
-   // import AppFooter from './layouts/AppFooter/index.vue'
+   import AppFooter from './layouts/AppFooter/index.vue'
 </script>
 
 <template>
    <app-container />
+   <app-footer />
 </template>
 
 <style lang="scss">
