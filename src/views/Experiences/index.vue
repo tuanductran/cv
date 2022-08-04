@@ -14,13 +14,13 @@
                :key="`xp-${ k }`"
             >
                <!-- Experience details -->
-               <div class="mx-4">
+               <div>
                   <!-- Experience period -->
                   <small class="text-main-color font-semibold xl:text-lg">{{ periode }}</small>
                   <!-- End Experience period -->
                   
                   <!-- Experience title & company -->
-                  <h2 class="font-bold text-xl 2xl:text-2xl my-4">
+                  <h2 class="font-bold text-xl 2xl:text-2xl my-2">
                      {{ jobtitle }} tại {{ company }}
                   </h2>
                   <!-- End Experience title & company -->
