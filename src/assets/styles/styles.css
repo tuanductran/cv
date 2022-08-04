@@ -16,6 +16,7 @@
 .dark .dark\:bg-navbar-dark,
 .dark .dark\:bg-footer-dark,
 .dark .dark\:bg-product-dark,
+.dark .dark\:bg-client-dark,
 .dark .dark\:bg-coverletter-dark {
     background-color: #242526;
 }
