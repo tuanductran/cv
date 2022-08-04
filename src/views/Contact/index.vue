@@ -12,13 +12,13 @@
            <label class="label">
              <span class="label-text">Địa chỉ Email:</span>
            </label>
-           <input type="email" name="email" placeholder="Địa chỉ Email" class="input input-bordered w-full" required />
+           <input type="email" name="email" placeholder="Địa chỉ Email" class="input input-bordered bg-contact-dark w-full" required />
          </div>
          <div class="form-control w-full">
            <label class="label">
              <span class="label-text">Họ và tên:</span>
            </label>
-           <input type="fullname" name="fullname" placeholder="Họ và tên" class="input input-bordered w-full" required />
+           <input type="fullname" name="fullname" placeholder="Họ và tên" class="input input-bordered bg-contact-dark w-full" required />
          </div>
          <div class="form-control w-full">
            <label class="label">

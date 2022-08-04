@@ -17,8 +17,13 @@
 .dark .dark\:bg-footer-dark,
 .dark .dark\:bg-product-dark,
 .dark .dark\:bg-client-dark,
-.dark .dark\:bg-coverletter-dark {
+.dark .dark\:bg-coverletter-dark,
+.dark .dark\:bg-contact-dark {
     background-color: #242526;
+}
+
+.input {
+    background-color: #fff;
 }
 
 a:hover {
