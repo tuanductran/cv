@@ -13,7 +13,7 @@
 
 <template>
    <section id="cv">
-         <div class="grid grid-cols-1 lg:grid-cols-2 gap-10 py-3 mt-3">
+         <div class="grid grid-cols-1 lg:grid-cols-2 gap-10 py-10 md:py-14 lg:py-16 mt-3">
             <!-- Personal information -->
             <div>
                <h2 class="text-main-color font-bold mb-5">
