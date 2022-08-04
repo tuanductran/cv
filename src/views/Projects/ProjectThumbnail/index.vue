@@ -5,5 +5,7 @@
 </script>
 
 <template>
-     <img :src="`./assets/projects/${ project.thumbnail }`" :alt="project.title" loading="lazy" deasync="true">
+  <figure>
+     <img :src="`./assets/projects/${ project.thumbnail }`" :alt="project.title" loading="lazy" deasync="true" />
+  </figure>
 </template>
