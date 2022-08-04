@@ -22,7 +22,7 @@
       <clients />
       <!-- Coverletter -->
       <CoverLetter />
-      <-- Contact -->
+      <!-- Contact -->
       <contact />
    </main>
 </template>
