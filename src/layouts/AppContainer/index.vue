@@ -5,7 +5,7 @@
    import Projects from '../../views/Projects/index.vue'
    import Clients from '../../views/Clients/index.vue'
    import CoverLetter from '../../views/CoverLetter/index.vue'
-   import Contact from '../...views/Contact/index.vue'
+   import Contact from '../.../views/Contact/index.vue'
 </script>
 
 <template>
