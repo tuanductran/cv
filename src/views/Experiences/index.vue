@@ -1,5 +1,5 @@
 <script setup>
-   import { inject, computed } from '@vue/runtime-core'
+   import { inject } from '@vue/runtime-core'
 
    const { sections: { experiences }} = inject('infos')
 </script>
