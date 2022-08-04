@@ -16,7 +16,7 @@
          </div>
          <!-- End avatar -->
          <!-- Fullname -->
-         <h1 class="text-3xl lg:text-4xl xl:text-5xl font-bold">
+         <h1 class="text-3xl lg:text-4xl xl:text-5xl font-bold mt-3">
             {{ intro.fullname }}
          </h1>
          <!-- End fullname -->
