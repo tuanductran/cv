@@ -9,7 +9,7 @@
       <section-content title="Kinh nghiệm làm việc">
          <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
             <div
-               class="flex bg-white dark:bg-exp-dark rounded-lg 2xl:rounded-xl p-5 vnodesign-border dark:vnodesign-border"
+               class="flex bg-white dark:bg-exp-dark rounded-lg 2xl:rounded-xl p-3 vnodesign-border dark:vnodesign-border"
                v-for="{ periode, jobtitle, company, tasks }, k in experiences"
                :key="`xp-${ k }`"
             >
@@ -20,7 +20,7 @@
                   <!-- End Experience period -->
                   
                   <!-- Experience title & company -->
-                  <h2 class="font-bold text-xl 2xl:text-2xl mb-4">
+                  <h2 class="font-bold text-xl 2xl:text-2xl my-4">
                      {{ jobtitle }} tại {{ company }}
                   </h2>
                   <!-- End Experience title & company -->
