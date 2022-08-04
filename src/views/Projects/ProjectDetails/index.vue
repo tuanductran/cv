@@ -16,7 +16,7 @@
           {{ description }}
     </p>
     <div class="card-actions justify-end">
-      <div class="badge badge-outline" v-for="tech, k in project.builtWidth" :key="k">
+      <div class="badge badge-outline mx-3" v-for="tech, k in project.builtWidth" :key="k">
           {{ tech }}
       </div>
     </div>
