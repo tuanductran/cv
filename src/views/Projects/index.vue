@@ -10,7 +10,7 @@
 <template>
    <section id="projects">
       <section-content title="Sản phẩm">
-         <div class="xl:grid gap-10 2xl:grid-cols-3">
+         <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10">
            <div class="card w-full bg-white dark:bg-product">
               <figure>
                 <project-thumbnail :project="project"/>
