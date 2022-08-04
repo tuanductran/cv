@@ -5,24 +5,30 @@
 </script>
 
 <template>
-   <section id="contact" class="mt-20 py-10 md:py-14 lg:py-16">
-      <!-- Social links -->
-      <ul class="flex mt-5 w-max mx-auto">
-         <!-- Email icon -->
-         <li class="group w-9 h-9 text-sm border border-main-color rounded-full center-element mr-3 transition-all hover:bg-main-color">
-            <a aria-label="Send Mail" :href="`mailto:${ contact.email }`" class="text-main-color group-hover:text-white dark:group-hover:text-gray-800">
-               <i class="fa fa-envelope"></i>
-            </a>
-         </li>
-         <!-- End Email icon -->
-         <!-- Social media icons -->
-         <li class="group w-9 h-9 text-sm border border-main-color rounded-full center-element mr-3 last:mr-0 transition-all hover:bg-main-color" v-for="link, icon in contact.social" :key="icon"
-         >
-            <a class="text-main-color group-hover:text-white dark:group-hover:text-gray-800" :href="link" :aria-label="`${ icon } logo`" >
-               <i :class="`fa fa-${ icon }`"></i>
-            </a>
-         </li>
-         <!-- End Social media icons -->
-      </ul>
+   <section id="contact">
+   <section-content title="Liên hệ">
+      <form id="send_job" action="https://formspree.io/f/mknkawry" method="POST">
+         <div class="form-control w-full">
+           <label class="label">
+             <span class="label-text">Địa chỉ Email:</span>
+           </label>
+           <input type="email" name="email" placeholder="Địa chỉ Email" class="input input-bordered dark:bg-contact-dark w-full" required />
+         </div>
+         <div class="form-control w-full">
+           <label class="label">
+             <span class="label-text">Họ và tên:</span>
+           </label>
+           <input type="fullname" name="fullname" placeholder="Họ và tên" class="input input-bordered dark:bg-contact-dark w-full" required />
+         </div>
+         <div class="form-control w-full">
+           <label class="label">
+             <span class="label-text">Nội dung gửi đi:</span>
+           </label>
+           <textarea class="textarea textarea-bordered dark:bg-contact-dark h-24" placeholder="Nhập nội dung mà bạn muốn gửi đến tôi ở đây" required></textarea>
+         </div>
+         <button id="submit_job" type="submit" class="btn btn-outline my-5">Send</button>
+         <p id="send__job__status" class="text-main-color"></p>
+      </form>
+   </section-content>
    </section>
 </template>
