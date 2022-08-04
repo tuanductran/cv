@@ -5,9 +5,7 @@
 </script>
 
 <template>
-   <div class="relative">
-      <!-- Client thumbnail -->
-      <img class="w-full rounded-xl" :src="`./assets/clients/${ client.thumbnail }`" :alt="client.title" loading="lazy" deasync="true">
-      <!-- End Client thumbnail -->
-   </div>
+   <figure>
+      <img :src="`./assets/clients/${ client.thumbnail }`" :alt="client.title" loading="lazy" deasync="true" />
+   </figure>
 </template>
