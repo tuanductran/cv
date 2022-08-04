@@ -21,9 +21,9 @@
          </h1>
          <!-- End fullname -->
          <!-- Role -->
-         <span class="text-main-color font-semibold text-lg">
+         <p class="text-main-color font-semibold text-lg mt-3">
             {{ intro.role }}
-         </span>
+         </p>
          <!-- End Role -->
          <!-- Github -->
          <a class="text-sm border border-main-color w-max block mt-3 py-2 px-3 text-main-color rounded-full" role="button" :href="intro.links[projectLinks]" title="Xem thêm trên Github" target="_blank" onClick="ga('event', 'ProjectsLink', 'view', 'projects_link');">
