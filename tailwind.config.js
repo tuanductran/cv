@@ -4,7 +4,7 @@ const { color, body } = require('./src/assets/data/infos.json')
 module.exports = {
    mode: 'jit',
    darkMode: 'class',
-
+   important: true,
    theme: {
       extend: {
          colors: {
