@@ -7,7 +7,7 @@
 <template>
    <section id="experiences">
       <section-content title="Kinh nghiệm làm việc">
-         <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+         <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5">
             <div
                class="flex bg-white dark:bg-exp-dark rounded-lg 2xl:rounded-xl p-3 vnodesign-border dark:vnodesign-border"
                v-for="{ periode, jobtitle, company, tasks }, k in experiences"
