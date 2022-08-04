@@ -1,5 +1,5 @@
 <script setup>
-   import { inject, computed } from "@vue/runtime-core"
+   import { inject } from "@vue/runtime-core"
    
    import ClientThumbnail from './ClientThumbnail/index.vue'
    import ClientDetails from './ClientDetails/index.vue'
@@ -10,15 +10,11 @@
 <template>
    <section id="clients">
       <section-content title="Khách Hàng">
-         <div class="xl:grid gap-10 2xl:grid-cols-3">
-            <article class="mb-10 md:mb-10 xl:mb-16 2xl:mb-5 last:mb-0" v-for="client, k in clients" :key="k">
-               <figure class="grid md:grid-cols-2 2xl:grid-cols-1 md:gap-4 lg:gap-7">
-                  <!-- Clients thumbnail -->
-                  <client-thumbnail :client="client"/>
-                  <!-- Clients details -->
-                  <client-details :client="client"/>
-               </figure>
-            </article>
+         <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10">
+           <div class="card w-full bg-white dark:bg-client-dark vnodesign-border dark:vnodesign-border" v-for="client, k in clients" :key="k">
+                <client-thumbnail :client="client"/>
+                <client-details :client="client"/>
+           </div>
          </div>
       </section-content>
    </section>
