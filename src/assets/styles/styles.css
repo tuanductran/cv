@@ -22,7 +22,8 @@
     background-color: #242526;
 }
 
-.input {
+.input,
+.textarea {
     background-color: #fff;
 }
 
