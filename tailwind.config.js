@@ -34,8 +34,6 @@ module.exports = {
 
    purge: [
       './index.html',
-      './src/**/*.vue',
-      './src/**/*.vue',
-      './node_modules/vue3-carousel/dist/**/*.js'
+      './src/**/*.vue'
    ]
 }
