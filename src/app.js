@@ -58,3 +58,34 @@ window.dataLayer = window.dataLayer || [];
 function gtag(){dataLayer.push(arguments);}
 gtag('js', new Date());
 gtag('config', 'UA-175649416-2');
+// Create handlesubmit form
+var form = document.getElementById("send__job");
+    
+    async function handleSubmit(event) {
+      event.preventDefault();
+      var status = document.getElementById("send__job__status");
+      var data = new FormData(event.target);
+      fetch(event.target.action, {
+        method: form.method,
+        body: data,
+        headers: {
+            'Accept': 'application/json'
+        }
+      }).then(response => {
+        if (response.ok) {
+          status.innerHTML = "Thank you for the information about this job, I have received your e-mail!";
+          form.reset()
+        } else {
+          response.json().then(data => {
+            if (Object.hasOwn(data, 'errors')) {
+              status.innerHTML = data["errors"].map(error => error["message"]).join(", ")
+            } else {
+              status.innerHTML = "Sorry! An error occurred when you submitted information about this job, please try reloading the page to try again!"
+            }
+          })
+        }
+      }).catch(error => {
+        status.innerHTML = "Sorry! An error occurred when you submitted information about this job, please try reloading the page to try again!"
+      });
+    }
+    form.addEventListener("submit", handleSubmit)
