@@ -1,6 +1,6 @@
 {
-  "name": "cvtuanducdesign",
-  "version": "1.0",
+  "name": "cv",
+  "version": "1.0.0",
   "scripts": {
     "dev": "vite --host",
     "build": "vite build",
