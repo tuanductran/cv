@@ -98,15 +98,15 @@ let showModal = document.getElementById("show__modal");
 let hideModal = document.getElementById("hide__modal");
 // Show when click
 showModal.onclick = function() {
-    modal.add = "modal-open";
+    modal.add("modal-open")
 }
 // Hide when click
 hideModal.onclick = function() {
-    modal.remove = "modal-open";
+    modal.remove("modal-open")
 }
 // The modal will close when the user clicks anywhere outside the modal
 window.onclick = function(event) {
     if (event.target == modal) {
-        modal.remove = "modal-open";
+        modal.remove("modal-open")
     }
 }
