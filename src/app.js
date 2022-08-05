@@ -93,21 +93,20 @@ var form = document.getElementById("send__job");
     }
     form.addEventListener("submit", handleSubmit)
 // Create show modal
-let getModal = document.getElementById("view_coverletter");
-const modalList = getModal.classList;
+let modal = document.getElementById("view_coverletter").classList;
 let showModal = document.getElementById("show__modal");
 let hideModal = document.getElementById("hide__modal");
 // Show when click
 showModal.onclick = function() {
-    modalList.add = "modal-open";
+    modal.add = "modal-open";
 }
 // Hide when click
 hideModal.onclick = function() {
-    modalList.remove = "modal-open";
+    modal.remove = "modal-open";
 }
 // The modal will close when the user clicks anywhere outside the modal
 window.onclick = function(event) {
-    if (event.target == getModal) {
-        modalList.remove = "modal-open";
+    if (event.target == modal) {
+        modal.remove = "modal-open";
     }
 }
