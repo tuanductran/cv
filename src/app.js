@@ -92,3 +92,15 @@ var form = document.getElementById("send__job");
       });
     }
     form.addEventListener("submit", handleSubmit)
+// Create show modal
+let modal = document.getElementById("view_coverletter");
+let showModal = document.getElementById("show__modal");
+let hideModal = document.getElementById("hide__modal");
+// Show when click
+showModal.onclick = function() {
+    modal.className = "modal-open";
+}
+// Hide when click
+hideModal.onclick = function() {
+    modal.className = ""; // white
+}
