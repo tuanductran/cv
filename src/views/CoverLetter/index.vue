@@ -9,16 +9,15 @@
 </script>
 
 <template>
-   <section id="coverletter">
-      <section-content title="Thư xin việc">
-         <div>
-            <!-- Cover Letter information -->
-            <div class="p-5 bg-white vnodesign-border dark:bg-coverletter-dark dark:vnodesign-border rounded-lg place-items-center">
-               <p class="leading-relaxed mb-4 last:mb-0 text-color-body dark:text-white"  v-for="content, k in coverletter.content" :key="`content-${ k }`">
-                  {{ content }}
-               </p>
-            </div>
-         </div>
-      </section-content>
-   </section>
+<div class="modal" id="view_coverletter">
+  <div class="modal-box">
+    <h3 class="font-bold text-lg">Thư xin việc</h3>
+    <p class="py-4 text-color-body dark:text-white"  v-for="content, k in coverletter.content" :key="`content-${ k }`">
+      {{ content }}
+    </p>
+    <div class="modal-action">
+     <a href="#" class="btn">Đóng!</a>
+    </div>
+  </div>
+</div>
 </template>
