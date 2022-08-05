@@ -27,7 +27,7 @@
            <textarea name="content_job" class="textarea textarea-bordered dark:bg-contact-dark h-24" placeholder="Nhập nội dung mà bạn muốn gửi đến tôi ở đây" required />
          </div>
          <button id="submit_job" type="submit" class="btn bg-transparent border-main-color text-main-color my-5">
-            <i class="fa fa-paper-plane" /> Send
+            <i class="fa fa-paper-plane mr-2" /> Send
          </button>
          <p id="send__job__status"></p>
       </form>
