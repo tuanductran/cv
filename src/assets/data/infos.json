@@ -183,7 +183,14 @@
           "social": {
              "facebook-f": "https://facebook.com/tuanducdesign",
              "instagram": "https://instagram.com/mi.profile.56"
-          }
+          },
+          "actionForm": "",
+          "form": [{
+             "form-label": "Địa chỉ email:",
+             "form-name": "email",
+             "form-type": "email",
+             "form-input": "Nhập địa chỉ Email của bạn"
+         }]
        }
     }
  }
