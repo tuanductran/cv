@@ -104,3 +104,9 @@ showModal.onclick = function() {
 hideModal.onclick = function() {
     modal.className = ""; // white
 }
+// The modal will close when the user clicks anywhere outside the modal
+window.onclick = function(event) {
+    if (event.target == modal) {
+        modal.className = ""; // white
+    }
+}
