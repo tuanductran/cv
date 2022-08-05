@@ -23,11 +23,17 @@
 }
 
 .input,
-.textarea {
+.textarea,
+.modal-box {
     background-color: #fff;
 }
 
-a:hover {
+.text-success {
+    color: #28a745;
+}
+
+a:hover,
+.text-errors {
     color: #fe2c55;
 }
 

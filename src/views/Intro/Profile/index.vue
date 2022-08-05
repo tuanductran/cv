@@ -26,11 +26,17 @@
          </p>
          <!-- End Role -->
          <!-- Github -->
-         <a class="text-sm border border-main-color w-max block mt-3 py-2 px-3 text-main-color rounded-full" role="button" :href="intro.links[projectLinks]" title="Xem thêm trên Github" target="_blank" onClick="ga('event', 'ProjectsLink', 'view', 'projects_link');">
-            <i :class="`fa fa-${ projectLinks } mr-2`"></i>
-            <span>Xem thêm trên Github</span>
+         <a class="badge bg-transparent border-main-color w-max mt-3 mx-1 py-2 px-3 text-main-color" role="button" :href="intro.links[projectLinks]" title="Github Project" target="_blank" onClick="ga('event', 'ProjectsLink', 'view', 'projects_link');">
+            <i :class="`fa fa-${ projectLinks } mr-2`" />
+            <span>Github Project</span>
          </a>
          <!-- End Github -->
+         <!-- Coverletter -->
+         <a class="badge bg-transparent border-main-color w-max mt-3 mx-1 py-2 px-3 text-main-color" role="button" id="show__modal" href="#view_coverletter" title="Thư xin việc" onClick="ga('event', 'CoverletterPopup', 'view', 'coverletter_popup');">
+            <i class="fa fa-pencil mr-2" />
+            <span>Thư xin việc</span>
+         </a>
+         <!-- End Coverletter -->
       </div>
    </div>
 </template>

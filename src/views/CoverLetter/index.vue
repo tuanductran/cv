@@ -9,16 +9,17 @@
 </script>
 
 <template>
-   <section id="coverletter">
-      <section-content title="Thư xin việc">
-         <div>
-            <!-- Cover Letter information -->
-            <div class="p-5 bg-white vnodesign-border dark:bg-coverletter-dark dark:vnodesign-border rounded-lg place-items-center">
-               <p class="leading-relaxed mb-4 last:mb-0 text-color-body dark:text-white"  v-for="content, k in coverletter.content" :key="`content-${ k }`">
-                  {{ content }}
-               </p>
-            </div>
-         </div>
-      </section-content>
-   </section>
+<div class="modal modal-bottom sm:modal-middle" id="view_coverletter">
+  <div class="modal-box dark:bg-coverletter-dark">
+    <h3 class="font-bold text-lg text-color-body dark:text-white">Thư xin việc</h3>
+    <div class="divider"></div>
+    <p class="py-4 text-color-body dark:text-white"  v-for="content, k in coverletter.content" :key="`content-${ k }`">
+      {{ content }}
+    </p>
+    <div class="divider"></div>
+    <div class="modal-action">
+     <a href="#" class="btn btn-block" id="hide__modal">Đóng!</a>
+    </div>
+  </div>
+</div>
 </template>

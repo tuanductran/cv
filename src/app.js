@@ -73,13 +73,16 @@ var form = document.getElementById("send__job");
         }
       }).then(response => {
         if (response.ok) {
+          status.className = "text-success";
           status.innerHTML = "Thank you for the information about this job, I have received your e-mail!";
           form.reset()
         } else {
           response.json().then(data => {
             if (Object.hasOwn(data, 'errors')) {
+              status.className = "text-errors";
               status.innerHTML = data["errors"].map(error => error["message"]).join(", ")
             } else {
+              status.className = "text-errors";
               status.innerHTML = "Sorry! An error occurred when you submitted information about this job, please try reloading the page to try again!"
             }
           })
@@ -89,3 +92,21 @@ var form = document.getElementById("send__job");
       });
     }
     form.addEventListener("submit", handleSubmit)
+// Create show modal
+let modal = document.getElementById("view_coverletter").classList;
+let showModal = document.getElementById("show__modal");
+let hideModal = document.getElementById("hide__modal");
+// Show when click
+showModal.onclick = function() {
+    modal.add("modal-open")
+}
+// Hide when click
+hideModal.onclick = function() {
+    modal.remove("modal-open")
+}
+// The modal will close when the user clicks anywhere outside the modal
+window.onclick = function(event) {
+    if (event.target == modal) {
+        modal.remove("modal-open")
+    }
+}

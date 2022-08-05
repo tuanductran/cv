@@ -7,7 +7,7 @@
 <template>
    <section id="contact">
    <section-content title="Liên hệ">
-      <form id="send_job" action="https://formspree.io/f/mknkawry" method="POST">
+      <form name="send_job" id="send__job" action="https://formspree.io/f/xyyvglla" method="POST">
          <div class="form-control w-full">
            <label class="label">
              <span class="label-text">Địa chỉ Email:</span>
@@ -18,16 +18,18 @@
            <label class="label">
              <span class="label-text">Họ và tên:</span>
            </label>
-           <input type="fullname" name="fullname" placeholder="Họ và tên" class="input input-bordered dark:bg-contact-dark w-full" required />
+           <input type="name" name="fullname" placeholder="Họ và tên" class="input input-bordered dark:bg-contact-dark w-full" required />
          </div>
          <div class="form-control w-full">
            <label class="label">
              <span class="label-text">Nội dung gửi đi:</span>
            </label>
-           <textarea class="textarea textarea-bordered dark:bg-contact-dark h-24" placeholder="Nhập nội dung mà bạn muốn gửi đến tôi ở đây" required></textarea>
+           <textarea name="content_job" class="textarea textarea-bordered dark:bg-contact-dark h-24" placeholder="Nhập nội dung mà bạn muốn gửi đến tôi ở đây" required />
          </div>
-         <button id="submit_job" type="submit" class="btn btn-outline my-5">Send</button>
-         <p id="send__job__status" class="text-main-color"></p>
+         <button id="submit_job" type="submit" class="btn bg-transparent border-main-color text-main-color my-5">
+            <i class="fa fa-paper-plane mr-2" /> Send
+         </button>
+         <p id="send__job__status"></p>
       </form>
    </section-content>
    </section>
