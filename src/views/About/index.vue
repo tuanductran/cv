@@ -36,9 +36,7 @@
                      v-for="interest, k in about.interest"
                      :key="`interest-${ k }`"
                   >
-                     <!-- Single interest -->
                      <interest :interest="interest" />
-                     <!-- End interest -->
                   </template>
                </ul>
             </div> -->
