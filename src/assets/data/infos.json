@@ -137,7 +137,8 @@
           ],
           "builtWidth": ["ReactJS", "GatsbyJS"],
           "links": {
-             "external-link-alt": "https://tuanducdesign.com/"
+             "source-code-link": "https://github.com/vnodesign/gatsby-starter-lumen-dark",
+             "external-link-alt": "https://tuanducdesigncom.gatsbyjs.io/"
           }
        }, {
           "thumbnail": "service.png",
@@ -149,6 +150,7 @@
           ],
           "builtWidth": ["ReactJS", "GatsbyJS"],
           "links": {
+             "source-code-link": "https://github.com/vnodesign/servicetuanducdesigncom",
              "external-link-alt": "https://service.tuanducdesign.com/"
           }
        }],
