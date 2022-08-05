@@ -16,7 +16,7 @@
       {{ content }}
     </p>
     <div class="modal-action">
-     <a href="#" class="btn">Đóng!</a>
+     <a href="#" class="btn" id="hide__modal">Đóng!</a>
     </div>
   </div>
 </div>
