@@ -8,7 +8,7 @@
    <div class="card-body">
     <h2 class="card-title">
        {{ project.title }}
-       <a class="badge badge-outline p-3" href="`{{ project.sourceCodeUrl }}`" target="_blank" onClick="ga('event', 'SourceCodeUrl', 'view', 'source_code_url');">Source code</a>
+       <a class="badge badge-outline p-3" :href="`${ project.sourceCodeUrl }`" target="_blank" onClick="ga('event', 'SourceCodeUrl', 'view', 'source_code_url');">Source code</a>
     </h2>
     <p>
        <a class="text-xs lg:text-base text-main-color" v-for="link, k in project.links" :href="link" :key="k" target="_blank" onClick="ga('event', 'ProjectLink', 'view', 'project_link');">
