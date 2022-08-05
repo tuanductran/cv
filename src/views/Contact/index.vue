@@ -7,7 +7,7 @@
 <template>
    <section id="contact">
    <section-content title="Liên hệ">
-      <form name="send_job" id="send__job" action="https://formspree.io/f/mknkawry" method="POST">
+      <form name="send_job" id="send__job" action="https://formspree.io/f/xyyvglla" method="POST">
          <div class="form-control w-full">
            <label class="label">
              <span class="label-text">Địa chỉ Email:</span>
