@@ -107,7 +107,7 @@ hideModal.onclick = function() {
 }
 // The modal will close when the user clicks anywhere outside the modal
 window.onclick = function(event) {
-    if (event.target == modal) {
+    if (event.target == getModal) {
         modalList.remove = "modal-open";
     }
 }
