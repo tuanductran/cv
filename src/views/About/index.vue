@@ -1,7 +1,7 @@
 <script setup>
    import { inject } from '@vue/runtime-core'
    import Skill from './Skill/index.vue'
-   import Interest from './Interest/index.vue'
+   // import Interest from './Interest/index.vue'
    import Contacts from './ContactInfo/index.vue'
 
    /*
@@ -15,7 +15,7 @@
    <section id="cv">
          <div class="grid grid-cols-1 lg:grid-cols-2 gap-10 my-10 md:my-14 lg:my-16">
             <!-- Personal information -->
-            <div>
+            <!-- <div>
                <h2 class="text-main-color font-bold mb-5">
                   Mục tiêu nghề nghiệp
                </h2>
@@ -47,7 +47,7 @@
                   </template>
                </ul>
                <!-- End interest -->
-            </div>
+            </div> -->
 
             <div class="relative">
                <!-- Contact info -->
