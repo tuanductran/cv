@@ -23,7 +23,8 @@
 }
 
 .input,
-.textarea {
+.textarea,
+.modal {
     background-color: #fff;
 }
 
