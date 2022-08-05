@@ -73,13 +73,16 @@ var form = document.getElementById("send__job");
         }
       }).then(response => {
         if (response.ok) {
+          status.className = "text-success";
           status.innerHTML = "Thank you for the information about this job, I have received your e-mail!";
           form.reset()
         } else {
           response.json().then(data => {
             if (Object.hasOwn(data, 'errors')) {
+              status.className = "text-errors";
               status.innerHTML = data["errors"].map(error => error["message"]).join(", ")
             } else {
+              status.className = "text-errors";
               status.innerHTML = "Sorry! An error occurred when you submitted information about this job, please try reloading the page to try again!"
             }
           })
