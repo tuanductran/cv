@@ -18,7 +18,7 @@
     </p>
     <div class="divider"></div>
     <div class="modal-action">
-     <a href="#" class="btn bg-transparent border-main-color text-main-color" id="hide__modal">Đóng!</a>
+     <a href="#" class="badge bg-transparent border-main-color py-2 px-3 text-main-color" id="hide__modal">Đóng!</a>
     </div>
   </div>
 </div>
