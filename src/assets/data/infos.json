@@ -136,8 +136,8 @@
              "- Web Framework GatsbyJS, sử dụng NodeJS để deploy và xây dựng sản phẩm."
           ],
           "builtWidth": ["ReactJS", "GatsbyJS"],
+          "sourceCodeUrl": "https://github.com/vnodesign/gatsby-starter-lumen-dark",
           "links": {
-             "source-code-link": "https://github.com/vnodesign/gatsby-starter-lumen-dark",
              "external-link-alt": "https://tuanducdesigncom.gatsbyjs.io/"
           }
        }, {
@@ -149,8 +149,8 @@
              "- Web Framework GatsbyJS, sử dụng NodeJS để deploy và xây dựng sản phẩm."
           ],
           "builtWidth": ["ReactJS", "GatsbyJS"],
+          "sourceCodeUrl": "https://github.com/vnodesign/servicetuanducdesigncom",
           "links": {
-             "source-code-link": "https://github.com/vnodesign/servicetuanducdesigncom",
              "external-link-alt": "https://service.tuanducdesign.com/"
           }
        }],
