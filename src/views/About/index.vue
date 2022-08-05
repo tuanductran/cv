@@ -19,23 +19,18 @@
                <h2 class="text-main-color font-bold mb-5">
                   Mục tiêu nghề nghiệp
                </h2>
-               <!-- Bigraphy -->
                <p class="leading-relaxed mb-4 last:mb-0 text-color-body dark:text-white"  v-for="bio, k in about.bio" :key="`bio-${ k }`">
                   {{ bio }}
                </p>
-               <!-- End Bigraphy -->
                <h2 class="text-main-color font-bold mb-5">
                   Thông tin cá nhân
                </h2>
-               <!-- Bigraphy -->
                <p class="leading-relaxed mb-4 last:mb-0 text-color-body dark:text-white"  v-for="personal_information, k in about.personal_information" :key="`personal_information-${ k }`">
                   {{ personal_information }}
                </p>
-               <!-- End Bigraphy -->
                <h2 class="text-main-color font-bold mb-5">
                   Sở thích
                </h2>
-               <!-- interest -->
                <ul class="mt-5 grid grid-cols-3 gap-8">
                   <template 
                      v-for="interest, k in about.interest"
@@ -46,7 +41,6 @@
                      <!-- End interest -->
                   </template>
                </ul>
-               <!-- End interest -->
             </div> -->
 
             <div class="relative">
