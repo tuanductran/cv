@@ -9,8 +9,8 @@
 </script>
 
 <template>
-<div class="modal dark:bg-coverletter-dark modal-bottom sm:modal-middle" id="view_coverletter">
-  <div class="modal-box">
+<div class="modal modal-bottom sm:modal-middle" id="view_coverletter">
+  <div class="modal-box dark:bg-coverletter-dark">
     <h3 class="font-bold text-lg text-color-body dark:text-white">Thư xin việc</h3>
     <div class="divider"></div>
     <p class="py-4 text-color-body dark:text-white"  v-for="content, k in coverletter.content" :key="`content-${ k }`">
