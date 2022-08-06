@@ -10,10 +10,10 @@
 
 <template>
 <div class="modal modal-bottom sm:modal-middle" id="view_coverletter">
-  <div class="modal-box dark:bg-coverletter-dark">
-    <h3 class="font-bold text-lg text-color-body dark:text-white">Thư xin việc</h3>
+  <div class="modal-box bg-coverletter">
+    <h3 class="font-bold text-lg text-color-body">Thư xin việc</h3>
     <div class="divider"></div>
-    <p class="my-4 text-color-body dark:text-white" v-for="content, k in coverletter.content" :key="`content-${ k }`">
+    <p class="my-4 text-color-body" v-for="content, k in coverletter.content" :key="`content-${ k }`">
       {{ content }}
     </p>
     <div class="divider"></div>
