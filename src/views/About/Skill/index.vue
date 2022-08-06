@@ -5,13 +5,9 @@
 </script>
 
 <template>
-   <li>
-      <h3 class="capitalize flex">
+   <p class="leading-relaxed mb-4 last:mb-0 text-color-body dark:text-white">
          <!-- Skill name -->
-         <span class="text-sm font-bold">
-            {{ skill }}
-         </span>
+         {{ skill }}
          <!-- End Skill name -->
-      </h3>
-   </li>
+   </p>
 </template>
