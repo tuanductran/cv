@@ -41,8 +41,6 @@
                   </template>
                </ul>
             -->
-            </div>
-            <div>
                <!-- Contact info -->
                <h2 class="text-main-color font-bold mb-2">
                   Thông tin liên hệ
