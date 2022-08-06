@@ -3,23 +3,52 @@
 @import 'tailwindcss/utilities';
 @import 'font-awesome/css/font-awesome.css';
 
-.bg-body-light {
+@media (prefers-color-scheme: light) {
+body {
     background-color: #f7f9fb;
 }
+footer {
+    border-top: 1px solid #ebecf0;
+}
+.fixed {
+    border-bottom: 1px solid #ebecf0;
+}
 
-.dark .dark\:bg-body-dark {
+.vn-collapsed .vnodesign-border-navbar {
+    border-right: 1px solid #ebecf0;
+}
+
+.vnodesign-border {
+    border: 1px solid #ebecf0;
+}
+}
+
+@media (prefers-color-scheme: dark) {
+body {
     background-color: #18191a;
 }
 
-.dark .dark\:bg-exp-dark,
-.dark .dark\:bg-title-dark,
-.dark .dark\:bg-navbar-dark,
-.dark .dark\:bg-footer-dark,
-.dark .dark\:bg-product-dark,
-.dark .dark\:bg-client-dark,
-.dark .dark\:bg-coverletter-dark,
-.dark .dark\:bg-contact-dark {
+.bg-exp,
+.bg-title,
+navbar,
+footer,
+.bg-product,
+.bg-client,
+.bg-coverletter,
+.bg-contact {
     background-color: #242526;
+}
+
+.fixed,
+.vn-collapsed .vnodesign-border-navbar,
+vnodesign-border,
+footer {
+    border-color: rgba(255, 255, 255, 0.2);
+}
+
+img {
+    filter: brightness(75%);
+}
 }
 
 .input,
@@ -37,39 +66,12 @@ a:hover,
     color: #fe2c55;
 }
 
-.fixed {
-    border-bottom: 1px solid #ebecf0;
-}
-
-.vn-collapsed .vnodesign-border-navbar {
-    border-right: 1px solid #ebecf0;
-}
-
-.vnodesign-border {
-    border: 1px solid #ebecf0;
-}
-
 .vnodesign-border-color {
     border-color: #FC2954 !important;
 }
 
 .bg-vnodesign {
     background: #FC2954 !important;
-}
-
-footer {
-    border-top: 1px solid #ebecf0;
-}
-
-.dark .dark\:fixed,
-.dark.vn-collapsed .dark\:vnodesign-border-navbar,
-.dark .dark\:vnodesign-border,
-.dark footer {
-    border-color: rgba(255, 255, 255, 0.2);
-}
-
-.dark img {
-    filter: brightness(75%);
 }
 
 h1,
