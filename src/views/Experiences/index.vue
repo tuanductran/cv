@@ -27,7 +27,7 @@
 
                   <!-- Experience tasks -->
                   <p
-                     class="mb-3 last:mb-0 text-sm xl:text-base text-color-body"
+                     class="mb-3 last:mb-0 text-sm xl:text-base"
                      v-for="task, k in tasks" :key="`task-${ k }`"
                   >
                      {{ task }}
