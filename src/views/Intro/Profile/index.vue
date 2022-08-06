@@ -26,13 +26,13 @@
          </p>
          <!-- End Role -->
          <!-- Github -->
-          <a class="btn btn-sm md:btn-md btn-outline gap-2 normal-case lg:gap-3 mx-2" role="button" :href="intro.links[projectLinks]" title="Github Project" target="_blank" onClick="ga('event', 'ProjectsLink', 'view', 'projects_link');">
+          <!-- <a class="btn btn-sm md:btn-md btn-outline gap-2 normal-case lg:gap-3 mt-2" role="button" :href="intro.links[projectLinks]" title="Github Project" target="_blank" onClick="ga('event', 'ProjectsLink', 'view', 'projects_link');">
              <i :class="`fa fa-${ projectLinks } mr-2`" />
              <span>Github Project</span>
-          </a>
+          </a> -->
           <!-- End Github -->
           <!-- Coverletter -->
-          <a class="btn btn-sm md:btn-md gap-2 normal-case lg:gap-3 mx-2" role="button" id="show__modal" href="#view_coverletter" title="Thư xin việc" onClick="ga('event', 'CoverletterPopup', 'view', 'coverletter_popup');">
+          <a class="btn btn-sm md:btn-md gap-2 normal-case lg:gap-3 mt-2" role="button" id="show__modal" href="#view_coverletter" title="Thư xin việc" onClick="ga('event', 'CoverletterPopup', 'view', 'coverletter_popup');">
              <i class="fa fa-pencil mr-2" />
              <span>Thư xin việc</span>
           </a>
