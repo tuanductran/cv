@@ -50,7 +50,7 @@ a:hover,
 }
 
 .vnodesign-border-color {
-    border-color: #FC2954;
+    border-color: #FC2954 !important;
 }
 
 .bg-vnodesign {
