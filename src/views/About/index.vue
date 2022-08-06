@@ -67,12 +67,12 @@
                   </a>
                </p>
                <!-- Certificate -->
-               <!-- <h2 class="text-main-color font-bold mb-5">
+               <h2 class="text-main-color font-bold mb-2">
                   Chứng chỉ
                </h2>
-               <p class="leading-relaxed mb-4 last:mb-0 text-color-body dark:text-white" v-for="certificate, k in about.certificate" :key="`certificate-${ k }`">
-                  {{ certificate }}
-               </p> -->
+               <p class="leading-relaxed mb-2 last:mb-0 text-color-body dark:text-white" v-for="certification, k in about.certification" :key="`certification-${ k }`">
+                  {{ certification }}
+               </p>
             </div>
             <div>
             <!-- Skills -->
