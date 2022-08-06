@@ -78,16 +78,14 @@
                   Kỹ năng
                </h2>
                <!-- Skills list -->
-               <ul class="mt-5 grid grid-cols-3 gap-8">
-                  <template 
+               <template 
                      v-for="skill, k in about.skills"
                      :key="`skill-${ k }`"
                   >
                      <!-- Single skill -->
                      <skill :skill="skill" />
                      <!-- End Single skill -->
-                  </template>
-               </ul>
+               </template>
                <!-- End skills list -->
             </div>
          </div>
