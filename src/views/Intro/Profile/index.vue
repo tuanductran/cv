@@ -10,26 +10,30 @@
    <div class="order-1">
       <!-- Personal infos -->
       <div class="relative">
+         <div class="profile-container flex items-center justify-center space-x-4 text-left">
          <!-- Avatar -->
-         <div class="cv-author mx-auto ring ring-primary ring-offset-base-100 ring-offset-2">
-            <img class="w-full rounded-full" :alt="`${ intro.fullname } photo`" :src="`./assets/${ intro.avatar }`" loading="lazy" deasync="true">
-         </div>
+            <img class="w-14 h-14 rounded-full" :alt="`${ intro.fullname } photo`" :src="`./assets/${ intro.avatar }`" loading="lazy" deasync="true">
          <!-- End avatar -->
+         <div>
          <!-- Fullname -->
-         <h1 class="text-3xl lg:text-4xl xl:text-5xl font-bold mt-3">
+         <h1 class="font-semibold">
             {{ intro.fullname }}
-            <a class="badge" role="button" :href="intro.links[projectLinks]" title="Github Project" target="_blank" onClick="ga('event', 'ProjectsLink', 'view', 'projects_link');">
-             <i :class="`fa fa-${ projectLinks }`" />
-            </a>
          </h1>
          <!-- End fullname -->
          <!-- Role -->
-         <p class="text-main-color font-semibold text-lg mt-3">
+         <p class="text-main-color font-semibold mt-0.5">
             {{ intro.role }}
          </p>
          <!-- End Role -->
+         </div>
+         </div>
+         <!-- Github -->
+         <a class="btn btn-sm md:btn-md gap-2 normal-case lg:gap-3 mt-2 flex items-center" role="button" :href="intro.links[projectLinks]" title="Github Profile" target="_blank" onClick="ga('event', 'ProjectsLink', 'view', 'projects_link');">
+             <i :class="`fa fa-${ projectLinks }`" />
+             <span>Github Profile</span>
+         </a>
          <!-- Coverletter -->
-          <a class="btn btn-sm md:btn-md gap-2 normal-case lg:gap-3 mt-2" role="button" id="show__modal" href="#view_coverletter" title="Thư xin việc" onClick="ga('event', 'CoverletterPopup', 'view', 'coverletter_popup');">
+          <a class="btn btn-sm md:btn-md gap-2 normal-case lg:gap-3 mt-2 ml-auto flex items-center" role="button" id="show__modal" href="#view_coverletter" title="Thư xin việc" onClick="ga('event', 'CoverletterPopup', 'view', 'coverletter_popup');">
              <i class="fa fa-pencil mr-2" />
              <span>Thư xin việc</span>
           </a>
@@ -37,16 +41,3 @@
       </div>
    </div>
 </template>
-<style lang="scss">
-.cv-author {
-   width: 100px;
-   height: 100px;
-   border-radius: 120px;
-   overflow: hidden;
-   display: inline-block;
-   border: 1px solid #ccc;
-   img {
-      width: 100%
-   }
-}
-</style>
