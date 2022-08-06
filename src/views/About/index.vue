@@ -15,13 +15,14 @@
    <section id="cv">
          <div class="grid grid-cols-1 lg:grid-cols-2 gap-10 my-10 md:my-14 lg:my-16">
             <!-- Personal information -->
-            <!-- <div>
+            <div>
                <h2 class="text-main-color font-bold mb-5">
                   Mục tiêu nghề nghiệp
                </h2>
-               <p class="leading-relaxed mb-4 last:mb-0 text-color-body dark:text-white"  v-for="bio, k in about.bio" :key="`bio-${ k }`">
+               <p class="leading-relaxed mb-2 last:mb-0 text-color-body dark:text-white"  v-for="bio, k in about.bio" :key="`bio-${ k }`">
                   {{ bio }}
                </p>
+            <!--
                <h2 class="text-main-color font-bold mb-5">
                   Thông tin cá nhân
                </h2>
@@ -39,7 +40,7 @@
                      <interest :interest="interest" />
                   </template>
                </ul>
-            </div> -->
+            </div>
 
             <div class="relative">
                <!-- Contact info -->
