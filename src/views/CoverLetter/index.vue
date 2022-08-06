@@ -18,7 +18,7 @@
     </p>
     <div class="divider"></div>
     <div class="modal-action">
-     <a href="#" class="btn btn-block bg-vnodesign" id="hide__modal">Đóng</a>
+     <a href="#" class="btn btn-block bg-vnodesign vnodesign-border-color" id="hide__modal">Đóng</a>
     </div>
   </div>
 </div>
