@@ -18,7 +18,7 @@
           {{ description }}
     </p>
     <div class="card-actions justify-end">
-      <a class="btn bg-vnodesign !text-white" :href="`${ project.sourceCodeUrl }`" target="_blank" onClick="ga('event', 'SourceCodeUrl', 'view', 'source_code_url');">
+      <a class="badge badge-outline p-3" :href="`${ project.sourceCodeUrl }`" target="_blank" onClick="ga('event', 'SourceCodeUrl', 'view', 'source_code_url');">
           Source code
       </a>
     </div>
