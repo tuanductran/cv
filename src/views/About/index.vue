@@ -13,10 +13,10 @@
 
 <template>
    <section id="cv">
-         <div class="grid grid-cols-1 lg:grid-cols-2 gap-10 my-10 md:my-14 lg:my-16">
+         <div class="grid grid-cols-1 lg:grid-cols-2 gap-5 my-10 md:my-14 lg:my-16">
             <!-- Personal information -->
             <div>
-               <h2 class="text-main-color font-bold mb-5">
+               <h2 class="text-main-color font-bold mb-2">
                   Mục tiêu nghề nghiệp
                </h2>
                <p class="leading-relaxed mb-2 last:mb-0 text-color-body dark:text-white"  v-for="bio, k in about.bio" :key="`bio-${ k }`">
@@ -42,10 +42,9 @@
                </ul>
             -->
             </div>
-
-            <div class="relative">
+            <div>
                <!-- Contact info -->
-               <h2 class="text-main-color font-bold mb-5">
+               <h2 class="text-main-color font-bold mb-2">
                   Thông tin liên hệ
                </h2>
                <!-- contacts info -->
@@ -67,7 +66,6 @@
                     <i class="fa fa-location-arrow mr-2" /> {{ contactinfo_address }}
                   </a>
                </p>
-               <!-- End skills list -->
                <!-- Certificate -->
                <!-- <h2 class="text-main-color font-bold mb-5">
                   Chứng chỉ
@@ -75,8 +73,10 @@
                <p class="leading-relaxed mb-4 last:mb-0 text-color-body dark:text-white" v-for="certificate, k in about.certificate" :key="`certificate-${ k }`">
                   {{ certificate }}
                </p> -->
-               <!-- Skills -->
-               <h2 class="text-main-color font-bold mb-5">
+            </div>
+            <div>
+            <!-- Skills -->
+               <h2 class="text-main-color font-bold mb-2">
                   Kỹ năng
                </h2>
                <!-- Skills list -->
