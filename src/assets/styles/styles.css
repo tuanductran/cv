@@ -50,7 +50,11 @@ a:hover,
 }
 
 .vnodesign-border-color {
-    border-color: #ebecf0;
+    border-color: #FC2954;
+}
+
+.bg-vnodesign {
+    background: #FC2954;
 }
 
 footer {
@@ -65,7 +69,7 @@ footer {
 }
 
 .dark img {
-    filter: brightness(70%);
+    filter: brightness(50%);
 }
 
 h1,
