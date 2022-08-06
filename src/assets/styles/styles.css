@@ -49,6 +49,10 @@ a:hover,
     border: 1px solid #ebecf0;
 }
 
+.vnodesign-border-color {
+    border-color: #ebecf0;
+}
+
 footer {
     border-top: 1px solid #ebecf0;
 }
