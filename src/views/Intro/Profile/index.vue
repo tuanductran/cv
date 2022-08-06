@@ -11,13 +11,16 @@
       <!-- Personal infos -->
       <div class="relative">
          <!-- Avatar -->
-         <div class="cv-author mx-auto">
+         <div class="cv-author mx-auto ring ring-primary ring-offset-base-100 ring-offset-2">
             <img class="w-full rounded-full" :alt="`${ intro.fullname } photo`" :src="`./assets/${ intro.avatar }`" loading="lazy" deasync="true">
          </div>
          <!-- End avatar -->
          <!-- Fullname -->
          <h1 class="text-3xl lg:text-4xl xl:text-5xl font-bold mt-3">
             {{ intro.fullname }}
+            <a class="badge" role="button" :href="intro.links[projectLinks]" title="Github Project" target="_blank" onClick="ga('event', 'ProjectsLink', 'view', 'projects_link');">
+             <i :class="`fa fa-${ projectLinks }`" />
+            </a>
          </h1>
          <!-- End fullname -->
          <!-- Role -->
@@ -25,18 +28,12 @@
             {{ intro.role }}
          </p>
          <!-- End Role -->
-         <!-- Github -->
-          <!-- <a class="btn btn-sm md:btn-md btn-outline gap-2 normal-case lg:gap-3 mt-2" role="button" :href="intro.links[projectLinks]" title="Github Project" target="_blank" onClick="ga('event', 'ProjectsLink', 'view', 'projects_link');">
-             <i :class="`fa fa-${ projectLinks } mr-2`" />
-             <span>Github Project</span>
-          </a> -->
-          <!-- End Github -->
-          <!-- Coverletter -->
+         <!-- Coverletter -->
           <a class="btn btn-sm md:btn-md gap-2 normal-case lg:gap-3 mt-2" role="button" id="show__modal" href="#view_coverletter" title="Thư xin việc" onClick="ga('event', 'CoverletterPopup', 'view', 'coverletter_popup');">
              <i class="fa fa-pencil mr-2" />
              <span>Thư xin việc</span>
           </a>
-          <!-- End Coverletter -->
+         <!-- End Coverletter -->
       </div>
    </div>
 </template>
