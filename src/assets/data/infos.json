@@ -26,15 +26,23 @@
        },
  
        "about": {
+
           "bio": [
              "- Ngắn hạn: Có một công việc ổn định, trở thành nhân viên xuất sắc, tích luỹ thêm nhiều kinh nghiệm, rèn luyện kỹ năng xử lý công việc hiệu quả, chính xác, nhanh chóng.",
              "- Dài hạn: Có cơ hội được làm nhân viên cấp cao và trở thành lập trình viên full stack."
           ],
+
           "personal_information": [
              "- Hoạt bát, nhiệt tình, thật thà và cẩn thận.",
              "- Thích tìm tòi, tìm hiểu, học hỏi, chinh phục những thứ, công việc mà mình chưa biết đến."
           ],
- 
+
+          "certification": [
+             "- Chứng chỉ Ubuntu with WSL tại FullStack.edu.vn",
+             "- Chứng chỉ Node & ExpressJS tại FullStack.edu.vn",
+             "- Chứng chỉ Information Technology Onboarding tại FullStack.edu.vn"
+          ],
+
           "interest": {
              "nghenhac": "Nghe nhạc",
              "vietblog": "Viết blog",
@@ -61,31 +69,15 @@
           ],
  
           "skills": {
-             "html_css": "HTML & CSS",
-             "linux": "Linux",
-             "wordpress": "WordPress",
-             "bootstrap": "Bootstrap",
-             "git": "Git",
-             "nodejs": "NodeJS",
-             "github": "GitHub",
-             "nginx": "Nginx",
-             "javascript": "JavaScript",
-             "scss": "SCSS",
-             "adobephotoshop": "Adobe Photoshop",
-             "apache": "Apache",
-             "php": "PHP",
-             "phpmyadmin": "PHPMyAdmin",
-             "laravel": "Laravel",
-             "mysql": "MySQL",
-             "vuejs": "VueJS",
-             "nuxtjs": "NuxtJS",
-             "reactjs": "ReactJS",
-             "gitlab": "GitLab",
-             "figma": "Figma"
+             "fe": "Front-end: HTML & CSS, Javascript, SCSS, Bootstrap, VueJS, NuxtJS, ReactJS",
+             "Server": "Server: Linux, Nginx, Apache, Git",
+             "be": "Back-end: WordPress, NodeJS, PHP, Laravel, MySQL, PHPMyAdmin",
+             "design": "Design: Adobe Photoshop, Figma"
           }
        },
  
        "coverletter": {
+
           "content": [
              "Em chào các anh, các chị tại công ty, em được biết công ty mình đang cần tuyển vị trí thực tập sinh Front End. Em mong muốn được thử sức mình trong môi trường làm việc hết sức năng động của công ty. Với trình độ và kinh nghiệm hiện có, em tự tin có thể đảm nhiệm tốt vai trò này tại công ty.",
              "Như em đã đề cập trong CV của mình, em đã có nhiều kinh nghiệm làm việc với Framework VueJS. Ngoài ra, em còn có kinh nghiệm về hệ điều hành Linux trong suốt thời gian sử dụng và làm việc với hệ điều hành Linux, em đã học hỏi và tìm hiểu khá nhiều về hệ thống của Linux cũng như cách bảo mật trên Linux và cách cấu hình các project lên máy chủ Nginx và Apache. Em hoàn toàn tự tin với vốn kiến thức về lĩnh vực tối ưu và bảo mật Server Linux của mình.",
@@ -94,7 +86,9 @@
           ]
        },
  
-       "experiences": [{
+       "experiences": [
+         
+         {
              "periode": "11/2021 - 01/2022",
              "jobtitle": "Thực tập Front End/Back End",
              "company": "Công Ty Cổ Phần Famtech Việt Nam",
@@ -104,6 +98,7 @@
                 "- Sử dụng Framework VueJS ở phía Front End và NodeJS ở phía Back End."
              ]
           },
+
           {
              "periode": "08/2021 - 10/2021",
              "jobtitle": "Thực tập Front End",
@@ -115,6 +110,7 @@
                 "- Sử dụng NuxtJS (VueJS Framework)."
              ]
           },
+
           {
              "periode": "09/2019 - 02/2020",
              "jobtitle": "Thực tập",
@@ -127,19 +123,23 @@
           }
        ],
  
-       "projects": [{
+       "projects": [
+
+        {
           "thumbnail": "blog.png",
-          "title": "Blog",
+          "title": "Gatsby Starter Lumen Dark",
           "description": [
              "Công nghệ sử dụng trên sản phẩm:",
              "- JavaScript Framework ReactJS.",
              "- Web Framework GatsbyJS, sử dụng NodeJS để deploy và xây dựng sản phẩm."
           ],
-          "builtWidth": ["ReactJS", "GatsbyJS"],
+          "sourceCodeUrl": "https://github.com/vnodesign/gatsby-starter-lumen-dark",
           "links": {
-             "external-link-alt": "https://tuanducdesign.com/"
+             "external-link-alt": "https://tuanducdesigncom.gatsbyjs.io/"
           }
-       }, {
+        },
+
+        {
           "thumbnail": "service.png",
           "title": "Service",
           "description": [
@@ -147,13 +147,16 @@
              "- JavaScript Framework ReactJS.",
              "- Web Framework GatsbyJS, sử dụng NodeJS để deploy và xây dựng sản phẩm."
           ],
-          "builtWidth": ["ReactJS", "GatsbyJS"],
+          "sourceCodeUrl": "https://github.com/vnodesign/servicetuanducdesigncom",
           "links": {
              "external-link-alt": "https://service.tuanducdesign.com/"
           }
-       }],
+         }
+       ],
  
-       "clients": [{
+       "clients": [
+
+        {
           "thumbnail": "lachongvien.png",
           "title": "Lạc Hồng Viên",
           "description": [
@@ -164,7 +167,9 @@
           "links": {
              "external-link-alt": "https://lachongvien.vn/"
           }
-       }, {
+        },
+
+        {
           "thumbnail": "dothotot.png",
           "title": "Đồ Thờ Tốt",
           "description": [
@@ -175,22 +180,20 @@
           "links": {
              "external-link-alt": "https://dothotot.vn/"
           }
-       }],
+        }
+       ],
  
        "contact": {
-          "email": "miumiu.official.56@gmail.com",
- 
-          "social": {
-             "facebook-f": "https://facebook.com/tuanducdesign",
-             "instagram": "https://instagram.com/mi.profile.56"
-          },
+
           "actionForm": "",
-          "form": [{
+          "form": [
+           {
              "form-label": "Địa chỉ email:",
              "form-name": "email",
              "form-type": "email",
              "form-input": "Nhập địa chỉ Email của bạn"
-         }]
+           }
+         ]
        }
     }
  }

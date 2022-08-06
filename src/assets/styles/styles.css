@@ -49,6 +49,14 @@ a:hover,
     border: 1px solid #ebecf0;
 }
 
+.vnodesign-border-color {
+    border-color: #FC2954 !important;
+}
+
+.bg-vnodesign {
+    background: #FC2954 !important;
+}
+
 footer {
     border-top: 1px solid #ebecf0;
 }
@@ -61,7 +69,7 @@ footer {
 }
 
 .dark img {
-    filter: brightness(70%);
+    filter: brightness(75%);
 }
 
 h1,
