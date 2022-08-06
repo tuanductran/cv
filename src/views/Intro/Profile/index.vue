@@ -26,7 +26,7 @@
          </p>
          <!-- End Role -->
          <!-- Github -->
-         <a class="btn btn-sm md:btn-md btn-ghost gap-2 normal-case lg:gap-3" role="button" :href="intro.links[projectLinks]" title="Github Project" target="_blank" onClick="ga('event', 'ProjectsLink', 'view', 'projects_link');">
+         <a class="btn btn-sm md:btn-md btn-outline gap-2 normal-case lg:gap-3" role="button" :href="intro.links[projectLinks]" title="Github Project" target="_blank" onClick="ga('event', 'ProjectsLink', 'view', 'projects_link');">
             <i :class="`fa fa-${ projectLinks } mr-2`" />
             <span>Github Project</span>
          </a>
