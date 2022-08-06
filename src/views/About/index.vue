@@ -64,13 +64,6 @@
                     <i class="fa fa-location-arrow mr-2" /> {{ contactinfo_address }}
                   </a>
                </p>
-               <!-- Certificate -->
-               <h2 class="text-main-color font-bold mb-2">
-                  Chứng chỉ
-               </h2>
-               <p class="leading-relaxed mb-2 last:mb-0 text-color-body dark:text-white" v-for="certification, k in about.certification" :key="`certification-${ k }`">
-                  {{ certification }}
-               </p>
             </div>
             <div>
             <!-- Skills -->
@@ -87,6 +80,13 @@
                      <!-- End Single skill -->
                </template>
                <!-- End skills list -->
+               <!-- Certificate -->
+               <h2 class="text-main-color font-bold mb-2">
+                  Chứng chỉ
+               </h2>
+               <p class="leading-relaxed mb-2 last:mb-0 text-color-body dark:text-white" v-for="certification, k in about.certification" :key="`certification-${ k }`">
+                  {{ certification }}
+               </p>
             </div>
          </div>
    </section>
