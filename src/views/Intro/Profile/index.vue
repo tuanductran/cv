@@ -11,8 +11,8 @@
       <!-- Personal infos -->
       <div class="relative">
          <!-- Avatar -->
-         <div class="cv-author mx-auto">
-            <img class="w-full rounded-full" :alt="`${ intro.fullname } photo`" :src="`./assets/${ intro.avatar }`" loading="lazy" deasync="true">
+         <div class="mx-auto">
+            <img class="w-24 h-24 rounded-full" :alt="`${ intro.fullname } photo`" :src="`./assets/${ intro.avatar }`" loading="lazy" deasync="true">
          </div>
          <!-- End avatar -->
          <!-- Fullname -->
@@ -21,7 +21,7 @@
          </h1>
          <!-- End fullname -->
          <!-- Role -->
-         <p class="text-main-color font-semibold text-lg mt-3">
+         <p class="text-main-color font-semibold text-lg">
             {{ intro.role }}
          </p>
          <!-- End Role -->
@@ -39,16 +39,3 @@
       </div>
    </div>
 </template>
-<style lang="scss">
-.cv-author {
-   width: 100px;
-   height: 100px;
-   border-radius: 120px;
-   overflow: hidden;
-   display: inline-block;
-   border: 1px solid #ccc;
-   img {
-      width: 100%
-   }
-}
-</style>
