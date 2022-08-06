@@ -12,7 +12,7 @@
            <strong>{{ link }}</strong>
        </a>
     </p>
-    <p class="leading-relaxed text-left text-color-body dark:text-white text-sm xl:text-base" v-for="description, k in client.description" :key="`description-${ k }`">
+    <p class="leading-relaxed text-left text-color-body text-sm xl:text-base" v-for="description, k in client.description" :key="`description-${ k }`">
           {{ description }}
     </p>
     <div class="card-actions justify-end">
