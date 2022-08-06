@@ -9,22 +9,27 @@
 <template>
    <div class="order-1">
       <!-- Personal infos -->
-      <div class="relative">
+      <div class="relative flex flex-col-reverse">
+         <div class="flex items-center space-x-4">
          <!-- Avatar -->
-         <div class="mx-auto">
-            <img class="w-24 h-24 rounded-full" :alt="`${ intro.fullname } photo`" :src="`./assets/${ intro.avatar }`" loading="lazy" deasync="true">
-         </div>
+         <img class="flex-none w-24 h-24 rounded-full object-cover" :alt="`${ intro.fullname } photo`" :src="`./assets/${ intro.avatar }`" loading="lazy" deasync="true">
          <!-- End avatar -->
+         <div class="flex-auto ml-2">
          <!-- Fullname -->
-         <h1 class="text-3xl lg:text-4xl xl:text-5xl font-bold mt-3">
+         <h1 class="text-3xl lg:text-4xl xl:text-5xl font-bold">
             {{ intro.fullname }}
          </h1>
          <!-- End fullname -->
          <!-- Role -->
-         <p class="text-main-color font-semibold text-lg">
+         <p class="text-main-color font-semibold text-lg mt-0.5">
             {{ intro.role }}
          </p>
          <!-- End Role -->
+         </div>
+         </div>
+      </div>
+      <!-- Action -->
+      <div class="relative mt-3">
          <!-- Github -->
          <a class="btn btn-sm md:btn-md vnodesign-border-color !bg-transparent text-main-color gap-2 normal-case lg:gap-3 mt-2" role="button" :href="intro.links[projectLinks]" title="Github Profile" target="_blank" onClick="ga('event', 'ProjectsLink', 'view', 'projects_link');">
              <i :class="`fa fa-${ projectLinks } mr-2`" />
