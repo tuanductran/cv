@@ -61,27 +61,10 @@
           ],
  
           "skills": {
-             "html_css": "HTML & CSS",
-             "linux": "Linux",
-             "wordpress": "WordPress",
-             "bootstrap": "Bootstrap",
-             "git": "Git",
-             "nodejs": "NodeJS",
-             "github": "GitHub",
-             "nginx": "Nginx",
-             "javascript": "JavaScript",
-             "scss": "SCSS",
-             "adobephotoshop": "Adobe Photoshop",
-             "apache": "Apache",
-             "php": "PHP",
-             "phpmyadmin": "PHPMyAdmin",
-             "laravel": "Laravel",
-             "mysql": "MySQL",
-             "vuejs": "VueJS",
-             "nuxtjs": "NuxtJS",
-             "reactjs": "ReactJS",
-             "gitlab": "GitLab",
-             "figma": "Figma"
+             "fe": "Front-end: HTML & CSS, Javascript, SCSS, VueJS, NuxtJS, ReactJS",
+             "Server": "Server: Linux, Nginx, Apache, Git",
+             "be": "Back-end: WordPress, NodeJS, PHP, Laravel, MySQL, PHPMyAdmin",
+             "design": "Design: Adobe Photoshop, Figma"
           }
        },
  
