@@ -5,7 +5,7 @@
 </script>
 
 <template>
-   <p class="leading-relaxed font-bold text-color-body dark:text-white">
+   <p class="leading-relaxed text-color-body dark:text-white">
          <!-- Skill name -->
          {{ skill }}
          <!-- End Skill name -->
