@@ -37,7 +37,7 @@ footer,
 .bg-client,
 .bg-coverletter,
 .bg-contact {
-    background-color: #242526;
+    background-color: #242526 !important;
 }
 
 .fixed,
