@@ -26,6 +26,7 @@ footer {
 @media (prefers-color-scheme: dark) {
 body {
     background-color: #18191a;
+    color: #ffffff;
 }
 
 .bg-exp,
