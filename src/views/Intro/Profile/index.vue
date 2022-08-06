@@ -9,12 +9,12 @@
 <template>
    <div class="order-1">
       <!-- Personal infos -->
-      <div class="relative">
-         <div class="profile-container flex items-center justify-center space-x-4 text-left">
+      <div class="relative flex flex-col-reverse">
+         <div class="flex items-center justify-center space-x-4">
          <!-- Avatar -->
-            <img class="w-14 h-14 rounded-full" :alt="`${ intro.fullname } photo`" :src="`./assets/${ intro.avatar }`" loading="lazy" deasync="true">
+            <img class="flex-none w-14 h-14 rounded-full object-cover" :alt="`${ intro.fullname } photo`" :src="`./assets/${ intro.avatar }`" loading="lazy" deasync="true">
          <!-- End avatar -->
-         <div>
+         <div class="flex-auto">
          <!-- Fullname -->
          <h1 class="font-semibold">
             {{ intro.fullname }}
@@ -27,6 +27,8 @@
          <!-- End Role -->
          </div>
          </div>
+      </div>
+      <div class="relative">
          <!-- Github -->
          <a class="btn btn-sm md:btn-md btn-outline gap-2 normal-case lg:gap-3 mt-2" role="button" :href="intro.links[projectLinks]" title="Github Profile" target="_blank" onClick="ga('event', 'ProjectsLink', 'view', 'projects_link');">
              <i :class="`fa fa-${ projectLinks } mr-2`" />
