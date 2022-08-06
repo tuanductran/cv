@@ -31,7 +31,7 @@
              <span>Github Profile</span>
          </a>
          <!-- Coverletter -->
-          <a class="btn btn-sm md:btn-md bg-vnodesign gap-2 normal-case lg:gap-3 mt-2 ml-2" role="button" id="show__modal" href="#view_coverletter" title="Thư xin việc" onClick="ga('event', 'CoverletterPopup', 'view', 'coverletter_popup');">
+          <a class="btn btn-sm md:btn-md bg-vnodesign vnodesign-border-color gap-2 normal-case lg:gap-3 mt-2 ml-2" role="button" id="show__modal" href="#view_coverletter" title="Thư xin việc" onClick="ga('event', 'CoverletterPopup', 'view', 'coverletter_popup');">
              <i class="fa fa-pencil mr-2" />
              <span>Thư xin việc</span>
           </a>
