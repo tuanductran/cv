@@ -40,6 +40,7 @@
                      <interest :interest="interest" />
                   </template>
                </ul>
+            -->
             </div>
 
             <div class="relative">
