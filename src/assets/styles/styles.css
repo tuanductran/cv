@@ -3,64 +3,12 @@
 @import 'tailwindcss/utilities';
 @import 'font-awesome/css/font-awesome.css';
 
-@media (prefers-color-scheme: light) {
 body {
     background-color: #f7f9fb;
 }
 
-.fixed {
-    border-bottom: 1px solid #ebecf0;
-}
-
-.vn-collapsed .vnodesign-border-navbar {
-    border-right: 1px solid #ebecf0;
-}
-
 .vnodesign-border {
     border: 1px solid #ebecf0;
-}
-}
-
-@media (prefers-color-scheme: dark) {
-body {
-    background-color: #18191a;
-    color: #fff !important;
-}
-
-.bg-exp,
-.bg-title,
-navbar,
-.bg-product,
-.bg-client,
-.bg-coverletter,
-.bg-contact {
-    background-color: #242526 !important;
-}
-
-.fixed,
-.vn-collapsed .vnodesign-border-navbar,
-vnodesign-border {
-    border-color: rgba(255, 255, 255, 0.2);
-}
-
-img {
-    filter: brightness(75%);
-}
-}
-
-.input,
-.textarea,
-.modal-box {
-    background-color: #fff;
-}
-
-.text-success {
-    color: #28a745;
-}
-
-a:hover,
-.text-errors {
-    color: #fe2c55;
 }
 
 .vnodesign-border-color {
