@@ -22,25 +22,6 @@
                <p class="leading-relaxed mb-2 last:mb-0"  v-for="bio, k in about.bio" :key="`bio-${ k }`">
                   {{ bio }}
                </p>
-            <!--
-               <h2 class="font-bold mb-5">
-                  Thông tin cá nhân
-               </h2>
-               <p class="leading-relaxed mb-4 last:mb-0"  v-for="personal_information, k in about.personal_information" :key="`personal_information-${ k }`">
-                  {{ personal_information }}
-               </p>
-               <h2 class="font-bold mb-5">
-                  Sở thích
-               </h2>
-               <ul class="mt-5 grid grid-cols-3 gap-8">
-                  <template 
-                     v-for="interest, k in about.interest"
-                     :key="`interest-${ k }`"
-                  >
-                     <interest :interest="interest" />
-                  </template>
-               </ul>
-            -->
                <!-- Contact info -->
                <h2 class="font-bold mb-2">
                   Thông tin liên hệ
@@ -50,19 +31,13 @@
                   {{ contactinfo_birthday }}
                </p>
                <p class="leading-relaxed mb-2 last:mb-0" v-for="contactinfo_phone, k in about.contactinfo_phone" :key="`contactinfo_phone-${ k }`">
-                  <a :href="`tel:${ contactinfo_phone }`">
-                    <span class="text-main-color">{{ contactinfo_phone }}</span>
-                  </a>
+                  {{ contactinfo_phone }}
                </p>
                <p class="leading-relaxed mb-2 last:mb-0" v-for="contactinfo_email, k in about.contactinfo_email" :key="`contactinfo_email-${ k }`">
-                  <a :href="`mailto:${ contactinfo_email }`">
-                    <span class="text-main-color">{{ contactinfo_email }}</span>
-                  </a>
+                  {{ contactinfo_email }}
                </p>
                <p class="leading-relaxed mb-2 last:mb-0" v-for="contactinfo_address, k in about.contactinfo_address" :key="`contactinfo_address-${ k }`">
-                  <a :href="`https://www.google.com.vn/search?q=${ contactinfo_address }`" target="_blank">
-                    <span class="text-main-color">{{ contactinfo_address }}</span>
-                  </a>
+                  {{ contactinfo_address }}
                </p>
             </div>
             <div>
