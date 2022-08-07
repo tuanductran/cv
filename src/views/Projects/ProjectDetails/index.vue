@@ -14,11 +14,11 @@
            <strong>{{ link }}</strong>
        </a>
     </p>
-    <p class="leading-relaxed text-left text-color-body dark:text-white text-sm xl:text-base" v-for="description, k in project.description" :key="`description-${ k }`">
+    <p class="leading-relaxed text-left text-sm xl:text-base" v-for="description, k in project.description" :key="`description-${ k }`">
           {{ description }}
     </p>
     <div class="card-actions justify-end">
-      <a class="btn bg-vnodesign !text-white" :href="`${ project.sourceCodeUrl }`" target="_blank" onClick="ga('event', 'SourceCodeUrl', 'view', 'source_code_url');">
+      <a class="badge badge-outline p-3" :href="`${ project.sourceCodeUrl }`" target="_blank" onClick="ga('event', 'SourceCodeUrl', 'view', 'source_code_url');">
           Source code
       </a>
     </div>

@@ -9,7 +9,7 @@
       <section-content title="Kinh nghiệm làm việc">
          <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5">
             <div
-               class="flex bg-white dark:bg-exp-dark rounded-lg 2xl:rounded-xl p-3 vnodesign-border dark:vnodesign-border"
+               class="flex bg-white bg-exp rounded-lg 2xl:rounded-xl p-3 vnodesign-border"
                v-for="{ periode, jobtitle, company, tasks }, k in experiences"
                :key="`xp-${ k }`"
             >
@@ -27,7 +27,7 @@
 
                   <!-- Experience tasks -->
                   <p
-                     class="mb-3 last:mb-0 text-sm xl:text-base text-color-body dark:text-white"
+                     class="mb-3 last:mb-0 text-sm xl:text-base"
                      v-for="task, k in tasks" :key="`task-${ k }`"
                   >
                      {{ task }}
