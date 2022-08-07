@@ -7,9 +7,7 @@
 body {
     background-color: #f7f9fb;
 }
-footer {
-    border-top: 1px solid #ebecf0;
-}
+
 .fixed {
     border-bottom: 1px solid #ebecf0;
 }
@@ -32,7 +30,6 @@ body {
 .bg-exp,
 .bg-title,
 navbar,
-footer,
 .bg-product,
 .bg-client,
 .bg-coverletter,
@@ -42,8 +39,7 @@ footer,
 
 .fixed,
 .vn-collapsed .vnodesign-border-navbar,
-vnodesign-border,
-footer {
+vnodesign-border {
     border-color: rgba(255, 255, 255, 0.2);
 }
 
