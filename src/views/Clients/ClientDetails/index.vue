@@ -7,18 +7,11 @@
 <template>
    <div class="card-body">
     <h2 class="card-title">{{ client.title }}</h2>
-    <p>
-       <a class="text-xs lg:text-base text-main-color" v-for="link, k in client.links" :href="link" :key="k" target="_blank" onClick="ga('event', 'ClientLink', 'view', 'client_link');">
-           <strong>{{ link }}</strong>
-       </a>
+    <p class="text-xs lg:text-base" v-for="link, k in client.links" :key="k">
+          <strong>{{ link }}</strong>
     </p>
     <p class="leading-relaxed text-left text-sm xl:text-base" v-for="description, k in client.description" :key="`description-${ k }`">
           {{ description }}
     </p>
-    <div class="card-actions justify-end">
-      <div class="badge badge-outline p-3" v-for="tech, k in client.builtWidth" :key="k">
-          {{ tech }}
-      </div>
-    </div>
   </div>
 </template>
