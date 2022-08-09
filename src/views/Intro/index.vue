@@ -3,7 +3,7 @@
 </script>
 
 <template>
-   <section id="intro" class="flex relative justify-center">
+   <section id="intro" class="flex relative pt-7 justify-center">
       <profile />
    </section>
 </template>
