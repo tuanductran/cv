@@ -70,9 +70,10 @@
  
           "skills": {
              "fe": "Front-end: HTML & CSS, Javascript, SCSS, Bootstrap, VueJS, NuxtJS, ReactJS",
-             "Server": "Server: Linux, Nginx, Apache, Git",
+             "server": "Server: Linux, Nginx, Apache, Git",
              "be": "Back-end: WordPress, NodeJS, PHP, Laravel, MySQL, PHPMyAdmin",
-             "design": "Design: Adobe Photoshop, Figma"
+             "design": "Design: Adobe Photoshop, Figma",
+             "it_support": "IT Support: Windows, Linux, MacOS, Network"
           }
        },
  
@@ -90,7 +91,7 @@
          
          {
              "periode": "11/2021 - 01/2022",
-             "jobtitle": "Thực tập Front End/Back End",
+             "jobtitle": "Thực tập Front-end & Back-end",
              "company": "Công Ty Cổ Phần Famtech Việt Nam",
              "tasks": [
                 "- Chuyển Figma sang project.",
@@ -101,7 +102,7 @@
 
           {
              "periode": "08/2021 - 10/2021",
-             "jobtitle": "Thực tập Front End",
+             "jobtitle": "Thực tập Front-end",
              "company": "Tập đoàn UKG",
              "tasks": [
                 "- Chuyển Figma sang Bootstrap.",
