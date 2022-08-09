@@ -8,6 +8,14 @@ body {
     background-color: #f7f9fb;
 }
 
+footer {
+     border-top: 1px solid #ebecf0;
+}
+
+footer {
+     background-color: #fff;
+}
+
 .fixed {
     border-bottom: 1px solid #ebecf0;
 }
@@ -30,6 +38,7 @@ body {
 .bg-exp,
 .bg-title,
 navbar,
+footer
 .bg-product,
 .bg-client,
 .bg-coverletter,
@@ -39,7 +48,8 @@ navbar,
 
 .fixed,
 .vn-collapsed .vnodesign-border-navbar,
-vnodesign-border {
+vnodesign-border,
+footer {
     border-color: rgba(255, 255, 255, 0.2);
 }
 
