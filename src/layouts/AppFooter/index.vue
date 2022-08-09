@@ -3,9 +3,9 @@
 </script>
 
 <template>
-	<footer class="flex justify-center relative py-5 mt-20">
+	<footer class="flex relative py-5 mt-20">
 		<p class="text-sm mt-5 mb-5">
-		   VNO DESIGN
+		   © vnodesign
 		</p>
 	</footer>
 </template>
