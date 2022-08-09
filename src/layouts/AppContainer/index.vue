@@ -3,7 +3,7 @@
    import About from '../../views/About/index.vue'
    import Experiences from '../../views/Experiences/index.vue'
    import Projects from '../../views/Projects/index.vue'
-   import Clients from '../../views/Clients/index.vue'
+   //import Clients from '../../views/Clients/index.vue'
    import Contact from '../../views/Contact/index.vue'
 </script>
 
@@ -18,7 +18,7 @@
       <!-- Projects -->
       <projects />
       <!-- Clients -->
-      <clients />
+      <!-- <clients /> -->
       <!-- Contact -->
       <contact />
    </main>
