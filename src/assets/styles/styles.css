@@ -48,7 +48,7 @@ footer,
 
 .fixed,
 .vn-collapsed .vnodesign-border-navbar,
-vnodesign-border,
+.vnodesign-border,
 footer {
     border-color: rgba(255, 255, 255, 0.2);
 }
