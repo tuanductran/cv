@@ -10,7 +10,7 @@
 <template>
    <section id="clients">
       <section-content title="Khách Hàng">
-         <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10">
+         <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-7">
            <div class="card w-full bg-white bg-client vnodesign-border" v-for="client, k in clients" :key="k">
                 <client-thumbnail :client="client"/>
                 <client-details :client="client"/>
