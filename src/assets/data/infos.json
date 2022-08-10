@@ -10,7 +10,7 @@
           "#experiences": "Kinh nghiệm",
           "#projects": "Sản phẩm",
           "#clients": "Khách hàng",
-          "#coverletter": "Thư xin việc"
+          "#contact": "Liên hệ"
        }
     },
  
@@ -137,6 +137,19 @@
           "sourceCodeUrl": "https://github.com/vnodesign/gatsby-starter-lumen-dark",
           "links": {
              "external-link-alt": "https://tuanducdesigncom.gatsbyjs.io/"
+          }
+        },
+
+        {
+          "thumbnail": "AAD88FFC-3BA4-4D00-B71D-3A345C4FE8F2.png",
+          "title": "Preact Landing Page",
+          "description": [
+             "Công nghệ sử dụng trên sản phẩm:",
+             "- Preact."
+          ],
+          "sourceCodeUrl": "https://github.com/vnodesign/profile.tuanducdesign.com",
+          "links": {
+             "external-link-alt": "https://me.tuanducdesign.com/"
           }
         },
 
