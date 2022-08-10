@@ -4,8 +4,8 @@
 
 <template>
 	<footer class="flex justify-center relative py-5 mt-20">
-		<p class="text-sm mt-5 mb-5">
-		   VNO DESIGN
-		</p>
+	  <p class="text-sm my-5">
+	        © {{ year }} VNO DESIGN
+	  </p>
 	</footer>
 </template>

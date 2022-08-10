@@ -10,7 +10,7 @@
           "#experiences": "Kinh nghiệm",
           "#projects": "Sản phẩm",
           "#clients": "Khách hàng",
-          "#coverletter": "Thư xin việc"
+          "#contact": "Liên hệ"
        }
     },
  
@@ -70,9 +70,10 @@
  
           "skills": {
              "fe": "Front-end: HTML & CSS, Javascript, SCSS, Bootstrap, VueJS, NuxtJS, ReactJS",
-             "Server": "Server: Linux, Nginx, Apache, Git",
+             "server": "Server: Linux, Nginx, Apache, Git",
              "be": "Back-end: WordPress, NodeJS, PHP, Laravel, MySQL, PHPMyAdmin",
-             "design": "Design: Adobe Photoshop, Figma"
+             "design": "Design: Adobe Photoshop, Figma",
+             "it_support": "IT Support: Windows, Linux, MacOS, Network"
           }
        },
  
@@ -90,7 +91,7 @@
          
          {
              "periode": "11/2021 - 01/2022",
-             "jobtitle": "Thực tập Front End/Back End",
+             "jobtitle": "Thực tập Front-end & Back-end",
              "company": "Công Ty Cổ Phần Famtech Việt Nam",
              "tasks": [
                 "- Chuyển Figma sang project.",
@@ -101,7 +102,7 @@
 
           {
              "periode": "08/2021 - 10/2021",
-             "jobtitle": "Thực tập Front End",
+             "jobtitle": "Thực tập Front-end",
              "company": "Tập đoàn UKG",
              "tasks": [
                 "- Chuyển Figma sang Bootstrap.",
@@ -126,7 +127,7 @@
        "projects": [
 
         {
-          "thumbnail": "blog.png",
+          "thumbnail": "58E905D4-EC52-4EB4-90E6-4DEBD2D69134.png",
           "title": "Gatsby Starter Lumen Dark",
           "description": [
              "Công nghệ sử dụng trên sản phẩm:",
@@ -140,7 +141,34 @@
         },
 
         {
-          "thumbnail": "service.png",
+          "thumbnail": "779E9C14-657F-4ABC-ABDF-57B69E63BB9A.png",
+          "title": "Gatsby Starter Bootstrap",
+          "description": [
+             "Công nghệ sử dụng trên sản phẩm:",
+             "- JavaScript Framework ReactJS.",
+             "- Web Framework GatsbyJS, sử dụng NodeJS để deploy và xây dựng sản phẩm."
+          ],
+          "sourceCodeUrl": "https://github.com/vnodesign/gatsby-starter-bootstrap",
+          "links": {
+             "external-link-alt": "https://gatsby-starter-bootstrap.pages.dev/"
+          }
+        },
+
+        {
+          "thumbnail": "13288A7B-C556-4DD4-81C4-FC62AAB42BBB.png",
+          "title": "Preact Landing Page",
+          "description": [
+             "Công nghệ sử dụng trên sản phẩm:",
+             "- Preact."
+          ],
+          "sourceCodeUrl": "https://github.com/vnodesign/profile.tuanducdesign.com",
+          "links": {
+             "external-link-alt": "https://me.tuanducdesign.com/"
+          }
+        },
+
+        {
+          "thumbnail": "B9B14F77-FC90-4718-AF6B-D26DBA85C409.png",
           "title": "Service",
           "description": [
              "Công nghệ sử dụng trên sản phẩm:",
