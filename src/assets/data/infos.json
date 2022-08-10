@@ -141,6 +141,20 @@
         },
 
         {
+          "thumbnail": "4D934F25-FD0C-49B6-A1C8-9409D8AE5C7F.png",
+          "title": "Gatsby Starter Bootstrap",
+          "description": [
+             "Công nghệ sử dụng trên sản phẩm:",
+             "- JavaScript Framework ReactJS.",
+             "- Web Framework GatsbyJS, sử dụng NodeJS để deploy và xây dựng sản phẩm."
+          ],
+          "sourceCodeUrl": "https://github.com/vnodesign/gatsby-starter-bootstrap",
+          "links": {
+             "external-link-alt": "https://gatsby-starter-bootstrap.pages.dev/"
+          }
+        },
+
+        {
           "thumbnail": "AAD88FFC-3BA4-4D00-B71D-3A345C4FE8F2.png",
           "title": "Preact Landing Page",
           "description": [
