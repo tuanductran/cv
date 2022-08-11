@@ -10,7 +10,7 @@
          <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5">
             <div
                class="flex bg-white bg-exp rounded-lg 2xl:rounded-xl p-3 vnodesign-border"
-               v-for="{ periode, jobtitle, company, teamsize, role, time, tasks }, k in experiences"
+               v-for="{ periode, jobtitle, company, teamsizes, roles, times, tasks }, k in experiences"
                :key="`xp-${ k }`"
             >
                <!-- Experience details -->
@@ -50,7 +50,7 @@
                   >
                      {{ task }}
                   </p>
-                  <!-- End Experience tasks -->
+                  <!-- End Experience team size, role, time and task -->
                </div>
             </div>
          </div>
