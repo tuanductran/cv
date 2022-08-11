@@ -13,8 +13,8 @@
   <div class="modal-box bg-coverletter">
     <h3 class="font-bold text-lg">Thư xin việc</h3>
     <div class="divider"></div>
-    <p class="my-4" v-for="content, k in coverletter.content" :key="`content-${ k }`">
-      {{ content }}
+    <p class="my-4" v-for="frontend, k in coverletter.frontend" :key="`frontend-${ k }`">
+      {{ frontend }}
     </p>
     <div class="divider"></div>
     <div class="modal-action">
