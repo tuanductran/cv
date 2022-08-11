@@ -26,23 +26,14 @@
                   <!-- End Experience title & company -->
 
                   <!-- Experience team size, role, time and task -->
-                  <p
-                     class="mb-3 last:mb-0 text-sm xl:text-base"
-                     v-for="teamsize, k in teamsizes" :key="`teamsize-${ k }`"
-                  >
-                     Teamsize: {{ teamsize }}
+                  <p class="mb-3 last:mb-0 text-sm xl:text-base">
+                     Teamsize: {{ teamsizes }}
                   </p>
-                  <p
-                     class="mb-3 last:mb-0 text-sm xl:text-base"
-                     v-for="role, k in roles" :key="`role-${ k }`"
-                  >
-                     Vị trí: {{ role }}
+                  <p class="mb-3 last:mb-0 text-sm xl:text-base">
+                     Vị trí: {{ roles }}
                   </p>
-<p
-                     class="mb-3 last:mb-0 text-sm xl:text-base"
-                     v-for="time, k in times" :key="`time-${ k }`"
-                  >
-                     Thời gian làm việc: {{ time }}
+                  <p class="mb-3 last:mb-0 text-sm xl:text-base">
+                     Thời gian làm việc: {{ times }}
                   </p>
                   <p
                      class="mb-3 last:mb-0 text-sm xl:text-base"
