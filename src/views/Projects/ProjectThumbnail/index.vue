@@ -6,6 +6,6 @@
 
 <template>
   <figure>
-     <img :src="`./assets/projects/${ project.thumbnail }`" :alt="project.title" loading="lazy" deasync="true" />
+     <img class="rounded-t-lg" :src="`./assets/projects/${ project.thumbnail }`" :alt="project.title" loading="lazy" deasync="true" />
   </figure>
 </template>
