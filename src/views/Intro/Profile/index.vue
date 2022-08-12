@@ -7,8 +7,8 @@
 </script>
 
 <template>
-<div class="w-full max-w-sm bg-white rounded-lg border vnodesign-border-color">
-    <div class="flex flex-col items-center pb-10">
+<div class="w-full max-w-sm bg-white bg-profile rounded-lg border vnodesign-border-color">
+    <div class="flex flex-col items-center px-4 pt-4 pb-10">
         <img class="mb-3 w-24 h-24 rounded-full" :alt="`${ intro.fullname } photo`" :src="`./assets/${ intro.avatar }`" loading="lazy" deasync="true">
         <h5 class="mb-1 text-xl font-medium">{{ intro.fullname }}</h5>
         <span class="text-sm text-main-color">{{ intro.role }}</span>
