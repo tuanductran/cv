@@ -42,7 +42,8 @@ footer,
 .bg-product,
 .bg-client,
 .bg-coverletter,
-.bg-contact {
+.bg-contact,
+.bg-profile {
     background-color: #242526 !important;
 }
 
