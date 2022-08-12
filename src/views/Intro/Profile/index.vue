@@ -31,12 +31,12 @@
       <!-- Action -->
       <div class="relative mt-3">
          <!-- Github -->
-         <a class="font-medium rounded-lg text-sm px-5 py-2.5 text-center mr-2 mb-2 vnodesign-border-color !bg-transparent text-main-color gap-2 normal-case lg:gap-3 mt-2" role="button" :href="intro.links[projectLinks]" title="Github Profile" target="_blank" onClick="ga('event', 'ProjectsLink', 'view', 'projects_link');">
+         <a class="font-medium rounded-lg text-sm px-5 py-2.5 text-center mr-2 mb-2 border vnodesign-border-color !bg-transparent text-main-color gap-2 normal-case lg:gap-3 mt-2" role="button" :href="intro.links[projectLinks]" title="Github Profile" target="_blank" onClick="ga('event', 'ProjectsLink', 'view', 'projects_link');">
              <i :class="`fa fa-${ projectLinks } mr-2`" />
              <span>Github Profile</span>
          </a>
          <!-- Coverletter -->
-          <a class="font-medium rounded-lg text-sm px-5 py-2.5 text-center mr-2 mb-2 bg-vnodesign vnodesign-border-color !text-white gap-2 normal-case lg:gap-3 mt-2 ml-2" role="button" id="show__modal" href="#view_coverletter" title="Thư xin việc" onClick="ga('event', 'CoverletterPopup', 'view', 'coverletter_popup');">
+          <a class="font-medium rounded-lg text-sm px-5 py-2.5 text-center mr-2 mb-2 border bg-vnodesign vnodesign-border-color !text-white gap-2 normal-case lg:gap-3 mt-2 ml-2" role="button" id="show__modal" href="#view_coverletter" title="Thư xin việc" onClick="ga('event', 'CoverletterPopup', 'view', 'coverletter_popup');">
              <i class="fa fa-pencil mr-2" />
              <span>Thư xin việc</span>
           </a>
