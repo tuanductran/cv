@@ -29,14 +29,14 @@
          </div>
       </div>
       <!-- Action -->
-      <div class="relative mt-3">
+      <div class="relative flex mt-4 space-x-3 md:mt-6">
          <!-- Github -->
-         <a class="btn btn-sm md:btn-md vnodesign-border-color !bg-transparent text-main-color gap-2 normal-case lg:gap-3 mt-2" role="button" :href="intro.links[projectLinks]" title="Github Profile" target="_blank" onClick="ga('event', 'ProjectsLink', 'view', 'projects_link');">
+         <a class="inline-flex items-center py-2 px-4 text-sm font-medium text-center border border-vnodesign-color rounded-lg" role="button" :href="intro.links[projectLinks]" title="Github Profile" target="_blank" onClick="ga('event', 'ProjectsLink', 'view', 'projects_link');">
              <i :class="`fa fa-${ projectLinks } mr-2`" />
              <span>Github Profile</span>
          </a>
          <!-- Coverletter -->
-          <a class="btn btn-sm md:btn-md bg-vnodesign vnodesign-border-color !text-white gap-2 normal-case lg:gap-3 mt-2 ml-2" role="button" id="show__modal" href="#view_coverletter" title="Thư xin việc" onClick="ga('event', 'CoverletterPopup', 'view', 'coverletter_popup');">
+          <a class="inline-flex items-center py-2 px-4 text-sm font-medium text-center bg-vnodesign rounded-lg" role="button" href="#coverletter" title="Thư xin việc" onClick="ga('event', 'CoverletterPopup', 'view', 'coverletter_popup');">
              <i class="fa fa-pencil mr-2" />
              <span>Thư xin việc</span>
           </a>
