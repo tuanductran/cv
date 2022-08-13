@@ -4,7 +4,9 @@
 @import 'font-awesome/css/font-awesome.css';
 
 @media (prefers-color-scheme: light) {
-body {
+body,
+input,
+textarea {
     background-color: #f7f9fb;
 }
 
@@ -58,10 +60,9 @@ img {
 }
 }
 
-.input,
-.textarea,
-.modal-box {
-    background-color: #fff;
+input,
+textarea {
+   background-color: #323436;
 }
 
 .text-success {
