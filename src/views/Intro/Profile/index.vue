@@ -30,6 +30,7 @@
       </div>
       <!-- Action -->
       <div class="relative flex mt-4 space-x-3 md:mt-6">
+         <div class="flex mt-4 space-x-3 md:mt-6">
          <!-- Github -->
          <a class="inline-flex items-center py-2 px-4 text-sm font-medium text-center border border-vnodesign-color rounded-lg" role="button" :href="intro.links[projectLinks]" title="Github Profile" target="_blank" onClick="ga('event', 'ProjectsLink', 'view', 'projects_link');">
              <i :class="`fa fa-${ projectLinks } mr-2`" />
@@ -41,6 +42,7 @@
              <span>Thư xin việc</span>
           </a>
          <!-- End Coverletter -->
+         </div>
       </div>
    </div>
 </template>
