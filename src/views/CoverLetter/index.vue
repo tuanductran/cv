@@ -9,17 +9,10 @@
 </script>
 
 <template>
-<div class="modal modal-bottom sm:modal-middle" id="view_coverletter">
-  <div class="modal-box bg-coverletter">
-    <h3 class="font-bold text-lg">Thư xin việc</h3>
-    <div class="divider"></div>
-    <p class="my-4" v-for="content, k in coverletter.content" :key="`content-${ k }`">
-      {{ content }}
-    </p>
-    <div class="divider"></div>
-    <div class="modal-action">
-     <a href="#" class="btn btn-block bg-vnodesign vnodesign-border-color !text-white" id="hide__modal">Đóng</a>
-    </div>
-  </div>
-</div>
+<article class="format lg:format-lg bg-coverletter">
+ <h2>Thư xin việc</h2>
+ <p class="lead" v-for="content, k in coverletter.content" :key="`content-${ k }`">
+    {{ content }}
+ </p>
+</article>
 </template>
