@@ -4,6 +4,8 @@
    import Experiences from '../../views/Experiences/index.vue'
    import Projects from '../../views/Projects/index.vue'
    import Clients from '../../views/Clients/index.vue'
+   import CoverLetter from '../../views/CoverLetter/index.vue'
+   import Contact from '../../views/Contact/index.vue'
 </script>
 
 <template>
@@ -18,5 +20,9 @@
       <projects />
       <!-- Clients -->
       <clients />
+      <!-- CoverLetter -->
+      <CoverLetter />
+      <!-- Contact -->
+      <contact />
    </main>
 </template>
