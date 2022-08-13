@@ -9,7 +9,6 @@
   "dependencies": {
     "@tailwindcss/jit": "^0.1.18",
     "flowbite": "^1.5.2",
-    "flowbite-vue": "^0.0.5",
     "font-awesome": "^4.7.0",
     "postcss-loader": "^6.2.1",
     "sass-loader": "^12.6.0",
