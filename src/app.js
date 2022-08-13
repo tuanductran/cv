@@ -2,7 +2,7 @@ import { createApp } from 'vue'
 import App from './App.vue'
 import SectionContent from './components/SectionContent/index.vue'
 import infos from '../src/assets/data/infos.json'
-
+import 'flowbite';
 const app = createApp(App)
 // injeet the data in the app
 app.provide('infos', infos)
@@ -73,16 +73,16 @@ var form = document.getElementById("send__job");
         }
       }).then(response => {
         if (response.ok) {
-          status.className = "text-success";
+          status.className = "p-4 mb-4 text-sm text-green-700 bg-green-100 rounded-lg dark:bg-green-200 dark:text-green-800";
           status.innerHTML = "Thank you for the information about this job, I have received your e-mail!";
           form.reset()
         } else {
           response.json().then(data => {
             if (Object.hasOwn(data, 'errors')) {
-              status.className = "text-errors";
+              status.className = "p-4 mb-4 text-sm text-yellow-700 bg-yellow-100 rounded-lg dark:bg-yellow-200 dark:text-yellow-800";
               status.innerHTML = data["errors"].map(error => error["message"]).join(", ")
             } else {
-              status.className = "text-errors";
+              status.className = "p-4 mb-4 text-sm text-yellow-700 bg-yellow-100 rounded-lg dark:bg-yellow-200 dark:text-yellow-800";
               status.innerHTML = "Sorry! An error occurred when you submitted information about this job, please try reloading the page to try again!"
             }
           })
