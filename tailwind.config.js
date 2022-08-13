@@ -19,17 +19,14 @@ module.exports = {
       }
    },
 
-   plugins: [require("daisyui")],
+   content: [
+    'node_modules/flowbite-vue/**/*.{js,jsx,ts,tsx}',
+    'node_modules/flowbite/**/*.{js,jsx,ts,tsx}'
+  ],
 
-   daisyui: {
-      styled: true,
-      themes: true,
-      base: true,
-      utils: true,
-      logs: true,
-      rtl: false,
-      darkTheme: "dark",
-    },
+  plugins: [
+      require('flowbite/plugin')
+  ],
 
    purge: [
       './index.html',
