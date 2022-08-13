@@ -62,7 +62,7 @@ img {
 
 input,
 textarea {
-   background-color: #323436;
+   background-color: #323436 !important;
 }
 
 .text-success {
@@ -70,7 +70,7 @@ textarea {
 }
 
 a:hover,
-.text-errors {
+.text-error {
     color: #fe2c55;
 }
 
