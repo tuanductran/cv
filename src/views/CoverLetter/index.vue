@@ -10,7 +10,7 @@
 
 <template>
 <section id="coverletter">
-      <div class="block p-6 bg-white bg-coverletter rounded-lg border vnodesign-border-color">
+      <div class="block p-6 bg-white bg-coverletter rounded-lg vnodesign-border">
           <!-- Cover Letter information -->
           <h5 class="mb-2 text-2xl font-bold tracking-tight">
               Thư xin việc
