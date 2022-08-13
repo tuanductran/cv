@@ -10,14 +10,13 @@
 
 <template>
 <section id="coverletter">
+    <section-content title="Thư xin việc">
       <div class="block p-6 bg-white bg-coverletter rounded-lg vnodesign-border">
           <!-- Cover Letter information -->
-          <h5 class="mb-2 text-2xl font-bold tracking-tight">
-              Thư xin việc
-          </h5>
           <p class="font-normal" v-for="content, k in coverletter.content" :key="`content-${ k }`">
               {{ content }}
           </p>
       </div>
+     </section-content>
    </section>
 </template>
