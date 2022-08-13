@@ -6,37 +6,30 @@
 
 <template>
    <section id="contact">
-   <section-content title="Liên hệ">
-      <form name="send_job" id="send__job" action="https://formspree.io/f/xyyvglla" method="POST">
-         <div class="form-control w-full">
-           <label class="label my-2">
-             <span class="label-text">Địa chỉ Email:</span>
-           </label>
-           <input type="email" name="email" placeholder="Địa chỉ Email" class="input input-bordered bg-contact w-full" required pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$"/>
-         </div>
-         <div class="form-control w-full">
-           <label class="label my-2">
-             <span class="label-text">Họ và tên:</span>
-           </label>
-           <input type="name" name="fullname" placeholder="Họ và tên" class="input input-bordered bg-contact w-full" required pattern="^(\w\w+)\s(\w+)$"/>
-         </div>
-         <div class="form-control w-full">
-           <label class="label my-2">
-             <span class="label-text">Link job:</span>
-           </label>
-           <input type="url" name="linkjob" placeholder="Link job" class="input input-bordered bg-contact w-full" required pattern="[Hh][Tt][Tt][Pp][Ss]?:\/\/(?:(?:[a-zA-Z\u00a1-\uffff0-9]+-?)*[a-zA-Z\u00a1-\uffff0-9]+)(?:\.(?:[a-zA-Z\u00a1-\uffff0-9]+-?)*[a-zA-Z\u00a1-\uffff0-9]+)*(?:\.(?:[a-zA-Z\u00a1-\uffff]{2,}))(?::\d{2,5})?(?:\/[^\s]*)?"/>
-         </div>
-         <div class="form-control w-full">
-           <label class="label my-2">
-             <span class="label-text">Nội dung gửi đi:</span>
-           </label>
-           <textarea name="content_job" class="textarea textarea-bordered bg-contact h-24" placeholder="Nhập nội dung mà bạn muốn gửi đến tôi ở đây" required />
-         </div>
-         <button id="submit_job" type="submit" class="btn bg-vnodesign vnodesign-border-color !text-white my-5">
+   <div class="p-4 w-full max-w-sm bg-white bg-contact rounded-lg vnodesign-border">
+      <form class="space-y-6" name="send_job" id="send__job" action="https://formspree.io/f/xyyvglla" method="POST">
+        <h5 class="text-xl font-medium">Send job</h5>
+        <div>
+           <label for="email" class="block mb-2 text-sm font-medium">Địa chỉ E-mail</label>
+           <input type="email" name="email" placeholder="Địa chỉ E-mail" required pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$"/>
+        </div>
+        <div>
+           <label for="name" class="block mb-2 text-sm font-medium">Họ và tên</label>
+           <input type="name" name="fullname" placeholder="Họ và tên" required/>
+        </div>
+        <div>
+           <label for="url" class="block mb-2 text-sm font-medium">Link job</label>
+           <input type="url" name="linkjob" placeholder="Link job" required pattern="[Hh][Tt][Tt][Pp][Ss]?:\/\/(?:(?:[a-zA-Z\u00a1-\uffff0-9]+-?)*[a-zA-Z\u00a1-\uffff0-9]+)(?:\.(?:[a-zA-Z\u00a1-\uffff0-9]+-?)*[a-zA-Z\u00a1-\uffff0-9]+)*(?:\.(?:[a-zA-Z\u00a1-\uffff]{2,}))(?::\d{2,5})?(?:\/[^\s]*)?"/>
+        </div>
+        <div>
+           <label for="content_job" class="block mb-2 text-sm font-medium">Nội dung</label>
+           <textarea name="content_job" placeholder="Nội dung" required/>
+        </div>
+         <button id="submit_job" type="submit" class="w-full text-white bg-vnodesign font-medium rounded-lg text-sm px-5 py-2.5 text-center">
             <i class="fa fa-paper-plane mr-2" /> Gửi thông tin
          </button>
          <p id="send__job__status"></p>
       </form>
-   </section-content>
+   </div>
    </section>
 </template>
