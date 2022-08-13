@@ -19,16 +19,14 @@ module.exports = {
       }
    },
 
-   content: [
-    'node_modules/flowbite/**/*.{js,jsx,ts,tsx}'
-  ],
-
   plugins: [
+      require('flowbite-typography'),
       require('flowbite/plugin')
   ],
 
    purge: [
       './index.html',
-      './src/**/*.vue'
+      './src/**/*.vue',
+      'node_modules/flowbite/**/*.{js,jsx,ts,tsx}'
    ]
 }
