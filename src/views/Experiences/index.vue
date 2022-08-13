@@ -7,35 +7,33 @@
 <template>
    <section id="experiences">
       <section-content title="Kinh nghiệm làm việc">
-         <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5">
-            <div
-               class="flex bg-white bg-exp rounded-lg 2xl:rounded-xl p-3 vnodesign-border"
-               v-for="{ periode, jobtitle, company, tasks }, k in experiences"
-               :key="`xp-${ k }`"
-            >
+         <ol 
+            class="relative border-l border-gray-200 dark:border-gray-700">
+            v-for="{ periode, jobtitle, company, tasks }, k in experiences"
+            :key="`xp-${ k }`"
+         >
                <!-- Experience details -->
-               <div>
+               <li class="mb-10 last:mb-0 ml-4">
+                  <div class="absolute w-3 h-3 bg-gray-200 rounded-full mt-1.5 -left-1.5 border border-white dark:border-gray-900 dark:bg-gray-700"></div>
                   <!-- Experience period -->
-                  <small class="text-main-color font-semibold xl:text-lg">{{ periode }}</small>
+                  <time class="text-main-color mb-1 text-sm font-normal leading-none">{{ periode }}</time>
                   <!-- End Experience period -->
-                  
                   <!-- Experience title & company -->
-                  <h2 class="font-bold text-xl 2xl:text-2xl my-2">
+                  <h3 class="text-lg font-semibold">
                      {{ jobtitle }} tại {{ company }}
-                  </h2>
+                  </h3>
                   <!-- End Experience title & company -->
 
                   <!-- Experience tasks -->
                   <p
-                     class="mb-3 last:mb-0 text-sm xl:text-base"
+                     class="mb-4 text-base font-normal"
                      v-for="task, k in tasks" :key="`task-${ k }`"
                   >
                      {{ task }}
                   </p>
                   <!-- End Experience tasks -->
-               </div>
-            </div>
-         </div>
+               </li>
+            </ol>
       </section-content>
    </section>
 </template>
