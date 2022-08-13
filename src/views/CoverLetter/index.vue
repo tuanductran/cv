@@ -9,9 +9,9 @@
 </script>
 
 <template>
-<article class="format lg:format-lg bg-coverletter">
+<article class="p-10 format lg:format-lg bg-coverletter">
  <h2>Thư xin việc</h2>
- <p class="lead" v-for="content, k in coverletter.content" :key="`content-${ k }`">
+ <p v-for="content, k in coverletter.content" :key="`content-${ k }`">
     {{ content }}
  </p>
 </article>
