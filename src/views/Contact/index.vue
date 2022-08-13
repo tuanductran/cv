@@ -6,7 +6,7 @@
 
 <template>
    <section id="contact">
-   <div class="p-4 py-4 w-full bg-white bg-contact rounded-lg vnodesign-border">
+   <div class="p-4 py-8 w-full bg-white bg-contact rounded-lg vnodesign-border">
       <form class="space-y-6" name="send_job" id="send__job" action="https://formspree.io/f/xyyvglla" method="POST">
         <h5 class="text-xl font-medium">Send job</h5>
         <div>
