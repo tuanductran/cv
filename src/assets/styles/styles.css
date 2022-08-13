@@ -58,11 +58,11 @@ footer {
 img {
     filter: brightness(75%);
 }
-}
 
 input,
 textarea {
    background-color: #323436 !important;
+}
 }
 
 .text-success {
