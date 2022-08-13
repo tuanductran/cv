@@ -9,7 +9,7 @@
 </script>
 
 <template>
-<article class="p-10 format lg:format-lg bg-coverletter">
+<article class="p-10 text-base-color text-white format lg:format-lg bg-white bg-coverletter">
  <h2>Thư xin việc</h2>
  <p v-for="content, k in coverletter.content" :key="`content-${ k }`">
     {{ content }}
