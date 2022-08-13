@@ -1,12 +1,13 @@
 <script setup>
    import AppContainer from './layouts/AppContainer/index.vue'
    import CoverLetter from './views/CoverLetter/index.vue'
-   // import AppFooter from './layouts/AppFooter/index.vue'
+   import Contact from './views/Contact/index.vue'
 </script>
 
 <template>
    <CoverLetter />
    <app-container />
+   <contact />
 </template>
 
 <style lang="scss">
