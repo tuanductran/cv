@@ -8,7 +8,7 @@
    <section id="experiences">
       <section-content title="Kinh nghiệm làm việc">
          <ol 
-            class="relative border-l border-gray-200 dark:border-gray-700">
+            class="relative border-l border-gray-200 dark:border-gray-700"
             v-for="{ periode, jobtitle, company, tasks }, k in experiences"
             :key="`xp-${ k }`"
          >
