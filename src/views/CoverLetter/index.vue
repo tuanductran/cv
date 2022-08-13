@@ -9,10 +9,16 @@
 </script>
 
 <template>
-<article class="p-10 text-base-color text-white format lg:format-lg bg-white bg-coverletter">
- <h2>Thư xin việc</h2>
- <p v-for="content, k in coverletter.content" :key="`content-${ k }`">
-    {{ content }}
- </p>
-</article>
+<section id="coverletter" class="mb-20">
+      <section-content title="Thư xin việc">
+         <div>
+            <!-- Cover Letter information -->
+            <div class="p-5 bg-white vnodesign-border bg-coverletter rounded-lg place-items-center">
+               <p class="leading-relaxed mb-4 last:mb-0 text-color-body"  v-for="content, k in coverletter.content" :key="`content-${ k }`">
+                  {{ content }}
+               </p>
+            </div>
+         </div>
+      </section-content>
+   </section>
 </template>
