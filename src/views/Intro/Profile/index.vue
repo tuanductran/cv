@@ -13,7 +13,7 @@
          <img class="mb-3 w-24 h-24 rounded-full" :alt="`${ intro.fullname } photo`" :src="`./assets/${ intro.avatar }`" loading="lazy" deasync="true">
          <!-- End avatar -->
          <!-- Fullname -->
-         <h1 class="mb-1 text-xl font-medium">
+         <h1 class="mb-1 text-xl font-bold">
             {{ intro.fullname }}
          </h1>
          <!-- End fullname -->
@@ -30,7 +30,7 @@
              <span>Github Profile</span>
          </a>
          <!-- Coverletter -->
-          <a class="inline-flex items-center py-2 px-4 text-sm font-medium text-center bg-vnodesign rounded-lg" role="button" href="#coverletter" title="Thư xin việc" onClick="ga('event', 'CoverletterPopup', 'view', 'coverletter_popup');">
+          <a class="inline-flex items-center py-2 px-4 text-sm font-medium text-center bg-vnodesign text-white rounded-lg" role="button" href="#coverletter" title="Thư xin việc" onClick="ga('event', 'CoverletterPopup', 'view', 'coverletter_popup');">
              <i class="fa fa-pencil mr-2" />
              <span>Thư xin việc</span>
           </a>
