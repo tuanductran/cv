@@ -6,7 +6,7 @@
 
 <template>
    <div class="p-5">
-    <a class="text-main-color" v-for="link, k in project.links" :href="link" :key="k" target="_blank" onClick="ga('event', 'ProjectLink', 'view', 'project_link');">
+    <a v-for="link, k in project.links" :href="link" :key="k" target="_blank" onClick="ga('event', 'ProjectLink', 'view', 'project_link');">
       <h5 class="mb-2 text-2xl font-bold tracking-tight">
          {{ project.title }}
       </h5>
