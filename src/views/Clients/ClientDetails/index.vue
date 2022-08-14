@@ -14,7 +14,7 @@
     <p class="mb-3 font-normal" v-for="description, k in client.description" :key="`description-${ k }`">
           {{ description }}
     </p>
-    <div class="inline-flex items-center" v-for="tech, k in client.builtWidth" :key="k">
+    <div class="bg-vnodesign border border-vnodesign-color text-white text-xs font-semibold mr-2 px-2.5 py-0.5 rounded" v-for="tech, k in client.builtWidth" :key="k">
           {{ tech }}
     </div>
   </div>
