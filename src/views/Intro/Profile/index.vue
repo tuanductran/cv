@@ -7,29 +7,23 @@
 </script>
 
 <template>
-   <div class="order-1">
       <!-- Personal infos -->
-      <div class="relative flex flex-col-reverse">
-         <div class="flex items-center space-x-4">
+      <div class="flex flex-col items-center">
          <!-- Avatar -->
-         <img class="flex-none w-24 h-24 rounded-full object-cover" :alt="`${ intro.fullname } photo`" :src="`./assets/${ intro.avatar }`" loading="lazy" deasync="true">
+         <img class="mb-3 w-24 h-24 rounded-full" :alt="`${ intro.fullname } photo`" :src="`./assets/${ intro.avatar }`" loading="lazy" deasync="true">
          <!-- End avatar -->
-         <div class="flex-auto ml-2">
          <!-- Fullname -->
-         <h1 class="text-3xl lg:text-4xl xl:text-5xl font-bold">
+         <h1 class="mb-1 text-xl font-medium">
             {{ intro.fullname }}
          </h1>
          <!-- End fullname -->
          <!-- Role -->
-         <p class="text-main-color font-semibold text-lg mt-0.5">
+         <p class="text-main-color font-semibold text-sm">
             {{ intro.role }}
          </p>
          <!-- End Role -->
-         </div>
-         </div>
-      </div>
       <!-- Action -->
-      <div class="relative flex mt-4 space-x-3 md:mt-6">
+      <div class="flex mt-4 space-x-3 md:mt-6">
          <!-- Github -->
          <a class="inline-flex items-center py-2 px-4 text-sm font-medium text-center border border-vnodesign-color rounded-lg" role="button" :href="intro.links[projectLinks]" title="Github Profile" target="_blank" onClick="ga('event', 'ProjectsLink', 'view', 'projects_link');">
              <i :class="`fa fa-${ projectLinks } mr-2`" />
@@ -42,5 +36,5 @@
           </a>
          <!-- End Coverletter -->
       </div>
-   </div>
+     </div>
 </template>
