@@ -4,9 +4,7 @@
 @import 'font-awesome/css/font-awesome.css';
 
 @media (prefers-color-scheme: light) {
-body,
-input,
-textarea {
+body {
     background-color: #f7f9fb;
 }
 
@@ -28,6 +26,11 @@ footer {
 
 .vnodesign-border {
     border: 1px solid #ebecf0;
+}
+
+.vnodesign-input,
+.vnodesign-textarea {
+    background-color: #f7f9fb !important;
 }
 }
 
@@ -59,8 +62,8 @@ img {
     filter: brightness(75%);
 }
 
-input,
-textarea {
+.vnodesign-input,
+.vnodesign-textarea {
    background-color: #323436 !important;
 }
 }
