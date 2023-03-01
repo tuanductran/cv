@@ -10,7 +10,7 @@
     "@tailwindcss/jit": "^0.1.18",
     "daisyui": "^2.2.2",
     "font-awesome": "^4.7.0",
-    "postcss-loader": "^6.2.1",
+    "postcss-loader": "^7.0.2",
     "sass-loader": "^12.6.0",
     "vue": "^3.2.30"
   },
