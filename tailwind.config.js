@@ -2,7 +2,6 @@ const colors = require('tailwindcss/colors')
 const { color, body } = require('./src/assets/data/infos.json')
 
 module.exports = {
-   mode: 'jit',
    darkMode: 'media',
    theme: {
       extend: {
@@ -31,7 +30,7 @@ module.exports = {
       darkTheme: "dark",
     },
 
-   purge: [
+   content: [
       './index.html',
       './src/**/*.vue'
    ]
