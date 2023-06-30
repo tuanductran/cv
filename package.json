@@ -7,7 +7,6 @@
     "serve": "vite preview --host"
   },
   "dependencies": {
-    "@tailwindcss/jit": "^0.1.18",
     "daisyui": "^3.0.3",
     "font-awesome": "^4.7.0",
     "postcss-loader": "^7.0.2",
